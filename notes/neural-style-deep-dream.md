@@ -2,7 +2,7 @@
 * A Neural Algorithm of Artistic Style ([arXiv](https://arxiv.org/abs/1508.06576))
 * Keras Deep Dream ([code](https://github.com/fchollet/keras/blob/master/examples/deep_dream.py))
 * Keras Neural Style ([code](https://github.com/fchollet/keras/blob/master/examples/neural_style_transfer.py))
-* CS231n Lecture 9 ([slide](http://vision.stanford.edu/teaching/cs231n/slides/winter1516_lecture9.pdf))
+* CS231n Lecture 9
 
 ## How to study
 Watch the CS231n lecture or read the slide first, great course. The original paper is not that clear for Machine Learning people, it focus more on explaining why it works, but not that easy to understand. Yet the effort is magic.

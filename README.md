@@ -2,6 +2,10 @@ NB: Time below means when I "studied", not when it came.
 
 ## 2016-10
 
+
+#### 2016-10-19
+* LSTM: A Search Space Odyssey ([arXiv](https://arxiv.org/abs/1503.04069))
+
 #### 2016-10-18
 
 * [WaveNet: A Generative Model for Raw Audio](notes/wavenet.md) ([arXiv](https://arxiv.org/abs/1609.03499)) ([blog](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)) ([code](https://github.com/usernaamee/keras-wavenet))

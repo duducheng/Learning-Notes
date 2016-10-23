@@ -2,17 +2,19 @@ NB: Time below means when I "studied", not when it came.
 
 ## 2016-10
 
-
-#### 2016-10-19
-* LSTM: A Search Space Odyssey ([arXiv](https://arxiv.org/abs/1503.04069))
-
-#### 2016-10-18
-
+### 2016-10-17 Week
+* More on RNNs
+  * LSTM: A Search Space Odyssey ([arXiv](https://arxiv.org/abs/1503.04069))
+  * An Empirical Exploration of Recurrent Network Architectures ([JMLR](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf))
+  * Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling ([arXiv](https://arxiv.org/abs/1412.3555))
+  * A Theoretically Grounded Application of Dropout in Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1512.05287))
+  * Recurrent Neural Network Regularization ([arXiv](https://arxiv.org/abs/1409.2329))
+  * Recurrent Neural Networks for Multivariate Time Series with Missing Values ([arXiv](https://arxiv.org/abs/1606.01865))
+* t-SNE
+  * Visualizing Data Using t-SNE ([YouTube](https://www.youtube.com/watch?v=RJVL80Gg3lA))
+  * How to Use t-SNE Effectively ([blog](http://distill.pub/2016/misread-tsne/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue))
 * [WaveNet: A Generative Model for Raw Audio](notes/wavenet.md) ([arXiv](https://arxiv.org/abs/1609.03499)) ([blog](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)) ([code](https://github.com/usernaamee/keras-wavenet))
-  - *NB*: The repo of code is a very simple version to read.
-* Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling ([arXiv](https://arxiv.org/abs/1412.3555))
-
-#### 2016-10-17
+    - *NB*: The repo of code is a very simple version to read.
 * CS224d ([Stanford](http://cs224d.stanford.edu/syllabus.html)): Lecture 3
 
 ### 2016-10-10 Week

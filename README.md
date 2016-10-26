@@ -2,6 +2,19 @@ NB: Time below means when I "studied", not when it came.
 
 ## 2016-10
 
+#### 2016-10-26
+* [More on RNNs](assets/More_on_RNNs.pdf)
+  * A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511))
+
+#### 2016-10-25
+* More on RNNs
+  * Sequence to Sequence Learning with Neural Networks ([arXiv](https://arxiv.org/abs/1409.3215))
+  * Multi-task Sequence to Sequence Learning ([arXiv](https://arxiv.org/abs/1511.06114))
+
+#### 2016-10-24
+* More on RNNs
+  * Recurrent Neural Networks for Multivariate Time Series with Missing Values ([arXiv](https://arxiv.org/abs/1606.01865))
+
 ### 2016-10-17 Week
 * More on RNNs
   * LSTM: A Search Space Odyssey ([arXiv](https://arxiv.org/abs/1503.04069))
@@ -9,7 +22,6 @@ NB: Time below means when I "studied", not when it came.
   * Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling ([arXiv](https://arxiv.org/abs/1412.3555))
   * A Theoretically Grounded Application of Dropout in Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1512.05287))
   * Recurrent Neural Network Regularization ([arXiv](https://arxiv.org/abs/1409.2329))
-  * Recurrent Neural Networks for Multivariate Time Series with Missing Values ([arXiv](https://arxiv.org/abs/1606.01865))
 * t-SNE
   * Visualizing Data Using t-SNE ([YouTube](https://www.youtube.com/watch?v=RJVL80Gg3lA))
   * How to Use t-SNE Effectively ([blog](http://distill.pub/2016/misread-tsne/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue))

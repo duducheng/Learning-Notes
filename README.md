@@ -3,33 +3,30 @@ NB: Time below means when I "studied", not when it came.
 ## 2016-10
 
 #### 2016-10-26
-* [More on RNNs](assets/More_on_RNNs.pdf)
-  * A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511))
 
-#### 2016-10-25
-* More on RNNs
-  * Sequence to Sequence Learning with Neural Networks ([arXiv](https://arxiv.org/abs/1409.3215))
-  * Multi-task Sequence to Sequence Learning ([arXiv](https://arxiv.org/abs/1511.06114))
-
-#### 2016-10-24
-* More on RNNs
-  * Recurrent Neural Networks for Multivariate Time Series with Missing Values ([arXiv](https://arxiv.org/abs/1606.01865))
-
-### 2016-10-17 Week
-* More on RNNs
+### 2016-10-24 Week
+* More on RNNs ([MyWeekly](weekly/More_on_RNNs.pdf))
   * LSTM: A Search Space Odyssey ([arXiv](https://arxiv.org/abs/1503.04069))
   * An Empirical Exploration of Recurrent Network Architectures ([JMLR](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf))
   * Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling ([arXiv](https://arxiv.org/abs/1412.3555))
   * A Theoretically Grounded Application of Dropout in Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1512.05287))
+  * Sequence to Sequence Learning with Neural Networks ([arXiv](https://arxiv.org/abs/1409.3215))
+  * A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511))
+  * Recurrent Neural Networks for Multivariate Time Series with Missing Values ([arXiv](https://arxiv.org/abs/1606.01865))
   * Recurrent Neural Network Regularization ([arXiv](https://arxiv.org/abs/1409.2329))
+  * Multi-task Sequence to Sequence Learning ([arXiv](https://arxiv.org/abs/1511.06114))
+
+### 2016-10-17 Week
+* Thoughts on Wavenet ([MyWeekly](weekly/Thoughts_on_Wavenet.pdf))
+* [WaveNet: A Generative Model for Raw Audio](notes/wavenet.md)  ([arXiv](https://arxiv.org/abs/1609.03499)) ([blog](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)) ([code](https://github.com/usernaamee/keras-wavenet))
+    - *NB*: The repo of code is a very simple version to read.
 * t-SNE
   * Visualizing Data Using t-SNE ([YouTube](https://www.youtube.com/watch?v=RJVL80Gg3lA))
   * How to Use t-SNE Effectively ([blog](http://distill.pub/2016/misread-tsne/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue))
-* [WaveNet: A Generative Model for Raw Audio](notes/wavenet.md) ([arXiv](https://arxiv.org/abs/1609.03499)) ([blog](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)) ([code](https://github.com/usernaamee/keras-wavenet))
-    - *NB*: The repo of code is a very simple version to read.
 * CS224d ([Stanford](http://cs224d.stanford.edu/syllabus.html)): Lecture 3
 
 ### 2016-10-10 Week
+* RNN and LSTM ([MyWeekly](weekly/RNN-LSTM.pdf))
 * [Neural Style and Deep Dream](notes/neural-style-deep-dream.md)
   * A Neural Algorithm of Artistic Style ([arXiv](https://arxiv.org/abs/1508.06576))
   * Keras Deep Dream ([code](https://github.com/fchollet/keras/blob/master/examples/deep_dream.py))
@@ -42,6 +39,7 @@ NB: Time below means when I "studied", not when it came.
 * CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 1
 
 ### 2016-10-03 Week
+* Attention ([MyWeekly](weekly/Attention.pdf))
 * Building Autoencoders in Keras ([blog](https://blog.keras.io/building-autoencoders-in-keras.html))
 * Deep Learning for ChatBots
   * Part 1 - Introducation ([blog](http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/))

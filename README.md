@@ -1,11 +1,25 @@
 NB: Time below means when I "studied", not when it came.
 
+
+## 2016-11
+
+### 2016-10-31 Week
+
+#### 2016-10-31
+* Two Machine Learning Approaches for Short-Term Wind Speed Time-Series Prediction ([IEEE TNNLS](http://ieeexplore.ieee.org/document/7091914/))
+* Forecasting day ahead electricity spot prices: The impact of the EXAA to other European electricity markets ([arXiv](https://arxiv.org/abs/1501.00818))
+* Optimization on Neural Networks
+  * How to make the learning go faster by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/): Week 6)
+
 ## 2016-10
-
-#### 2016-10-26
-
-### 2016-10-24 Week
-* More on RNNs ([MyWeekly](weekly/More_on_RNNs.pdf))
+* MyWeekly
+ * [More on RNNs](weekly/More_on_RNNs.pdf)
+ * [Thoughts on Wavenet](weekly/Thoughts_on_Wavenet.pdf)
+ * [RNN and LSTM](weekly/RNN-LSTM.pdf)
+ * [Attention](weekly/Attention.pdf)
+* Topics on RNN
+  * [REVISIT] Understanding LSTM Networks ([blog](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)) ([code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/6_lstm.ipynb))
+    - *NB*: The code from Udacity Deep Learning course is exactly the same as described in the blog.
   * LSTM: A Search Space Odyssey ([arXiv](https://arxiv.org/abs/1503.04069))
   * An Empirical Exploration of Recurrent Network Architectures ([JMLR](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf))
   * Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling ([arXiv](https://arxiv.org/abs/1412.3555))
@@ -13,38 +27,32 @@ NB: Time below means when I "studied", not when it came.
   * Sequence to Sequence Learning with Neural Networks ([arXiv](https://arxiv.org/abs/1409.3215))
   * A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511))
   * Recurrent Neural Networks for Multivariate Time Series with Missing Values ([arXiv](https://arxiv.org/abs/1606.01865))
+  * Deep Learning Lecture 13: Alex Graves on Hallucination with RNNs ([YouTube](https://www.youtube.com/watch?v=-yX1SYeDHbg))
+  * RNNs in TensorFlow, a Practical Guide and Undocumented Features ([blog](http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/))
   * Recurrent Neural Network Regularization ([arXiv](https://arxiv.org/abs/1409.2329))
   * Multi-task Sequence to Sequence Learning ([arXiv](https://arxiv.org/abs/1511.06114))
-
-### 2016-10-17 Week
-* Thoughts on Wavenet ([MyWeekly](weekly/Thoughts_on_Wavenet.pdf))
+* Topics on Variational Autoencoders
+  * Variational Inference Tutorial Series by Chieu from NEU ([YouTube](https://www.youtube.com/playlist?list=PLdk2fd27CQzSd1sQ3kBYL4vtv6GjXvPsE))
+  * Deep Learning Lecture 14: Karol Gregor on Variational Autoencoders and Image Generation ([YouTube](https://www.youtube.com/watch?v=P78QYjWh5sM))
+  * Building Autoencoders in Keras ([blog](https://blog.keras.io/building-autoencoders-in-keras.html))
+  * Markov Chain Monte Carlo Without all the Bullshit ([blog](https://jeremykun.com/2015/04/06/markov-chain-monte-carlo-without-all-the-bullshit/))
 * [WaveNet: A Generative Model for Raw Audio](notes/wavenet.md)  ([arXiv](https://arxiv.org/abs/1609.03499)) ([blog](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)) ([code](https://github.com/usernaamee/keras-wavenet))
-    - *NB*: The repo of code is a very simple version to read.
+  - *NB*: The repo of code is a very simple version to read.
 * t-SNE
   * Visualizing Data Using t-SNE ([YouTube](https://www.youtube.com/watch?v=RJVL80Gg3lA))
   * How to Use t-SNE Effectively ([blog](http://distill.pub/2016/misread-tsne/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue))
-* CS224d ([Stanford](http://cs224d.stanford.edu/syllabus.html)): Lecture 3
-
-### 2016-10-10 Week
-* RNN and LSTM ([MyWeekly](weekly/RNN-LSTM.pdf))
 * [Neural Style and Deep Dream](notes/neural-style-deep-dream.md)
   * A Neural Algorithm of Artistic Style ([arXiv](https://arxiv.org/abs/1508.06576))
   * Keras Deep Dream ([code](https://github.com/fchollet/keras/blob/master/examples/deep_dream.py))
   * Keras Neural Style ([code](https://github.com/fchollet/keras/blob/master/examples/neural_style_transfer.py))
   * CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 9
-* [REVISIT] Understanding LSTM Networks ([blog](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)) ([code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/6_lstm.ipynb))
-  - *NB*: The code from Udacity Deep Learning course is exactly the same as described in the blog.
-* RNNs in TensorFlow, a Practical Guide and Undocumented Features ([blog](http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/))
-* [REVISIT] CS224d ([Stanford](http://cs224d.stanford.edu/syllabus.html)): Lecture 1 - 2
-* CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 1
-
-### 2016-10-03 Week
-* Attention ([MyWeekly](weekly/Attention.pdf))
-* Building Autoencoders in Keras ([blog](https://blog.keras.io/building-autoencoders-in-keras.html))
-* Deep Learning for ChatBots
-  * Part 1 - Introducation ([blog](http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/))
-  * Part 2 – Implementing a Retrieval-based Model in TensorFlow ([blog](http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/))
-* Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): Week 1 - 3
+* Deep Learning for ChatBots (blog: [Part1](http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/) [Part2](http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/))
+* Courses
+  * CS224d ([Stanford](http://cs224d.stanford.edu/syllabus.html)): Lecture 1 - 3
+  * CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 1
+  * Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): Week 1 - 3
+* Towards my research
+  * A Novel Empirical Mode Decomposition With Support Vector Regression for Wind Speed Forecasting ([IEEE TNNLS](http://ieeexplore.ieee.org/document/6895279/))
 
 ## 2016-09
 * [Spatial Transformer Networks](notes/spatial-transformer-network.md) ([arXiv](https://arxiv.org/abs/1506.02025)) ([blog](http://torch.ch/blog/2015/09/07/spatial_transformers.html)) ([code](https://github.com/tensorflow/models/tree/master/transformer))

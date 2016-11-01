@@ -4,6 +4,8 @@ NB: Time below means when I "studied", not when it came.
 ## 2016-11
 
 ### 2016-10-31 Week
+* MyWeekly
+  * [Brief Intro to Variational Inference (Minimal Statistics Background)](weekly/Intro_Variational_Inference.pdf)
 
 #### 2016-10-31
 * Two Machine Learning Approaches for Short-Term Wind Speed Time-Series Prediction ([IEEE TNNLS](http://ieeexplore.ieee.org/document/7091914/))

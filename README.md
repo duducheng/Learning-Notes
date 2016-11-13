@@ -1,17 +1,30 @@
 NB: Time below means when I "studied", not when it came.
 
-
 ## 2016-11
+
+### 2016-11-07 Week
+* MyWeekly
+  * [Recipe of Gradient Descent](weekly/Recipe_Gradient_Descent.pdf)
+* Optimization on Neural Networks
+  * How to make the learning go faster by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/): Week 6)
+  * An overview of gradient descent optimization algorithms ([blog](http://sebastianruder.com/optimizing-gradient-descent/))
+  * CS231n Course Notes on gradient based optimization ([Stanford](http://cs231n.github.io/neural-networks-3/))
+* Convolution for Neural Networks
+  * A guide to convolution arithmetic for deep
+learning ([arXiv](https://arxiv.org/abs/1603.07285))
+  * Convolution arithmetic tutorial ([blog](http://deeplearning.net/software/theano_versions/dev/tutorial/conv_arithmetic.html#transposed-convolution-arithmetic))
+  * Conv Nets: A Modular Perspective ([blog](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/))
+  * Understanding Convolutions ([blog](http://colah.github.io/posts/2014-07-Understanding-Convolutions/))
+  * Groups & Group Convolutions ([blog](http://colah.github.io/posts/2014-12-Groups-Convolution/))
+  * Deconvolution and Checkerboard Artifacts ([blog](http://distill.pub/2016/deconv-checkerboard/))
+* Two Machine Learning Approaches for Short-Term Wind Speed Time-Series Prediction ([IEEE TNNLS](http://ieeexplore.ieee.org/document/7091914/))
+* Forecasting day ahead electricity spot prices: The impact of the EXAA to other European electricity markets ([arXiv](https://arxiv.org/abs/1501.00818))
 
 ### 2016-10-31 Week
 * MyWeekly
   * [Brief Intro to Variational Inference (Minimal Statistics Background)](weekly/Intro_Variational_Inference.pdf)
+* Probabilistic Graphical Models 1: Representation - Week 1 ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models/home/welcome))
 
-#### 2016-10-31
-* Two Machine Learning Approaches for Short-Term Wind Speed Time-Series Prediction ([IEEE TNNLS](http://ieeexplore.ieee.org/document/7091914/))
-* Forecasting day ahead electricity spot prices: The impact of the EXAA to other European electricity markets ([arXiv](https://arxiv.org/abs/1501.00818))
-* Optimization on Neural Networks
-  * How to make the learning go faster by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/): Week 6)
 
 ## 2016-10
 * MyWeekly

@@ -2,28 +2,34 @@ NB: Time below means when I "studied", not when it came.
 
 ## 2016-11
 
-### 2016-11-07 Week
 * MyWeekly
   * [Recipe of Gradient Descent](weekly/Recipe_Gradient_Descent.pdf)
+  * [Brief Intro to Variational Inference (Minimal Statistics Background)](weekly/Intro_Variational_Inference.pdf)
 * Optimization on Neural Networks
   * How to make the learning go faster by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/): Week 6)
   * An overview of gradient descent optimization algorithms ([blog](http://sebastianruder.com/optimizing-gradient-descent/))
   * CS231n Course Notes on gradient based optimization ([Stanford](http://cs231n.github.io/neural-networks-3/))
-* Convolution for Neural Networks
-  * A guide to convolution arithmetic for deep
-learning ([arXiv](https://arxiv.org/abs/1603.07285))
+* [REVISIT] Convolution for Neural Networks
   * Convolution arithmetic tutorial ([blog](http://deeplearning.net/software/theano_versions/dev/tutorial/conv_arithmetic.html#transposed-convolution-arithmetic))
   * Conv Nets: A Modular Perspective ([blog](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/))
-  * Understanding Convolutions ([blog](http://colah.github.io/posts/2014-07-Understanding-Convolutions/))
-  * Groups & Group Convolutions ([blog](http://colah.github.io/posts/2014-12-Groups-Convolution/))
-  * Deconvolution and Checkerboard Artifacts ([blog](http://distill.pub/2016/deconv-checkerboard/))
-* Two Machine Learning Approaches for Short-Term Wind Speed Time-Series Prediction ([IEEE TNNLS](http://ieeexplore.ieee.org/document/7091914/))
-* Forecasting day ahead electricity spot prices: The impact of the EXAA to other European electricity markets ([arXiv](https://arxiv.org/abs/1501.00818))
+  * TODO:
+    * A guide to convolution arithmetic for deep
+  learning ([arXiv](https://arxiv.org/abs/1603.07285))
+    * Understanding Convolutions ([blog](http://colah.github.io/posts/2014-07-Understanding-Convolutions/))
+    * Groups & Group Convolutions ([blog](http://colah.github.io/posts/2014-12-Groups-Convolution/))
+    * Deconvolution and Checkerboard Artifacts ([blog](http://distill.pub/2016/deconv-checkerboard/))
+* Probabilistic Graphical Models 1: Representation ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models/))
+* [Probabilistic Graphical Models: Principles and Techniques](http://pgm.stanford.edu/): Chapter 1, 2, 3, 5, 6
+  * *NB*: I read the Chinese Version ([概率图模型：原理与技术](http://www.tup.tsinghua.edu.cn/bookscenter/book_03992101.html)), quite good if you are taking the course (and you are Chinese of course); if not, there will be something confusing in the translation version. Anyway, great thanks to the effort of Prof. Wang and Prof. Han  
+* [Time Series Blogs by QuantStart](https://www.quantstart.com/articles/#time-series-analysis): 1, 2, 3
+  * *NB*: These blogs are quite good, but seems very closed to the content of [Time Series Analysis and Its Applications](http://www.springer.com/gp/book/9781441978646)
+  * My R notebooks refactor of the code, [here](https://github.com/duducheng/PlayQuant/tree/master/TSX/r)
+* Implement the Gaussian Mixture Models ([code](https://github.com/rushter/MLAlgorithms/blob/master/mla/gaussian_mixture.py)) ([notebooks](https://github.com/duducheng/clustering))
+* Visual Information Theory ([blog](https://colah.github.io/posts/2015-09-Visual-Information/))
+* Towards my research
+  * Two Machine Learning Approaches for Short-Term Wind Speed Time-Series Prediction ([IEEE TNNLS](http://ieeexplore.ieee.org/document/7091914/))
+  * Forecasting day ahead electricity spot prices: The impact of the EXAA to other European electricity markets ([arXiv](https://arxiv.org/abs/1501.00818))
 
-### 2016-10-31 Week
-* MyWeekly
-  * [Brief Intro to Variational Inference (Minimal Statistics Background)](weekly/Intro_Variational_Inference.pdf)
-* Probabilistic Graphical Models 1: Representation - Week 1 ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models/home/welcome))
 
 
 ## 2016-10

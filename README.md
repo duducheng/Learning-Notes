@@ -1,5 +1,13 @@
 NB: Time below means when I "studied", not when it came.
 
+## 2016-12
+### 2016-12-05 Week
+* Spectral Clustering
+  * On Spectral Clustering: Analysis and an algorithm ([NIPS](http://ai.stanford.edu/~ang/papers/nips01-spectral.pdf))
+  * Spectral Clustering Tutorial Series by Chieu from NEU ([YouTube](https://www.youtube.com/playlist?list=PLdk2fd27CQzT7opzoGHvqDuDbltozWn7O)): Good but too trivial
+  * Implement the Gaussian Mixture Models ([notebooks](https://github.com/duducheng/clustering))
+* [统计学习方法](https://book.douban.com/subject/10590856/) 第9章 EM算法及其推广
+
 ## 2016-11
 
 * MyWeekly
@@ -27,7 +35,7 @@ NB: Time below means when I "studied", not when it came.
 * Implement the Gaussian Mixture Models ([code](https://github.com/rushter/MLAlgorithms/blob/master/mla/gaussian_mixture.py)) ([notebooks](https://github.com/duducheng/clustering))
 * Visual Information Theory ([blog](https://colah.github.io/posts/2015-09-Visual-Information/))
 * Towards my research
-  * Two Machine Learning Approaches for Short-Term Wind Speed Time-Series Prediction ([IEEE TNNLS](http://ieeexplore.ieee.org/document/7091914/))
+  * Two Machine Learning Approaches for Short-Term Wind Speed Time-Series Prediction ([IEEE](http://ieeexplore.ieee.org/document/7091914/))
   * Forecasting day ahead electricity spot prices: The impact of the EXAA to other European electricity markets ([arXiv](https://arxiv.org/abs/1501.00818))
 
 
@@ -73,7 +81,7 @@ NB: Time below means when I "studied", not when it came.
   * CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 1
   * Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): Week 1 - 3
 * Towards my research
-  * A Novel Empirical Mode Decomposition With Support Vector Regression for Wind Speed Forecasting ([IEEE TNNLS](http://ieeexplore.ieee.org/document/6895279/))
+  * A Novel Empirical Mode Decomposition With Support Vector Regression for Wind Speed Forecasting ([IEEE](http://ieeexplore.ieee.org/document/6895279/))
 
 ## 2016-09
 * [Spatial Transformer Networks](notes/spatial-transformer-network.md) ([arXiv](https://arxiv.org/abs/1506.02025)) ([blog](http://torch.ch/blog/2015/09/07/spatial_transformers.html)) ([code](https://github.com/tensorflow/models/tree/master/transformer))

@@ -1,7 +1,17 @@
 NB: Time below means when I "studied", not when it came.
 
+## 2017-01
+* Online Kernel Ridge
+  * Online regression with kernel ([link](https://gtas.unican.es/files/pub/ch21_online_regression_with_kernels.pdf))
+    * *NB*: Indeed a good review for this family of approach, which really hits my ideas (how HAVE they "copied" my idea T_T)
+  * Local online kernel ridge regression for forecasting of urban travel times ([ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0968090X14001648))
+* Gaussian Processes: A Quick Introduction ([arXiv](https://arxiv.org/abs/1505.02965))
+* Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks ([ICML](http://www.cs.toronto.edu/~graves/icml_2006.pdf))
+
+
+
+
 ## 2016-12
-### 2016-12-05 Week
 * Spectral Clustering
   * On Spectral Clustering: Analysis and an algorithm ([NIPS](http://ai.stanford.edu/~ang/papers/nips01-spectral.pdf))
   * Spectral Clustering Tutorial Series by Chieu from NEU ([YouTube](https://www.youtube.com/playlist?list=PLdk2fd27CQzT7opzoGHvqDuDbltozWn7O)): Good but too trivial

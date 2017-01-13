@@ -3,13 +3,15 @@ NB: Time below means when I "studied", not when it came.
 ## 2017-01
 * Online Kernel Ridge
   * Online regression with kernel ([link](https://gtas.unican.es/files/pub/ch21_online_regression_with_kernels.pdf))
-    * *NB*: Indeed a good review for this family of approach, which really hits my ideas (how HAVE they "copied" my idea T_T)
+    * *NB*: Indeed a good review for this family of approach, which really hits my ideas (how HAVE they "copied" my idea T_T). However, this paper put strong emphasis on Signal Processing, which is not suit for Machine Learning mind.
   * Local online kernel ridge regression for forecasting of urban travel times ([ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0968090X14001648))
 * Gaussian Processes: A Quick Introduction ([arXiv](https://arxiv.org/abs/1505.02965))
+* CS229 Lecture note of Gaussian Process ([Stanford](http://cs229.stanford.edu/section/cs229-gaussian_processes.pdf))
+* Bayesian Linear Regression ([YouTube](https://www.youtube.com/watch?v=dtkGq9tdYcI)): A very good deduction, while use not commonly used symbols.
+* Recursive Least Square (RLS) ([OTexts](https://www.otexts.org/1582))
 * Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks ([ICML](http://www.cs.toronto.edu/~graves/icml_2006.pdf))
-
-
-
+* [Time Series Blogs by QuantStart](https://www.quantstart.com/articles/#time-series-analysis)
+  * *NB*: These blogs are quite good, covering lots of concepts on Time Series Analysis. While it focus on the representation level, not on the learning level, which means there is less content in these blogs talking about parameter estimate. Anyway, good introduction to ARIMA, GARCH, Kalman Filter and HMM on Time Series.
 
 ## 2016-12
 * Spectral Clustering
@@ -39,9 +41,6 @@ NB: Time below means when I "studied", not when it came.
 * Probabilistic Graphical Models 1: Representation ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models/))
 * [Probabilistic Graphical Models: Principles and Techniques](http://pgm.stanford.edu/): Chapter 1, 2, 3, 5, 6
   * *NB*: I read the Chinese Version ([概率图模型：原理与技术](http://www.tup.tsinghua.edu.cn/bookscenter/book_03992101.html)), quite good if you are taking the course (and you are Chinese of course); if not, there will be something confusing in the translation version. Anyway, great thanks to the effort of Prof. Wang and Prof. Han  
-* [Time Series Blogs by QuantStart](https://www.quantstart.com/articles/#time-series-analysis): 1, 2, 3
-  * *NB*: These blogs are quite good, but seems very closed to the content of [Time Series Analysis and Its Applications](http://www.springer.com/gp/book/9781441978646)
-  * My R notebooks refactor of the code, [here](https://github.com/duducheng/PlayQuant/tree/master/TSX/r)
 * Implement the Gaussian Mixture Models ([code](https://github.com/rushter/MLAlgorithms/blob/master/mla/gaussian_mixture.py)) ([notebooks](https://github.com/duducheng/clustering))
 * Visual Information Theory ([blog](https://colah.github.io/posts/2015-09-Visual-Information/))
 * Towards my research

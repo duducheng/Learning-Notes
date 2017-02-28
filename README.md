@@ -2,6 +2,7 @@ NB: Time below means when I "studied", not when it came.
 
 # 2017-02
 Reprise from the Spring Festival 😐
+* [Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks](notes/ctc.md) ([ICML](http://www.cs.toronto.edu/~graves/icml_2006.pdf))
 * Bootstrap Methods for Time Series ([link](https://www.kevinsheppard.com/images/0/0a/Kreiss_and_lahiri.pdf))
   * *NB*: Though the article regards itself as a simple intro, it seems too theoretical for me. It provides some good review of bootstrap for time series, remember 1. generate series for AR like model; 2. block bootstrap; 3. markov chain bootstrap; 4. frequency domain by DFT 5. other mixtures.
 * Hidden Markov Model
@@ -31,7 +32,6 @@ Reprise from the Spring Festival 😐
 * CS229 Lecture note of Gaussian Process ([Stanford](http://cs229.stanford.edu/section/cs229-gaussian_processes.pdf))
 * Bayesian Linear Regression ([YouTube](https://www.youtube.com/watch?v=dtkGq9tdYcI)): A very good deduction, while use not commonly used symbols.
 * Recursive Least Square (RLS) ([OTexts](https://www.otexts.org/1582))
-* Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks ([ICML](http://www.cs.toronto.edu/~graves/icml_2006.pdf))
 * [Time Series Blogs by QuantStart](https://www.quantstart.com/articles/#time-series-analysis)
   * *NB*: These blogs are quite good, covering lots of concepts on Time Series Analysis. While it focus on the representation level, not on the learning level, which means there is less content in these blogs talking about parameter estimate. Anyway, good introduction to ARIMA, GARCH, Kalman Filter and HMM on Time Series.
 * Understanding the Basis of the Kalman Filter Via a Simple and Intuitive Derivation ([IEEE](http://ieeexplore.ieee.org/document/6279585/)): Lecture note. It's quite intuitive to understand the "basis" of Kalman Filter, as titled.

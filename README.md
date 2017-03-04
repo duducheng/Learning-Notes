@@ -5,6 +5,9 @@ NB: Time below means when I "studied", not when it came.
 * MC and MCMC from Probabilistic Graphical Models Eric Xing ([CMU](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)): Lecture 16-18.
   * *NB*: great review for sampling based inference. MC: naive, rejection sampling, importance sampling. MCMC: Metropolis-Hasting, Gibbs, collapsed (Rao-Blackwellised) Gibbs, slice sampling, Reversible Jump MCMC (RJMCMC). RJMCMC is really non-trivial, which I didn't understand. It's a MCMC to jump among models' space. It's designed without detailed balance, while stationary.
 * Probabilistic Programming & Bayesian Methods for Hackers ([link](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)) ([code](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers))
+* Probabilistic Graphical Models 3: Learning ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models-3-learning/))
+* Forecasting at Scale ([Prophet](https://facebookincubator.github.io/prophet/))
+  * *NB*: Facebook new open source time series project. I think it's aimed to be a general-purpose tool, with uncertainty, seasonal decomposition, filling missing data. It's very easy to use, while it gives very limited power to do specific modeling. It's based on Stan, or PyStan, to make probabilistic forecasting. It's not fair to compare it with some other specific approaches to model particular time series, but I tested it on my project, and it gave much poorer results. I think the reason is that Prophet has very limited power to model non-linearity. Prophet should be a good tool to make long-term forecasting, but it't bad at providing accurate short-term forecasting. Anyway, it's a good tool for time series analysis.
 
 # 2017-02
 Reprise from the Spring Festival 😐
@@ -24,7 +27,6 @@ Reprise from the Spring Festival 😐
  * *NB*: Great book, about practical Bayesian modeling and PyMC3.
 * Variation Inference from Probabilistic Graphical Models Eric Xing ([CMU](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)): Lecture 13-15.
  * *NB*: really good (somehow advanced) introduction to VI: loopy belief Propagation, mean field approximation, and general variational principles (solve problem in optimization fashion with dual form of function). The principles part is really abstract, but at least I got the idea. A brief to LDA is also presented in Lecture 15.
-* Probabilistic Graphical Models 3: Learning ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models-3-learning/)): Week 1-2
 * Bayesian optimization by Nando de Freitas ([YouTube](https://www.youtube.com/watch?v=vz3D36VXefI))
   * *NB*: Great intro to Bayesian opt, in 10 minutes you get the whole picture, and the rest tells some details.
 

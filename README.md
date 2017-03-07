@@ -1,13 +1,18 @@
 NB: Time below means when I "studied", not when it came.
 
+## 2017-03 Week 2
+* Dynamic Time Wrapping
+  * *NB*: Yet another example of dynamic programming in sequence modeling, I think CTC's idea benifits from DTW (and absolutely HMM).
+  * K Nearest Neighbors & Dynamic Time Warping ([code](https://github.com/markdregan/K-Nearest-Neighbors-with-Dynamic-Time-Warping)): clean code, using DTW and kNN for Human Activity Recognition. It clearly shows the esential idea of DTW, and the code is well factored. But something funny is that, in this code, not all the imports are valid, you should import something manualy before running the code.
+  * Everything you know about Dynamic Time Warping is Wrong ([link](http://wearables.cc.gatech.edu/paper_of_week/DTW_myths.pdf)): gives some highlights of using and researching DTW (about 10 years ago 😐). The wording of this paper is very sharp. 3 chaims: 1) fix length doesn't hurt 2) narrow band doesn't hurt 3) speeding up DTW with tight lower bound is pointless.
 
 # 2017-03
 * MC and MCMC from Probabilistic Graphical Models Eric Xing ([CMU](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)): Lecture 16-18.
-  * *NB*: great review for sampling based inference. MC: naive, rejection sampling, importance sampling. MCMC: Metropolis-Hasting, Gibbs, collapsed (Rao-Blackwellised) Gibbs, slice sampling, Reversible Jump MCMC (RJMCMC). RJMCMC is really non-trivial, which I didn't understand. It's a MCMC to jump among models' space. It's designed without detailed balance, while stationary.
+  * *NB*: great review for sampling based inference. MC: naive, rejection sampling, importance sampling. MCMC: Metropolis-Hasting, Gibbs, collapsed (Rao-Blackwellised) Gibbs, slice sampling, Reversible Jump MCMC (RJMCMC). RJMCMC is really non-trivial, which I didn't fully understand. It's a MCMC to jump among models' space, designed without detailed balance, while stationary.
 * Probabilistic Programming & Bayesian Methods for Hackers ([link](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)) ([code](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers))
 * Probabilistic Graphical Models 3: Learning ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models-3-learning/))
 * Forecasting at Scale ([Prophet](https://facebookincubator.github.io/prophet/))
-  * *NB*: Facebook new open source time series project. I think it's aimed to be a general-purpose tool, with uncertainty, seasonal decomposition, filling missing data. It's very easy to use, while it gives very limited power to do specific modeling. It's based on Stan, or PyStan, to make probabilistic forecasting. It's not fair to compare it with some other specific approaches to model particular time series, but I tested it on my project, and it gave much poorer results. I think the reason is that Prophet has very limited power to model non-linearity. Prophet should be a good tool to make long-term forecasting, but it't bad at providing accurate short-term forecasting. Anyway, it's a good tool for time series analysis.
+  * *NB*: Facebook's new open source time series project. I think it's aimed to be a general-purpose tool, with uncertainty, seasonal decomposition, filling missing data. It's very easy to use, while it gives very limited power to do specific modeling. It's based on Stan, or PyStan, to make probabilistic forecasting. It's unfair to compare it with some other specific approaches to model particular time series, but I tested it on my project, and it gave much poorer results. I think the reason is that Prophet has very limited power to model non-linearity, since it uses time as the very unique regressor, as mentioned in its paper. Prophet should be a good tool to make long-term forecasting, but it't bad at providing accurate short-term forecasting. Anyway, it's a good tool for time series analysis.
 
 # 2017-02
 Reprise from the Spring Festival 😐

@@ -1,6 +1,7 @@
 NB: Time below means when I "studied", not when it came.
 
 ## 2017-03 Week 2
+* [Visualizing and Understanding Recurrent Networks](notes/viz_rnn.md) ([arXiv](https://arxiv.org/abs/1506.02078))
 * Dynamic Time Wrapping
   * *NB*: Yet another example of dynamic programming in sequence modeling, I think CTC's idea benifits from DTW (and absolutely HMM).
   * K Nearest Neighbors & Dynamic Time Warping ([code](https://github.com/markdregan/K-Nearest-Neighbors-with-Dynamic-Time-Warping)): clean code, using DTW and kNN for Human Activity Recognition. It clearly shows the esential idea of DTW, and the code is well factored. But something funny is that, in this code, not all the imports are valid, you should import something manualy before running the code.

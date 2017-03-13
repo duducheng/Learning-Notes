@@ -3,7 +3,9 @@ NB: Time below means when I "studied", not when it came.
 ## 2017-03 Week 2
 * MyWeekly
   * [Personal Proceeding on Time Series: DTW, Viz of RNN and Clockwalk RNN Revisiting](weekly/dtw_vizrnn_cwrnn.pdf)
-* [REVISIT] A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511))
+* [Temporal-Kernel Recurrent Neural Networks](notes/tkrnn.md) ([ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0893608009002664))
+* [REVISIT] A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511)) ([code](https://github.com/tomrunia/ClockworkRNN): non-official)
+* Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): ~Week7
 * [Visualizing and Understanding Recurrent Networks](notes/viz_rnn.md) ([arXiv](https://arxiv.org/abs/1506.02078))
 * Neural Networks for Time Series Prediction ([CMU](https://www.cs.cmu.edu/afs/cs/academic/class/15782-f06/slides/timeseries.pdf)): super old lecture, even not covering LSTM. While still useful, especially it talks many concepts of time series analysis in engineering guys' eyes (rather than statstician's), though some of them are too "Digital Signal Processing" that make my undergraduate "Signal & System" concepts revive :)
 * Dynamic Time Wrapping

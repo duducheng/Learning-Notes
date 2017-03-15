@@ -3,6 +3,7 @@ NB: Time below means when I "studied", not when it came.
 ## 2017-03 Week 2
 * MyWeekly
   * [Personal Proceeding on Time Series: DTW, Viz of RNN and Clockwalk RNN Revisiting](weekly/dtw_vizrnn_cwrnn.pdf)
+  * [Personal Proceeding on Time Series (2): Echo State Network and Temporal Kernel RNN](weekly/tkrnn_esn.pdf)
 * [Temporal-Kernel Recurrent Neural Networks](notes/tkrnn.md) ([ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0893608009002664))
 * [REVISIT] A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511)) ([code](https://github.com/tomrunia/ClockworkRNN): non-official)
 * Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): ~Week7

@@ -1,20 +1,24 @@
 NB: Time below means when I "studied", not when it came.
 
-## 2017-03 Week 2
+### 2017-03 Week 2
+* Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): ~Week10
+* STL: A Seasonal-Trend Decomposition Procedurue Base on Loess ([link](http://www.wessa.net/download/stl.pdf))
+  * *NB*: A paper in 1990, describing the method of seasonal decomposition in many popular TSA tools(such as in R `forecast`). I didn't read the whole paper (30 pages+), but just the first 10 pages, covering the algorithm procedure. This paper also talks a lot about parameter selection (STL has really a lot of parameters!) and other discussion.
+  * "loess": basically local polynomial (in this paper d=1 or d=2) regression weighted with points distance. This is where non-linearity comes from.
+  * There is inner loop and outer loop for this algorithm. In fact there are really a lot of operation in every step (well, traditional signal processing:-D). The idea is as follows: 1) detrend 2) compute seasonal component s using loess with subseries 3) detrend the s using lowpass filter 4) deseasonal, and it's one "inner loop". To make the algorithm more robust, "robust weight" is computed by the residual error, i.e. for a significant outlier, it will get zero weight for loess, and this is so-called "outer loop".
+
+## 2017-03
 * MyWeekly
   * [Personal Proceeding on Time Series: DTW, Viz of RNN and Clockwalk RNN Revisiting](weekly/dtw_vizrnn_cwrnn.pdf)
   * [Personal Proceeding on Time Series (2): Echo State Network and Temporal Kernel RNN](weekly/tkrnn_esn.pdf)
 * [Temporal-Kernel Recurrent Neural Networks](notes/tkrnn.md) ([ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0893608009002664))
-* [REVISIT] A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511)) ([code](https://github.com/tomrunia/ClockworkRNN): non-official)
-* Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): ~Week7
+* [REVISIT] A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511)) (non-official [code](https://github.com/tomrunia/ClockworkRNN))
 * [Visualizing and Understanding Recurrent Networks](notes/viz_rnn.md) ([arXiv](https://arxiv.org/abs/1506.02078))
 * Neural Networks for Time Series Prediction ([CMU](https://www.cs.cmu.edu/afs/cs/academic/class/15782-f06/slides/timeseries.pdf)): super old lecture, even not covering LSTM. While still useful, especially it talks many concepts of time series analysis in engineering guys' eyes (rather than statstician's), though some of them are too "Digital Signal Processing" that make my undergraduate "Signal & System" concepts revive :)
 * Dynamic Time Wrapping
   * *NB*: Yet another example of dynamic programming in sequence modeling, I think CTC's idea benifits from DTW (and absolutely HMM).
   * K Nearest Neighbors & Dynamic Time Warping ([code](https://github.com/markdregan/K-Nearest-Neighbors-with-Dynamic-Time-Warping)): clean code, using DTW and kNN for Human Activity Recognition. It clearly shows the esential idea of DTW, and the code is well factored. But something funny is that, in this code, not all the imports are valid, you should import something manualy before running the code.
   * Everything you know about Dynamic Time Warping is Wrong ([link](http://wearables.cc.gatech.edu/paper_of_week/DTW_myths.pdf)): gives some highlights of using and researching DTW (about 10 years ago 😐). The wording of this paper is very sharp. 3 chaims: 1) fix length doesn't hurt 2) narrow band doesn't hurt 3) speeding up DTW with tight lower bound is pointless.
-
-# 2017-03
 * MC and MCMC from Probabilistic Graphical Models Eric Xing ([CMU](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)): Lecture 16-18.
   * *NB*: great review for sampling based inference. MC: naive, rejection sampling, importance sampling. MCMC: Metropolis-Hasting, Gibbs, collapsed (Rao-Blackwellised) Gibbs, slice sampling, Reversible Jump MCMC (RJMCMC). RJMCMC is really non-trivial, which I didn't fully understand. It's a MCMC to jump among models' space, designed without detailed balance, while stationary.
 * Probabilistic Programming & Bayesian Methods for Hackers ([link](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)) ([code](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers))
@@ -22,7 +26,7 @@ NB: Time below means when I "studied", not when it came.
 * Forecasting at Scale ([Prophet](https://facebookincubator.github.io/prophet/))
   * *NB*: Facebook's new open source time series project. I think it's aimed to be a general-purpose tool, with uncertainty, seasonal decomposition, filling missing data. It's very easy to use, while it gives very limited power to do specific modeling. It's based on Stan, or PyStan, to make probabilistic forecasting. It's unfair to compare it with some other specific approaches to model particular time series, but I tested it on my project, and it gave much poorer results. I think the reason is that Prophet has very limited power to model non-linearity, since it uses time as the very unique regressor, as mentioned in its paper. Prophet should be a good tool to make long-term forecasting, but it't bad at providing accurate short-term forecasting. Anyway, it's a good tool for time series analysis.
 
-# 2017-02
+## 2017-02
 Reprise from the Spring Festival 😐
 * A Critical Review of Recurrent Neural Networks for Sequence Learning ([arXiv](https://arxiv.org/abs/1506.00019))
   * *NB*: there is not any new insight, while good to reflash some idea; it talks about vanilla RNN, LSTM, BRNN and a little bit NTM, and introduce some application, with emphasis on NLP.

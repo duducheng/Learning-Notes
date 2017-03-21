@@ -38,6 +38,7 @@ Reprise from the Spring Festival 😐
   * [统计学习方法](https://book.douban.com/subject/10590856/) 第11章 条件随机场
 * Monte Carlo by mathematicalmonk ([YouTube](https://www.youtube.com/watch?v=AadKNJU1-lk&list=PLD0F06AA0D2E8FFBA&index=1275)): covering importance sampling, Smirnov transform and rejection sampling.
 * MCMC by mathematicalmonk ([YouTube](https://www.youtube.com/watch?v=7KGdE2AK_MQ&list=PLD0F06AA0D2E8FFBA&index=95)): covering ergodic theorem and Metropolis, very gentle and intuitive.
+* Probabilistic Programming & Bayesian Methods for Hackers ([code](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers))
  * *NB*: Great book, about practical Bayesian modeling and PyMC3.
 * Variation Inference from Probabilistic Graphical Models Eric Xing ([CMU](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)): Lecture 13-15.
  * *NB*: really good (somehow advanced) introduction to VI: loopy belief Propagation, mean field approximation, and general variational principles (solve problem in optimization fashion with dual form of function). The principles part is really abstract, but at least I got the idea. A brief to LDA is also presented in Lecture 15.
@@ -94,10 +95,10 @@ Reprise from the Spring Festival 😐
 
 ## 2016-10
 * MyWeekly
- * [More on RNNs](weekly/More_on_RNNs.pdf)
- * [Thoughts on Wavenet](weekly/Thoughts_on_Wavenet.pdf)
- * [RNN and LSTM](weekly/RNN-LSTM.pdf)
- * [Attention](weekly/Attention.pdf)
+  * [More on RNNs](weekly/More_on_RNNs.pdf)
+  * [Thoughts on Wavenet](weekly/Thoughts_on_Wavenet.pdf)
+  * [RNN and LSTM](weekly/RNN-LSTM.pdf)
+  * [Attention](weekly/Attention.pdf)
 * Topics on RNN
   * [REVISIT] Understanding LSTM Networks ([blog](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)) ([code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/6_lstm.ipynb))
     - *NB*: The code from Udacity Deep Learning course is exactly the same as described in the blog.

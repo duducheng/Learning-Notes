@@ -1,0 +1,7 @@
+# [Phased LSTM: Accelerating Recurrent Network Training for Long or Event-based Sequences](https://papers.nips.cc/paper/6310-phased-lstm-accelerating-recurrent-network-training-for-long-or-event-based-sequences.pdf)
+
+Great RNN paper. PLSTM extends standard LSTM with a time gate `k`, controlled by time step, to make full use of asynchronous generated data. It can be imagined that PLSTM seems to be very suitable for large sensor networks, like robot controlling, health care and other event based time series. Moreover, PLSTMs introduce very few parameters, but accelerate RNN training (at least in the paper setting). The implement of PLSTM should be very easy based on any existing standard LSTM implement, which is great. 
+
+Actually these months I also have this kind of ideas (using timing gated network) in my own project, but this paper does better jobs. Before I tried kind of `sin` functions in the state decay (a variant of TKRNN), it doesn't work, I think it's becuase of the heavy local minimum. Their gate function is great, like Leaky ReLU. In Deep Learning, stacking of simple functions seem better than one single complex function. 
+
+Finally, researchers should move fast, since all the ideas you have are just "ideas" :)

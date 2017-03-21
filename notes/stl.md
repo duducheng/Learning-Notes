@@ -1,0 +1,5 @@
+# [STL: A Seasonal-Trend Decomposition Procedurue Base on Loess](http://www.wessa.net/download/stl.pdf)
+
+* A paper in 1990, describing the method of seasonal decomposition in many popular TSA tools(such as in R `forecast`). I didn't read the whole paper (30 pages+), but just the first 10 pages, covering the algorithm procedure. This paper also talks a lot about parameter selection (STL has really a lot of parameters!) and other discussion.
+* "loess": basically local polynomial (in this paper d=1 or d=2) regression weighted with points distance. This is where non-linearity comes from.
+* There is inner loop and outer loop for this algorithm. In fact there are really a lot of operation in every step (well, traditional signal processing:-D). The idea is as follows: 1) detrend 2) compute seasonal component s using loess with subseries 3) detrend the s using lowpass filter 4) deseasonal, and it's one "inner loop". To make the algorithm more robust, "robust weight" is computed by the residual error, i.e. for a significant outlier, it will get zero weight for loess, and this is so-called "outer loop".

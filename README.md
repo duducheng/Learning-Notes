@@ -1,16 +1,14 @@
 NB: Time below means when I "studied", not when it came.
 
-### 2017-03 Week 2
+### 2017-03 Week 3
+* [Phased LSTM: Accelerating Recurrent Network Training for Long or Event-based Sequences](notes/plstm.md) ([NIPS](https://papers.nips.cc/paper/6310-phased-lstm-accelerating-recurrent-network-training-for-long-or-event-based-sequences.pdf))
 * Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): ~Week10
-* STL: A Seasonal-Trend Decomposition Procedurue Base on Loess ([link](http://www.wessa.net/download/stl.pdf))
-  * *NB*: A paper in 1990, describing the method of seasonal decomposition in many popular TSA tools(such as in R `forecast`). I didn't read the whole paper (30 pages+), but just the first 10 pages, covering the algorithm procedure. This paper also talks a lot about parameter selection (STL has really a lot of parameters!) and other discussion.
-  * "loess": basically local polynomial (in this paper d=1 or d=2) regression weighted with points distance. This is where non-linearity comes from.
-  * There is inner loop and outer loop for this algorithm. In fact there are really a lot of operation in every step (well, traditional signal processing:-D). The idea is as follows: 1) detrend 2) compute seasonal component s using loess with subseries 3) detrend the s using lowpass filter 4) deseasonal, and it's one "inner loop". To make the algorithm more robust, "robust weight" is computed by the residual error, i.e. for a significant outlier, it will get zero weight for loess, and this is so-called "outer loop".
 
 ## 2017-03
 * MyWeekly
   * [Personal Proceeding on Time Series: DTW, Viz of RNN and Clockwalk RNN Revisiting](weekly/dtw_vizrnn_cwrnn.pdf)
   * [Personal Proceeding on Time Series (2): Echo State Network and Temporal Kernel RNN](weekly/tkrnn_esn.pdf)
+* [STL: A Seasonal-Trend Decomposition Procedurue Base on Loess](notes/stl.md) ([link](http://www.wessa.net/download/stl.pdf))
 * [Temporal-Kernel Recurrent Neural Networks](notes/tkrnn.md) ([ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0893608009002664))
 * [REVISIT] A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511)) (non-official [code](https://github.com/tomrunia/ClockworkRNN))
 * [Visualizing and Understanding Recurrent Networks](notes/viz_rnn.md) ([arXiv](https://arxiv.org/abs/1506.02078))
@@ -23,8 +21,7 @@ NB: Time below means when I "studied", not when it came.
   * *NB*: great review for sampling based inference. MC: naive, rejection sampling, importance sampling. MCMC: Metropolis-Hasting, Gibbs, collapsed (Rao-Blackwellised) Gibbs, slice sampling, Reversible Jump MCMC (RJMCMC). RJMCMC is really non-trivial, which I didn't fully understand. It's a MCMC to jump among models' space, designed without detailed balance, while stationary.
 * Probabilistic Programming & Bayesian Methods for Hackers ([link](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)) ([code](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers))
 * Probabilistic Graphical Models 3: Learning ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models-3-learning/))
-* Forecasting at Scale ([Prophet](https://facebookincubator.github.io/prophet/))
-  * *NB*: Facebook's new open source time series project. I think it's aimed to be a general-purpose tool, with uncertainty, seasonal decomposition, filling missing data. It's very easy to use, while it gives very limited power to do specific modeling. It's based on Stan, or PyStan, to make probabilistic forecasting. It's unfair to compare it with some other specific approaches to model particular time series, but I tested it on my project, and it gave much poorer results. I think the reason is that Prophet has very limited power to model non-linearity, since it uses time as the very unique regressor, as mentioned in its paper. Prophet should be a good tool to make long-term forecasting, but it't bad at providing accurate short-term forecasting. Anyway, it's a good tool for time series analysis.
+* [Forecasting at Scale](notes/prophet.md) ([Prophet](https://facebookincubator.github.io/prophet/))
 
 ## 2017-02
 Reprise from the Spring Festival 😐
@@ -84,15 +81,9 @@ Reprise from the Spring Festival 😐
 * [REVISIT] Convolution for Neural Networks
   * Convolution arithmetic tutorial ([blog](http://deeplearning.net/software/theano_versions/dev/tutorial/conv_arithmetic.html#transposed-convolution-arithmetic))
   * Conv Nets: A Modular Perspective ([blog](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/))
-  * TODO:
-    * A guide to convolution arithmetic for deep
-  learning ([arXiv](https://arxiv.org/abs/1603.07285))
-    * Understanding Convolutions ([blog](http://colah.github.io/posts/2014-07-Understanding-Convolutions/))
-    * Groups & Group Convolutions ([blog](http://colah.github.io/posts/2014-12-Groups-Convolution/))
-    * Deconvolution and Checkerboard Artifacts ([blog](http://distill.pub/2016/deconv-checkerboard/))
 * Probabilistic Graphical Models 1: Representation ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models/))
 * [Probabilistic Graphical Models: Principles and Techniques](http://pgm.stanford.edu/): Chapter 1, 2, 3, 5, 6
-  * *NB*: I read the Chinese Version ([概率图模型：原理与技术](http://www.tup.tsinghua.edu.cn/bookscenter/book_03992101.html)), quite good if you are taking the course (and you are Chinese of course); if not, there will be something confusing in the translation version. Anyway, great thanks to the effort of Prof. Wang and Prof. Han  
+  * *NB*: I read the Chinese Version ([概率图模型：原理与技术](http://www.tup.tsinghua.edu.cn/bookscenter/book_03992101.html)), quite good if you are taking the course (and you are Chinese of course); if not, there will be something confusing in the translation version. Anyway, great thanks to the effort of Prof. Wang and Prof. Han
 * Implement the Gaussian Mixture Models ([code](https://github.com/rushter/MLAlgorithms/blob/master/mla/gaussian_mixture.py)) ([notebooks](https://github.com/duducheng/clustering))
 * Visual Information Theory ([blog](https://colah.github.io/posts/2015-09-Visual-Information/))
 * Towards my research

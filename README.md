@@ -13,6 +13,7 @@ NB: Time below means when I "studied", not when it came.
   * [Personal Proceeding on Time Series: DTW, Viz of RNN and Clockwalk RNN Revisiting](weekly/dtw_vizrnn_cwrnn.pdf)
   * [Personal Proceeding on Time Series (2): Echo State Network and Temporal Kernel RNN](weekly/tkrnn_esn.pdf)
   * [Personal Proceeding on Time Series (3): Phased LSTM and STL](weekly/plstm_stl.pdf)
+  * [Personal Proceeding on Time Series (4): Fast weights](weekly/fast_weights.pdf)
 * [STL: A Seasonal-Trend Decomposition Procedurue Base on Loess](notes/stl.md) ([link](http://www.wessa.net/download/stl.pdf))
 * [Temporal-Kernel Recurrent Neural Networks](notes/tkrnn.md) ([ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0893608009002664))
 * [REVISIT] A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511)) (non-official [code](https://github.com/braingineer/ikelos/blob/master/ikelos/layers/cwrnn.py))

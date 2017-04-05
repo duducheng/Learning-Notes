@@ -1,12 +1,10 @@
 NB: Time below means when I "studied", not when it came.
 
-### 2017-03 Week 4
-* Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift ([arXiv](https://arxiv.org/abs/1502.03167)): simple math but full of brilliant ideas and tricks. ([code](https://gist.github.com/tomokishii/0ce3bdac1588b5cca9fa5fbdf6e1c412): good demenstration of using "global" moment and `ewa`)
-* Layer Normalization ([arXiv](https://arxiv.org/abs/1607.06450)): even simpler principle, good for RNN but, worse than BN for CNN.
-* [Phased LSTM: Accelerating Recurrent Network Training for Long or Event-based Sequences](notes/plstm.md) ([NIPS](https://papers.nips.cc/paper/6310-phased-lstm-accelerating-recurrent-network-training-for-long-or-event-based-sequences.pdf)) (TensorFlow [implement](https://github.com/Enny1991/PLSTM), Keras [implement](https://github.com/fferroni/PhasedLSTM-Keras), both good and clear.)
-* Using Fast Weights to Attend to the Recent Past ([arXiv](https://arxiv.org/abs/1610.06258)) (TensorFlow [implement](https://github.com/ajarai/fast-weights)): Very simple math, and easy enough to implement, but it seems lots of physiology background. This paper is another trial aimed to beat LSTM. Fast weights (`FW`) based on IRNN, works well on the mentioned task. The `FW` can be regarded as something to be "memorised" during the step update. I found papers of Hinton are usually recondite. (maybe Canadian English?)
-* Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): Finally finished. Good review for neural network approaches. Absolutely not a first course. It's a very course that can inspire you a lot if you've already known; but if you haven't known something mentioned in the course, it can be very hard for you to fully understand without other materials.
-* [MLaPP](https://www.cs.ubc.ca/~murphyk/MLbook/): Chapter 27.7 Restricted Boltzman machines (RBMs)
+### 2017-04 Week 1
+* MyWeekly
+  * [Restricted Boltzmann Machines](weekly/rbm.pdf)
+* Recurrent Dropout without Memory Loss ([arXiv](https://arxiv.org/abs/1603.05118))
+  * *NB*: simple, implemented in TensorFlow. It archieves similar (if not better) results in LSTMs than Gal 2015. In short, it drops the recurrent updates but not the recurrent connections, it allows per-step dropout. Moon et al. 2015 drop the recurrent update and connections, with per-sequence dropout, which allows long-term learning but forget the long-term memory in inference.
 
 ## 2017-03
 * MyWeekly
@@ -28,6 +26,12 @@ NB: Time below means when I "studied", not when it came.
 * Probabilistic Programming & Bayesian Methods for Hackers ([link](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)) ([code](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers))
 * Probabilistic Graphical Models 3: Learning ([Coursera](https://www.coursera.org/learn/probabilistic-graphical-models-3-learning/))
 * [Forecasting at Scale](notes/prophet.md) ([Prophet](https://facebookincubator.github.io/prophet/))
+* Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift ([arXiv](https://arxiv.org/abs/1502.03167)): simple math but full of brilliant ideas and tricks. ([code](https://gist.github.com/tomokishii/0ce3bdac1588b5cca9fa5fbdf6e1c412): good demenstration of using "global" moment and `ewa`)
+* Layer Normalization ([arXiv](https://arxiv.org/abs/1607.06450)): even simpler principle, good for RNN but, worse than BN for CNN.
+* [Phased LSTM: Accelerating Recurrent Network Training for Long or Event-based Sequences](notes/plstm.md) ([NIPS](https://papers.nips.cc/paper/6310-phased-lstm-accelerating-recurrent-network-training-for-long-or-event-based-sequences.pdf)) (TensorFlow [implement](https://github.com/Enny1991/PLSTM), Keras [implement](https://github.com/fferroni/PhasedLSTM-Keras), both good and clear.)
+* Using Fast Weights to Attend to the Recent Past ([arXiv](https://arxiv.org/abs/1610.06258)) (TensorFlow [implement](https://github.com/ajarai/fast-weights)): Very simple math, and easy enough to implement, but it seems lots of physiology background. This paper is another trial aimed to beat LSTM. Fast weights (`FW`) based on IRNN, works well on the mentioned task. The `FW` can be regarded as something to be "memorised" during the step update. I found papers of Hinton are usually recondite. (maybe Canadian English?)
+* Neural Networks for Machine Learning by Geoffrey Hinton ([Coursera](https://www.coursera.org/learn/neural-networks/)): Finally finished. Good review for neural network approaches. Absolutely not a first course. It's a very course that can inspire you a lot if you've already known; but if you haven't known something mentioned in the course, it can be very hard for you to fully understand without other materials.
+* [MLaPP](https://www.cs.ubc.ca/~murphyk/MLbook/): Chapter 27.7 Restricted Boltzman machines (RBMs)
 
 ## 2017-02
 Reprise from the Spring Festival 😐

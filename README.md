@@ -1,10 +1,16 @@
 NB: Time below means when I "studied", not when it came.
 
-### 2017-04 Week 1
+### 2017-04 Week 3
+* Multi-Scale Context Aggregation by Dilated Convolutions ([arXiv](https://arxiv.org/abs/1511.07122)), a.k.a "Dilated-8"
+* A Simple Way to Initialize Recurrent Networks of Rectified Linear Units ([arXiv](https://arxiv.org/abs/1504.00941)), a.k.a "IRNN"
+* Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting ([arXiv](https://arxiv.org/abs/1506.04214))
+
+## 2017-04
 * MyWeekly
   * [Restricted Boltzmann Machines](weekly/rbm.pdf)
 * Recurrent Dropout without Memory Loss ([arXiv](https://arxiv.org/abs/1603.05118))
   * *NB*: simple, implemented in TensorFlow. It archieves similar (if not better) results in LSTMs than Gal 2015. In short, it drops the recurrent updates but not the recurrent connections, it allows per-step dropout. Moon et al. 2015 drop the recurrent update and connections, with per-sequence dropout, which allows long-term learning but forget the long-term memory in inference.
+* CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 8 (Detection), 13 (Segmentation and Attention)
 
 ## 2017-03
 * MyWeekly

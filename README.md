@@ -1,9 +1,6 @@
 NB: Time below means when I "studied", not when it came.
 
-### 2017-04 Week 3
-* Multi-Scale Context Aggregation by Dilated Convolutions ([arXiv](https://arxiv.org/abs/1511.07122)), a.k.a "Dilated-8"
-* A Simple Way to Initialize Recurrent Networks of Rectified Linear Units ([arXiv](https://arxiv.org/abs/1504.00941)), a.k.a "IRNN"
-* Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting ([arXiv](https://arxiv.org/abs/1506.04214))
+## 2017-05
 
 ## 2017-04
 * MyWeekly
@@ -11,6 +8,15 @@ NB: Time below means when I "studied", not when it came.
 * Recurrent Dropout without Memory Loss ([arXiv](https://arxiv.org/abs/1603.05118))
   * *NB*: simple, implemented in TensorFlow. It archieves similar (if not better) results in LSTMs than Gal 2015. In short, it drops the recurrent updates but not the recurrent connections, it allows per-step dropout. Moon et al. 2015 drop the recurrent update and connections, with per-sequence dropout, which allows long-term learning but forget the long-term memory in inference.
 * CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 8 (Detection), 13 (Segmentation and Attention)
+* The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation ([arXiv](https://arxiv.org/abs/1611.09326)): there are some typos in Table2.
+* Multi-Scale Context Aggregation by Dilated Convolutions ([arXiv](https://arxiv.org/abs/1511.07122)), a.k.a "Dilated-8"
+* A Simple Way to Initialize Recurrent Networks of Rectified Linear Units ([arXiv](https://arxiv.org/abs/1504.00941)), a.k.a "IRNN"
+* Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting ([arXiv](https://arxiv.org/abs/1506.04214))
+* Understanding Convolutions ([blog](http://colah.github.io/posts/2014-07-Understanding-Convolutions/))
+* Groups & Group Convolutions ([blog](http://colah.github.io/posts/2014-12-Groups-Convolution/))
+* Deconvolution and Checkerboard Artifacts ([Distill](http://distill.pub/2016/deconv-checkerboard/))
+* Calculus on Computational Graphs: Backpropagation ([blog](http://colah.github.io/posts/2015-08-Backprop/))
+* Neural Networks, Manifolds, and Topology ([blog](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/))
 
 ## 2017-03
 * MyWeekly

@@ -1,6 +1,7 @@
 NB: Time below means when I "studied", not when it came.
 
 ## 2017-05
+* Deep Learning, NLP, and Representations ([blog](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/))
 
 ## 2017-04
 * MyWeekly

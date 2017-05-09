@@ -1,6 +1,7 @@
 NB: Time below means when I "studied", not when it came.
 
 ## 2017-05
+* Training Region-based Object Detectors with Online Hard Example Mining ([arXiv](https://arxiv.org/abs/1604.03540))
 * Deep Learning, NLP, and Representations ([blog](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/))
 
 ## 2017-04

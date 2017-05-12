@@ -1,6 +1,10 @@
 NB: Time below means when I "studied", not when it came.
 
 ## 2017-05
+* SSD: Single Shot MultiBox Detector ([arXiv](https://arxiv.org/abs/1512.02325))
+* Attention and Augmented Recurrent Neural Networks ([Distill](http://distill.pub/2016/augmented-rnns/))
+* R-FCN: Object Detection via Region-based Fully Convolutional Networks ([arXiv](https://arxiv.org/abs/1605.06409))
+* Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks ([arXiv](https://arxiv.org/abs/1506.01497))
 * Training Region-based Object Detectors with Online Hard Example Mining ([arXiv](https://arxiv.org/abs/1604.03540))
 * Deep Learning, NLP, and Representations ([blog](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/))
 

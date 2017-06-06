@@ -1,5 +1,10 @@
 NB: Time below means when I "studied", not when it came.
 
+## 2017-06
+* CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 2 (Linear classification I), Lecture 3 (Linear classification II), Lecture 4 (Backpropagation), Lecture 5 (Training 1), Lecture 6 (Training 2), Lecture 7 (ConvNets), Lecture 10 (RNN). 
+  * Till now, finished all CS231n lectures (vidoes), notes and some readings.
+* DL book RNN chapter ([link](http://www.deeplearningbook.org/contents/rnn.html))
+
 ## 2017-05
 * SSD: Single Shot MultiBox Detector ([arXiv](https://arxiv.org/abs/1512.02325))
 * Attention and Augmented Recurrent Neural Networks ([Distill](http://distill.pub/2016/augmented-rnns/))
@@ -7,6 +12,7 @@ NB: Time below means when I "studied", not when it came.
 * Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks ([arXiv](https://arxiv.org/abs/1506.01497))
 * Training Region-based Object Detectors with Online Hard Example Mining ([arXiv](https://arxiv.org/abs/1604.03540))
 * Deep Learning, NLP, and Representations ([blog](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/))
+* CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 12 (Deep Learning Tools), 14 (Videos, Unsupervised learning), 15 (Invited Talk: Jeff Dean)
 
 ## 2017-04
 * MyWeekly

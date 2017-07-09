@@ -1,6 +1,13 @@
 NB: Time below means when I "studied", not when it came.
+## 2017-07
+* Conditional Random Fields as Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1502.03240))
+* Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer ([arXiv](https://arxiv.org/abs/1701.06538))
 
 ## 2017-06
+* Busy month for ["天池医疗AI大赛[第一季]：肺部结节智能诊断"](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100067.5678.1.4c5fd3b5Y0gzo&raceId=231601) (Team: `LAB518-CreedAI`)
+* Multilevel Contextual 3-D CNNs for False Positive Reduction in Pulmonary Nodule Detection ([IEEE](http://ieeexplore.ieee.org/document/7576695/))
+* Wide Residual Networks ([arXiv](https://arxiv.org/abs/1605.07146))
+* D. Silver Lecture 1: Introduction to Reinforcement Learning ([UCL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html))
 * CS231n ([Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html)): Lecture 2 (Linear classification I), Lecture 3 (Linear classification II), Lecture 4 (Backpropagation), Lecture 5 (Training 1), Lecture 6 (Training 2), Lecture 7 (ConvNets), Lecture 10 (RNN). 
   * Till now, finished all CS231n lectures (vidoes), notes and some readings.
 * DL book RNN chapter ([link](http://www.deeplearningbook.org/contents/rnn.html))

@@ -1,8 +1,10 @@
 NB: Time below means when I "studied", not when it came.
 ## 2017-07
-* Busy month for ["天池医疗AI大赛[第一季]：肺部结节智能诊断"](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100067.5678.1.4c5fd3b5Y0gzo&raceId=231601) (Team: `LAB518-CreedAI`, Season 1 rank: 5/2886)
+* Busy month for ["天池医疗AI大赛[第一季]：肺部结节智能诊断"](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100067.5678.1.4c5fd3b5Y0gzo&raceId=231601) (Team: `LAB518-CreedAI`, Season 1 rank: 5 / 2886)
 * Conditional Random Fields as Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1502.03240))
 * Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer ([arXiv](https://arxiv.org/abs/1701.06538))
+* Accurate Pulmonary Nodule Detection in Computed Tomography Images Using Deep Convolutional Neural Networks ([arXiv](https://arxiv.org/abs/1706.04303))
+* Dilated Residual Networks ([arXiv](https://arxiv.org/abs/1705.09914))
 
 ## 2017-06
 * Multilevel Contextual 3-D CNNs for False Positive Reduction in Pulmonary Nodule Detection ([IEEE](http://ieeexplore.ieee.org/document/7576695/))

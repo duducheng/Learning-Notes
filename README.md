@@ -5,6 +5,7 @@ NB: Time below means when I "studied", not when it came.
 * Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer ([arXiv](https://arxiv.org/abs/1701.06538))
 * Accurate Pulmonary Nodule Detection in Computed Tomography Images Using Deep Convolutional Neural Networks ([arXiv](https://arxiv.org/abs/1706.04303))
 * Dilated Residual Networks ([arXiv](https://arxiv.org/abs/1705.09914))
+* Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour ([arXiv](https://arxiv.org/abs/1706.02677))
 
 ## 2017-06
 * Multilevel Contextual 3-D CNNs for False Positive Reduction in Pulmonary Nodule Detection ([IEEE](http://ieeexplore.ieee.org/document/7576695/))

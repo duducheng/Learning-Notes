@@ -1,6 +1,6 @@
 NB: Time below means when I "studied", not when it came.
 ## 2017-08
-* Intership in Tencent Social Ads Team (@Shenzhen)
+* Internship in Tencent Social Ads Team (@Shenzhen)
 * Show and Tell: A Neural Image Caption Generator ([arXiv](https://arxiv.org/abs/1411.4555))
 * Dual Path Networks ([arXiv](https://arxiv.org/abs/1707.01629))
 * Densely Connected Convolutional Networks ([arXiv](https://arxiv.org/abs/1608.06993))

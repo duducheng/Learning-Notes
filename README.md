@@ -1,9 +1,10 @@
 NB: Time below means when I "studied", not when it came.
 ## 2017-08
-* Internship in Tencent Social Ads Team (@Shenzhen)
+* Internship in Tencent Social Ads Team @Shenzhen
 * Show and Tell: A Neural Image Caption Generator ([arXiv](https://arxiv.org/abs/1411.4555))
 * Dual Path Networks ([arXiv](https://arxiv.org/abs/1707.01629))
 * Densely Connected Convolutional Networks ([arXiv](https://arxiv.org/abs/1608.06993))
+* VoxResNet: Deep Voxelwise Residual Networks for Volumetric Brain Segmentation ([arXiv](https://arxiv.org/abs/1608.05895)) ([project page](http://appsrv.cse.cuhk.edu.hk/~hchen/research/seg_brain.html))
 
 ## 2017-07
 * Busy month for ["天池医疗AI大赛[第一季]：肺部结节智能诊断"](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100067.5678.1.4c5fd3b5Y0gzo&raceId=231601) (Team: `LAB518-CreedAI`, Season 1 rank: 5 / 2886)

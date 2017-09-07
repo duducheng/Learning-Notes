@@ -1,6 +1,6 @@
 NB: Time below means when I "studied", not when it came.
 
-# 2017-09
+## 2017-09
 * WSISA: Making Survival Prediction from Whole Slide Histopathological Images ([CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhu_WSISA_Making_Survival_CVPR_2017_paper.pdf))
   - *NB*: it's suitable for small data cases while large data size (large per case). It use KMeans in the paper for patch level clustering, train separate models and use the prediction as features. Not beautiful solution.
 

@@ -3,6 +3,8 @@ NB: Time below means when I "studied", not when it came.
 ## 2017-09
 * WSISA: Making Survival Prediction from Whole Slide Histopathological Images ([CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhu_WSISA_Making_Survival_CVPR_2017_paper.pdf))
   - *NB*: it's suitable for small data cases while large data size (large per case). It use KMeans in the paper for patch level clustering, train separate models and use the prediction as features. Not beautiful solution.
+* Feature Pyramid Networks for Object Detection ([arXiv](https://arxiv.org/abs/1612.03144))
+  - *NB*: clean top results with single beautiful. Some so-called bells and whistles that have not been tried in the paper: iterative regression [9], hard negative mining [35], context modeling [16], strong data augmentation [22], etc.
 
 ## 2017-08
 * Internship in Tencent Social Ads Team @Shenzhen

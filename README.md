@@ -5,6 +5,7 @@ NB: Time below means when I "studied", not when it came.
   - *NB*: it's suitable for small data cases while large data size (large per case). It use KMeans in the paper for patch level clustering, train separate models and use the prediction as features. Not beautiful solution.
 * Feature Pyramid Networks for Object Detection ([arXiv](https://arxiv.org/abs/1612.03144))
   - *NB*: clean top results with single beautiful. Some so-called bells and whistles that have not been tried in the paper: iterative regression [9], hard negative mining [35], context modeling [16], strong data augmentation [22], etc.
+* Xception: Deep Learning with Depthwise Separable Convolutions ([arXiv](https://arxiv.org/abs/1610.02357))
 
 ## 2017-08
 * Internship in Tencent Social Ads Team @Shenzhen

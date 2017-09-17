@@ -6,6 +6,8 @@ NB: Time below means when I "studied", not when it came.
 * Feature Pyramid Networks for Object Detection ([arXiv](https://arxiv.org/abs/1612.03144))
   - *NB*: clean top results with single beautiful. Some so-called bells and whistles that have not been tried in the paper: iterative regression [9], hard negative mining [35], context modeling [16], strong data augmentation [22], etc.
 * Xception: Deep Learning with Depthwise Separable Convolutions ([arXiv](https://arxiv.org/abs/1610.02357))
+* Aggregated Residual Transformations for Deep Neural Networks (a.k.a. ResNeXt) ([arXiv](https://arxiv.org/abs/1611.05431))
+  * *NB*: Group Conv, interpreted as "Network in Neuron".
 
 ## 2017-08
 * Internship in Tencent Social Ads Team @Shenzhen

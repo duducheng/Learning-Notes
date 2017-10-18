@@ -1,5 +1,9 @@
 NB: Time below means when I "studied", not when it came.
 
+## 2017-10
+* ["天池医疗AI大赛[第一季]：肺部结节智能诊断"](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100067.5678.1.4c5fd3b5Y0gzo&raceId=231601) (Team: `LAB518-CreedAI`, rank: 3 / 2887)
+* Identity Mappings in Deep Residual Networks (ResNet-1001 / ResNet200) ([arXiv](https://arxiv.org/abs/1603.05027))
+
 ## 2017-09
 * WSISA: Making Survival Prediction from Whole Slide Histopathological Images ([CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhu_WSISA_Making_Survival_CVPR_2017_paper.pdf))
   - *NB*: it's suitable for small data cases while large data size (large per case). It use KMeans in the paper for patch level clustering, train separate models and use the prediction as features. Not beautiful solution.
@@ -17,7 +21,7 @@ NB: Time below means when I "studied", not when it came.
 * VoxResNet: Deep Voxelwise Residual Networks for Volumetric Brain Segmentation ([arXiv](https://arxiv.org/abs/1608.05895)) ([project page](http://appsrv.cse.cuhk.edu.hk/~hchen/research/seg_brain.html))
 
 ## 2017-07
-* Busy month for ["天池医疗AI大赛[第一季]：肺部结节智能诊断"](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100067.5678.1.4c5fd3b5Y0gzo&raceId=231601) (Team: `LAB518-CreedAI`, Season 1 rank: 5 / 2886)
+* Busy month for ["天池医疗AI大赛[第一季]：肺部结节智能诊断"](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100067.5678.1.4c5fd3b5Y0gzo&raceId=231601) (Team: `LAB518-CreedAI`, Season 1 rank: 5 / 2887)
 * Conditional Random Fields as Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1502.03240))
 * Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer ([arXiv](https://arxiv.org/abs/1701.06538))
 * Accurate Pulmonary Nodule Detection in Computed Tomography Images Using Deep Convolutional Neural Networks ([arXiv](https://arxiv.org/abs/1706.04303))

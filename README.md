@@ -2,7 +2,11 @@ NB: Time below means when I "studied", not when it came.
 
 ## 2017-10
 * ["天池医疗AI大赛[第一季]：肺部结节智能诊断"](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100067.5678.1.4c5fd3b5Y0gzo&raceId=231601) (Team: `LAB518-CreedAI`, rank: 3 / 2887)
-* Identity Mappings in Deep Residual Networks (ResNet-1001 / ResNet200) ([arXiv](https://arxiv.org/abs/1603.05027))
+* Identity Mappings in Deep Residual Networks (a.k.a. ResNet-1001 / ResNet200) ([arXiv](https://arxiv.org/abs/1603.05027))
+* ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices ([arXiv](https://arxiv.org/abs/1707.01083))
+* Squeeze-and-Excitation Networks ([arXiv](https://arxiv.org/abs/1709.01507))
+* Deep Convolutional Neural Networks with Merge-and-Run Mappings ([arXiv](https://arxiv.org/abs/1611.07718))
+* Interleaved Group Convolutions for Deep Neural Networks ([arXiv](https://arxiv.org/abs/1707.02725))
 
 ## 2017-09
 * WSISA: Making Survival Prediction from Whole Slide Histopathological Images ([CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhu_WSISA_Making_Survival_CVPR_2017_paper.pdf))

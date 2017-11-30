@@ -1,6 +1,7 @@
 NB: Time below means when I "studied", not when it came.
 
 # 2017-11
+* Neural Turing Machines ([arXiv](https://arxiv.org/abs/1410.5401))
 * Dynamic Routing Between Capsules ([arXiv](https://arxiv.org/abs/1710.09829))
 * Show, Attend and Tell: Neural Image Caption Generation with Visual Attention ([arXiv](https://arxiv.org/abs/1502.03044))
 * Computerized detection of lung nodules through radiomics ([Medical Physics](http://onlinelibrary.wiley.com/doi/10.1002/mp.12331/abstract;jsessionid=749B7153927F5A6F42C3AE5BF9CF3B62.f04t01))

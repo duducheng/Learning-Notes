@@ -1,5 +1,14 @@
 NB: Time below means when I "studied", not when it came.
 
+# 2017-12
+<!--* Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))-->
+* Special Deep Learning Structure of [MLDS](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html)
+  * Spatial Transformer Layer ([slide](http://speech.ee.ntu.edu.tw/~tlkagk/courses/MLDS_2017/Lecture/Special%20Structure%20(v6).pdf))
+  * Highway Network & Grid LSTM ([slide](http://speech.ee.ntu.edu.tw/~tlkagk/courses/MLDS_2017/Lecture/Special%20Structure%20(v6).pdf))
+* CS231n 2017 ([Stanford](http://cs231n.stanford.edu/syllabus.html))
+  * Lecture 13: Generative Models ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf))
+  * [ ] Lecture 15: Efficient Methods and Hardware for Deep Learning ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture15.pdf))
+
 # 2017-11
 * Time-series Extreme Event Forecasting with Neural Networks at Uber ([ICML Time Series Workshop](http://roseyu.com/time-series-workshop/submissions/TSW2017_paper_3.pdf))
 * Deep Forecast: Deep Learning-based Spatio-Temporal Forecasting ([arXiv](https://arxiv.org/abs/1707.08110)): ICML Time Series Workshop, yet very simple work

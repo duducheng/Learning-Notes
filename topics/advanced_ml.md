@@ -1,4 +1,4 @@
-# Study Plan
+# Advanced Machine Learning Study Plan
 This list mainly focuses on Bayesian Machine Learning.
 
 * [ ] ydxu ([course page](http://www-staff.it.uts.edu.au/~ydxu/statistics.htm))

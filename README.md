@@ -4,9 +4,13 @@ Recent Study Plan
 * [ ] [Computer Vision](topics/computer_vision.md)
 * [ ] [Advanced Machine Learning](topics/advanced_ml.md)
 * [ ] [Programming](topics/programming.md)
+* [ ] [Bio-medical](topics/biomed.md)
+
 
 ## 2017-12
 <!--* Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))-->
+* 生物医学成像学导论 Module 1 ([Bio-medical](topics/biomed.md))
+* Towards automatic pulmonary nodule management in lung cancer screening with deep learning ([Scientific Reports](https://www.nature.com/articles/srep46479))
 * Special Deep Learning Structure of [MLDS](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html)
   * Spatial Transformer Layer ([slide](http://speech.ee.ntu.edu.tw/~tlkagk/courses/MLDS_2017/Lecture/Special%20Structure%20(v6).pdf))
   * Highway Network & Grid LSTM ([slide](http://speech.ee.ntu.edu.tw/~tlkagk/courses/MLDS_2017/Lecture/Special%20Structure%20(v6).pdf))

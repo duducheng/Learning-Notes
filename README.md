@@ -1,22 +1,46 @@
 NB: Time below means when I "studied", not when it came.
 
 Recent Study Plan
-* [ ] [Computer Vision](topics/computer_vision.md)
-* [ ] [Advanced Machine Learning](topics/advanced_ml.md)
-* [ ] [Programming](topics/programming.md)
-* [ ] [Bio-medical](topics/biomed.md)
-
+* AML: [Advanced Machine Learning](topics/advanced_ml.md)
+* MIC: [Medical Image Computing](topics/mic.md)
+* Prog: [Programming](topics/programming.md)
 
 ## 2017-12
-<!--* Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))-->
-* 生物医学成像学导论 Module 1 ([Bio-medical](topics/biomed.md))
+### Study Plan
+* [ ] ADLxMLDS ([AML](topics/advanced_ml.md))
+  * [ ] RL
+  * [ ] GAN
+  * [ ] Attention
+* [ ] CS231n 2017 ([AML](topics/advanced_ml.md))
+  * [ ] Assignment2
+  * [ ] Assignment3
+* [ ] Atari Game Playing ([AML](topics/advanced_ml.md))
+* [ ] Fundamentals of Medical Imaging ([MIC](topics/mic.md))
+  * [ ] Chapter 3 CT
+* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
+  * [ ] Module 2 CT
+### Reading
+* [ ] Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))
+
+## 2017-12
+### Study Plan
+* [ ] CS231n 2017 ([AML](topics/advanced_ml.md))
+  * [x] Lecture 13: Generative Models ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf))
+  * [ ] Lecture 14: Deep Reinforcement Learning ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture14.pdf))
+  * [x] Lecture 15: Efficient Methods and Hardware for Deep Learning ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture15.pdf))
+  * [ ] Lecture 16: Adversarial Examples and Adversarial Training ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture16.pdf))
+* [ ] Fundamentals of Medical Imaging ([MIC](topics/mic.md))
+  * [ ] Chapter 1 
+  * [ ] Chapter 2 X-rays
+* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
+  * [x] Module 1 X-rays
+### Reading
+* Deep Learning: Practice and Trends (NIPS 2017 Tutorial) ([YouTube](https://www.youtube.com/watch?v=YJnddoa8sHk)) ([slide](https://docs.google.com/presentation/d/e/2PACX-1vQMZsWfjjLLz_wi8iaMxHKawuTkdqeA3Gw00wy5dBHLhAkuLEvhB7k-4LcO5RQEVFzZXfS6ByABaRr4/pub?slide=id.p))
 * Towards automatic pulmonary nodule management in lung cancer screening with deep learning ([Scientific Reports](https://www.nature.com/articles/srep46479))
 * Special Deep Learning Structure of [MLDS](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html)
   * Spatial Transformer Layer ([slide](http://speech.ee.ntu.edu.tw/~tlkagk/courses/MLDS_2017/Lecture/Special%20Structure%20(v6).pdf))
   * Highway Network & Grid LSTM ([slide](http://speech.ee.ntu.edu.tw/~tlkagk/courses/MLDS_2017/Lecture/Special%20Structure%20(v6).pdf))
-* CS231n 2017 ([Stanford](http://cs231n.stanford.edu/syllabus.html))
-  * Lecture 13: Generative Models ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf))
-  * [ ] Lecture 15: Efficient Methods and Hardware for Deep Learning ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture15.pdf))
+
 
 ## 2017-11
 * Time-series Extreme Event Forecasting with Neural Networks at Uber ([ICML Time Series Workshop](http://roseyu.com/time-series-workshop/submissions/TSW2017_paper_3.pdf))

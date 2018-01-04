@@ -1,12 +1,22 @@
 # Programming Study Plan
 Programming & Algorithms.
 
-# TODO
+## Doing
+
+## Practice
+* [ ] [autodiff](https://github.com/dlsys-course/assignment1)
+* [ ] [2048](https://github.com/duducheng/2048): SearchAgent (e.g. minimax) (ref: [Udacity ML](https://classroom.udacity.com/courses/ud262))
+* [ ] [2048](https://github.com/duducheng/2048) in browser
+
+## TODO
+* [ ] Deep Learning System [dlsys](http://dlsys.cs.washington.edu/)
 * [ ] Cython Book ([code](https://github.com/cythonbook/examples))
 * [ ] C++: a lot...
-* [ ] Cuda
+* [ ] Cuda ([Udacity](https://classroom.udacity.com/courses/cs344))
 * [ ] Programming Language ([Coursera](https://www.coursera.org/learn/programming-languages))
 * [ ] Scala Specialization ([Coursera](https://www.coursera.org/learn/progfun1/home/welcome))
 * [ ] Algorithm: a lot...
 * [ ] Design of Computer Programs ([Udacity](https://classroom.udacity.com/courses/cs212/lessons/48688918/concepts/482769590923))
+
+## Done
 

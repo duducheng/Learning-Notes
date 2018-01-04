@@ -1,40 +1,46 @@
-NB: Time below means when I "studied", not when it came.
+NB: Time below means when I "studied", not when it has been.
 
-Recent Study Plan
-* AML: [Advanced Machine Learning](topics/advanced_ml.md)
-* MIC: [Medical Image Computing](topics/mic.md)
-* Prog: [Programming](topics/programming.md)
+## Study Plan
+AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image Computing](topics/mic.md) | Prog - [Programming](topics/programming.md)
 
-## 2017-12
+## 2018-01
 ### Study Plan
 * [ ] ADLxMLDS ([AML](topics/advanced_ml.md))
-  * [ ] RL
-  * [ ] GAN
-  * [ ] Attention
+    * [x] RL
+    * [ ] GAN
+    * [ ] Attention
 * [ ] CS231n 2017 ([AML](topics/advanced_ml.md))
-  * [ ] Assignment2
-  * [ ] Assignment3
-* [ ] Atari Game Playing ([AML](topics/advanced_ml.md))
+    * [ ] Assignment2
+    * [ ] Lecture 12: Visualizing and Understanding ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf))
+    * [x] Lecture 16: Adversarial Examples and Adversarial Training ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture16.pdf))
+    * [ ] Assignment3
+* [x] Atari Game Playing ([AML](topics/advanced_ml.md))
 * [ ] Fundamentals of Medical Imaging ([MIC](topics/mic.md))
-  * [ ] Chapter 3 CT
+    * [ ] Chapter 1 
+    * [ ] Chapter 2 X-rays
+    * [ ] Chapter 3 CT  
 * [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
-  * [ ] Module 2 CT
+    * [ ] Module 2 CT
+* [ ] lunglab-keras ([MIC](topics/mic.md))
+* [ ] 动手学深度学习第十三课：正向传播、反向传播和通过时间反向传播 ([YouTube](https://www.youtube.com/watch?v=xPFbbLxegH0&list=PLLbeS1kM6teJqdFzw1ICHfa4a1y0hg8Ax&index=13))
 ### Reading
 * [ ] Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))
 
 ## 2017-12
 ### Study Plan
 * [ ] CS231n 2017 ([AML](topics/advanced_ml.md))
+  * [ ] Lecture 12: Visualizing and Understanding ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf))
   * [x] Lecture 13: Generative Models ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf))
-  * [ ] Lecture 14: Deep Reinforcement Learning ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture14.pdf))
+  * [x] Lecture 14: Deep Reinforcement Learning ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture14.pdf))
   * [x] Lecture 15: Efficient Methods and Hardware for Deep Learning ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture15.pdf))
   * [ ] Lecture 16: Adversarial Examples and Adversarial Training ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture16.pdf))
 * [ ] Fundamentals of Medical Imaging ([MIC](topics/mic.md))
   * [ ] Chapter 1 
   * [ ] Chapter 2 X-rays
-* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
+* [x] 生物医学成像学导论 ([MIC](topics/mic.md))
   * [x] Module 1 X-rays
 ### Reading
+* An Overview of Multi-Task Learning in Deep Neural Networks ([blog](http://ruder.io/multi-task/)): Hard to say very good review, but mentioned a lot. **"Recent approaches have thus looked towards learning what to share"**.
 * Deep Learning: Practice and Trends (NIPS 2017 Tutorial) ([YouTube](https://www.youtube.com/watch?v=YJnddoa8sHk)) ([slide](https://docs.google.com/presentation/d/e/2PACX-1vQMZsWfjjLLz_wi8iaMxHKawuTkdqeA3Gw00wy5dBHLhAkuLEvhB7k-4LcO5RQEVFzZXfS6ByABaRr4/pub?slide=id.p))
 * Towards automatic pulmonary nodule management in lung cancer screening with deep learning ([Scientific Reports](https://www.nature.com/articles/srep46479))
 * Special Deep Learning Structure of [MLDS](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html)

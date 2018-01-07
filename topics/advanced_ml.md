@@ -25,8 +25,10 @@ This list mainly focuses on Bayesian Machine Learning.
         * [ ] Models, Bayesian non-param and some other basics ([10708-14](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html))
         * [ ] Homeworks and Solutions ([10708-16](http://www.cs.cmu.edu/~epxing/Class/10708-16/homework.html)) 
         * [ ] Advance ([10708-17](http://www.cs.cmu.edu/~epxing/Class/10708-17/lecture.html)) 
+* Reinforcement Learning
+    * [ ] Deep RL Bootcamp ([Berkeley](https://sites.google.com/view/deep-rl-bootcamp/home))
+    * [ ] Practical RL ([github](https://github.com/duducheng/Practical_RL))
 * [ ] Learn from Top Kagglers ([Coursera](https://www.coursera.org/learn/competitive-data-science/home/welcome))
-* [ ] Practical RL ([github](https://github.com/duducheng/Practical_RL))
 
 ## Done
 * [x] [Atari Game Playing](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A3) @[my fork of `Practical-RL`](https://github.com/duducheng/Practical_RL/tree/master/workspace)

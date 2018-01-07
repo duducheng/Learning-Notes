@@ -1,17 +1,20 @@
-NB: Time below means when I "studied", not when it has been.
-
 ## Study Plan
 AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image Computing](topics/mic.md) | Prog - [Programming](topics/programming.md)
 
+NB: Time below means when I "studied", not when it has been.
 ## 2018-01
 ### Study Plan
 * [ ] ADLxMLDS ([AML](topics/advanced_ml.md))
-    * [x] RL
-    * [ ] GAN
-    * [ ] Attention
+    * [x] RL (Deep RL, Deep RL2, Imitation Learning)
+    * [ ] 10 GAN 
+    * [ ] 11 GAN Seq 
+    * [ ] 12 More GAN 
+    * [x] 5 Attention 
+    * [ ] 6 Special Networks
+    * [ ] 7 Tips
 * [ ] CS231n 2017 ([AML](topics/advanced_ml.md))
     * [ ] Assignment2
-    * [ ] Lecture 12: Visualizing and Understanding ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf))
+    * [x] Lecture 12: Visualizing and Understanding ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf))
     * [x] Lecture 16: Adversarial Examples and Adversarial Training ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture16.pdf))
     * [ ] Assignment3
 * [x] Atari Game Playing ([AML](topics/advanced_ml.md))

@@ -10,8 +10,8 @@ NB: Time below means when I "studied", not when it has been.
     * [ ] 11 GAN Seq 
     * [ ] 12 More GAN 
     * [x] 5 Attention 
-    * [ ] 6 Special Networks
-    * [ ] 7 Tips
+    * [x] 6 Special Networks
+    * [x] 7 Tips
 * [ ] CS231n 2017 ([AML](topics/advanced_ml.md))
     * [ ] Assignment2
     * [x] Lecture 12: Visualizing and Understanding ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf))
@@ -26,8 +26,11 @@ NB: Time below means when I "studied", not when it has been.
     * [ ] Module 2 CT
 * [ ] lunglab-keras ([MIC](topics/mic.md))
 * [ ] 动手学深度学习第十三课：正向传播、反向传播和通过时间反向传播 ([YouTube](https://www.youtube.com/watch?v=xPFbbLxegH0&list=PLLbeS1kM6teJqdFzw1ICHfa4a1y0hg8Ax&index=13))
+* [ ] 动手学深度学习第十四课：实现、训练和应用循环神经网络 ([YouTube](https://www.youtube.com/watch?v=ql7mAU4y3LE&list=WL&index=8))
 ### Reading
+* [ ] On Bayesian Deep Learning and Deep Bayesian Learning ([YouTube](https://www.youtube.com/watch?v=LVBvJsTr3rg))
 * [ ] Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))
+* [ ] Pointer Networks ([arXiv](https://arxiv.org/abs/1506.03134)) ([AML](topics/advanced_ml.md))
 
 ## 2017-12
 ### Study Plan

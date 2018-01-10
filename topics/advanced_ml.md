@@ -9,18 +9,17 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] MNIST from scratch ([ref](https://github.com/eriklindernoren/ML-From-Scratch/tree/master/mlfromscratch/deep_learning))
 * [ ] [2048](https://github.com/duducheng/2048): RL agent
 * [ ] [Anime generation](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A4) by (C)GAN
-* [ ] [Anime generation](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A4) by (C)VAE
 * [ ] CS231n [Assignment2](http://cs231n.github.io/assignments2017/assignment2/)
 * [ ] CS231n [Assignment3](http://cs231n.github.io/assignments2017/assignment3/)
+* [ ] Pointer Network in PyTorch
 * [ ] Classification setting + DNI
 * [ ] STN + 3D STN
 
 ## TODO
 * Bayesian Machine Learning
-    * [ ] [MLaPP](https://www.cs.ubc.ca/~murphyk/MLbook/)
-    * [ ] Statistical Computing for Scientists and Engineers ([webpage](https://www.zabaras.com/statisticalcomputing))
-    * [ ] ydxu ([course page](http://www-staff.it.uts.edu.au/~ydxu/statistics.htm))
     * [ ] Bayesian Methods for Machine Learning ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
+    * [ ] ydxu ([course page](http://www-staff.it.uts.edu.au/~ydxu/statistics.htm))
+    * [ ] [MLaPP](https://www.cs.ubc.ca/~murphyk/MLbook/)
     * [ ] CMU PGM by Eric Xing
         * [ ] Models, Bayesian non-param and some other basics ([10708-14](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html))
         * [ ] Homeworks and Solutions ([10708-16](http://www.cs.cmu.edu/~epxing/Class/10708-16/homework.html)) 

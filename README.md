@@ -4,11 +4,11 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 NB: Time below means when I "studied", not when it has been.
 ## 2018-01
 ### Study Plan
-* [ ] ADLxMLDS ([AML](topics/advanced_ml.md))
-    * [x] RL (Deep RL, Deep RL2, Imitation Learning)
+* [x] ADLxMLDS ([AML](topics/advanced_ml.md))
+    * [x] RL (Deep RL + Deep RL2 + Imitation Learning)
     * [x] 10 GAN 
     * [x] 11 GAN for Seq 
-    * [ ] 12 More GAN 
+    * [x] 12 More GAN 
     * [x] 5 Attention 
     * [x] 6 Special Networks
     * [x] 7 Tips

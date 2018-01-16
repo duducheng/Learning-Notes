@@ -6,12 +6,12 @@ NB: Time below means when I "studied", not when it has been.
 ### Study Plan
 * [x] ADLxMLDS ([AML](topics/advanced_ml.md))
     * [x] RL (Deep RL + Deep RL2 + Imitation Learning)
-    * [x] 10 GAN 
-    * [x] 11 GAN for Seq 
-    * [x] 12 More GAN 
     * [x] 5 Attention 
     * [x] 6 Special Networks
     * [x] 7 Tips
+    * [x] 10 GAN 
+    * [x] 11 GAN for Seq 
+    * [x] 12 More GAN 
 * [x] CS231n 2017 ([AML](topics/advanced_ml.md))
     * [x] Lecture 12: Visualizing and Understanding ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf))
     * [x] Lecture 16: Adversarial Examples and Adversarial Training ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture16.pdf))

@@ -25,6 +25,7 @@ NB: Time below means when I "studied", not when it has been.
 * [ ] lunglab-keras ([MIC](topics/mic.md))
 
 ### Reading
+* Convolutional Invasion and Expansion Networks for Tumor Growth Prediction ([IEEE](http://ieeexplore.ieee.org/document/8110658/))
 * [x] On Bayesian Deep Learning and Deep Bayesian Learning ([YouTube](https://www.youtube.com/watch?v=LVBvJsTr3rg))
 * [ ] 动手学深度学习第十三课：正向传播、反向传播和通过时间反向传播 ([YouTube](https://www.youtube.com/watch?v=xPFbbLxegH0&list=PLLbeS1kM6teJqdFzw1ICHfa4a1y0hg8Ax&index=13))
 * [ ] 动手学深度学习第十四课：实现、训练和应用循环神经网络 ([YouTube](https://www.youtube.com/watch?v=ql7mAU4y3LE&list=WL&index=8))

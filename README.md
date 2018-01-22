@@ -15,7 +15,7 @@ NB: Time below means when I "studied", not when it has been.
 * [x] CS231n 2017 ([AML](topics/advanced_ml.md))
     * [x] Lecture 12: Visualizing and Understanding ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf))
     * [x] Lecture 16: Adversarial Examples and Adversarial Training ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture16.pdf))
-* [x] Atari Game Playing ([AML](topics/advanced_ml.md))
+* [x] Ata0ri Game Playing ([AML](topics/advanced_ml.md))
 * [ ] Fundamentals of Medical Imaging ([MIC](topics/mic.md))
     * [ ] Chapter 1 
     * [ ] Chapter 2 X-rays
@@ -25,7 +25,15 @@ NB: Time below means when I "studied", not when it has been.
 * [ ] lunglab-keras ([MIC](topics/mic.md))
 
 ### Reading
-* Convolutional Invasion and Expansion Networks for Tumor Growth Prediction ([IEEE](http://ieeexplore.ieee.org/document/8110658/))
+* Convolutional Invasion and Expansion Networks for Tumor Growth Prediction ([IEEE](http://ieeexplore.ieee.org/document/8110658/)): very simple algorithm, even some bad design... but good at bio-medical explanation. Good feature engineering. 
+* [x] Attention Is All You Need ([arXiv](https://arxiv.org/abs/1706.03762)): 
+  - *NB*: very impressive work. Seems to be inspired by Conv Seq2Seq, but more general. 3 key points: 
+  - 1) variable-length inputs can be also processed in "attention": softmax(KT*Q)*V => fix size
+  - 2) seq2seq is indeed `encoder output` + `decoder scoring per step`! Can be parallel implemented with masking (seems to come from conv seq2seq?)
+  - 3) RNN / Conv architecture can still be used, espeically in decoder
+* [x] One Model To Learn Them All ([arXiv](https://arxiv.org/abs/1706.05137)): Xception+Transformer+Sparse MoE in one network. Too big title.
+* [x] Convolutional Sequence to Sequence Learning ([arXiv](https://arxiv.org/abs/1705.03122)): Transformer paper seems to absort all of its goodness... 
+* [ ] Evaluate the Malignancy of Pulmonary Nodules Using the 3D Deep Leaky Noisy-or Network ([arXiv](https://arxiv.org/abs/1711.08324))
 * [x] On Bayesian Deep Learning and Deep Bayesian Learning ([YouTube](https://www.youtube.com/watch?v=LVBvJsTr3rg))
 * [ ] 动手学深度学习第十三课：正向传播、反向传播和通过时间反向传播 ([YouTube](https://www.youtube.com/watch?v=xPFbbLxegH0&list=PLLbeS1kM6teJqdFzw1ICHfa4a1y0hg8Ax&index=13))
 * [ ] 动手学深度学习第十四课：实现、训练和应用循环神经网络 ([YouTube](https://www.youtube.com/watch?v=ql7mAU4y3LE&list=WL&index=8))

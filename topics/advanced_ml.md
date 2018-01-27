@@ -30,4 +30,5 @@ This list mainly focuses on Bayesian Machine Learning.
 ## Done
 * [x] CS231n 2017 ([Stanford](http://cs231n.stanford.edu/syllabus.html))
 * [x] ADLxMLDS ([17](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/syllabus)) ([16](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html))
-* [x] [Atari Game Playing](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A3) @[my fork of `Practical-RL`](https://github.com/duducheng/Practical_RL/tree/master/workspace)
+* [x] [Atari Game Playing](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A3) @[my fork of `Practical-RL`](https://github.com/duducheng/Practical_RL/tree/master/workspace) 
+    * ![Pong](../weekly/Pong.gif)

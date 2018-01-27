@@ -3,6 +3,8 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 ## 2018-01
+### MyWeekly
+  * [Reinforcement Learning Demystified](weekly/RL_demystified.pdf)
 ### Study Plan
 * [x] ADLxMLDS ([AML](topics/advanced_ml.md))
     * [x] RL (Deep RL + Deep RL2 + Imitation Learning)
@@ -28,17 +30,17 @@ NB: Time below means when I "studied", not when it has been.
 * Convolutional Invasion and Expansion Networks for Tumor Growth Prediction ([IEEE](http://ieeexplore.ieee.org/document/8110658/)): very simple algorithm, even some bad design... but good at bio-medical explanation. Good feature engineering. 
 * [x] Attention Is All You Need ([arXiv](https://arxiv.org/abs/1706.03762)): 
   - *NB*: very impressive work. Seems to be inspired by Conv Seq2Seq, but more general. 3 key points: 
-  - 1) variable-length inputs can be also processed in "attention": softmax(KT*Q)*V => fix size
+  - 1) variable-length inputs can be also processed in "attention": softmax(KT.dot(Q)).dot(V) => fix size `d`
   - 2) seq2seq is indeed `encoder output` + `decoder scoring per step`! Can be parallel implemented with masking (seems to come from conv seq2seq?)
   - 3) RNN / Conv architecture can still be used, espeically in decoder
 * [x] One Model To Learn Them All ([arXiv](https://arxiv.org/abs/1706.05137)): Xception+Transformer+Sparse MoE in one network. Too big title.
 * [x] Convolutional Sequence to Sequence Learning ([arXiv](https://arxiv.org/abs/1705.03122)): Transformer paper seems to absort all of its goodness... 
-* [ ] Evaluate the Malignancy of Pulmonary Nodules Using the 3D Deep Leaky Noisy-or Network ([arXiv](https://arxiv.org/abs/1711.08324))
+* [ ] Evaluate the Malignancy of Pulmonary Nodules Using the 3D Deep Leaky Noisy-or Network ([arXiv](https://arxiv.org/abs/1711.08324)): DSB2017 1st paper.
 * [x] On Bayesian Deep Learning and Deep Bayesian Learning ([YouTube](https://www.youtube.com/watch?v=LVBvJsTr3rg))
-* [ ] 动手学深度学习第十三课：正向传播、反向传播和通过时间反向传播 ([YouTube](https://www.youtube.com/watch?v=xPFbbLxegH0&list=PLLbeS1kM6teJqdFzw1ICHfa4a1y0hg8Ax&index=13))
-* [ ] 动手学深度学习第十四课：实现、训练和应用循环神经网络 ([YouTube](https://www.youtube.com/watch?v=ql7mAU4y3LE&list=WL&index=8))
 * [ ] Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))
 * [ ] Pointer Networks ([arXiv](https://arxiv.org/abs/1506.03134)) ([AML](topics/advanced_ml.md))
+* 动手学深度学习第十三课：正向传播、反向传播和通过时间反向传播 ([YouTube](https://www.youtube.com/watch?v=xPFbbLxegH0&list=PLLbeS1kM6teJqdFzw1ICHfa4a1y0hg8Ax&index=13))
+* 动手学深度学习第十六课：词向量（word2vec）([YouTube](https://www.youtube.com/watch?v=C4X0Cb5_FSo&index=16&list=PLLbeS1kM6teJqdFzw1ICHfa4a1y0hg8Ax))
 
 ## 2017-12
 ### Study Plan

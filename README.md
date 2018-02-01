@@ -2,6 +2,41 @@
 AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image Computing](topics/mic.md) | Prog - [Programming](topics/programming.md)
 
 NB: Time below means when I "studied", not when it has been.
+## 2018-02
+### Study Plan
+* [ ] Fundamentals of Medical Imaging ([MIC](topics/mic.md))
+    * [ ] Chapter 1 
+    * [ ] Chapter 2 X-rays
+    * [ ] Chapter 3 CT  
+* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
+    * [ ] Module 2 CT
+* [ ] lunglab-keras ([MIC](topics/mic.md))
+* [ ] Pointer Network in PyTorch ([AML](topics/advanced_ml.md))
+* [ ] Bayesian Methods for Machine Learning ([AML](topics/advanced_ml.md))
+  * [ ] Week 1
+  * [ ] Week 2
+  * [ ] Week 3
+  * [ ] Week 4
+  * [ ] Week 5
+  * [ ] Week 6 
+* [ ] ydxu ([AML](topics/advanced_ml.md))
+  * [ ] Expectation Maximisation
+  * [ ] Markov Chain Monte Carlo 
+  * [ ] Slice Sampling
+  * [ ] Variational Inference Basics
+  * [ ] Variational Inference for LDA
+  * [ ] Variational Inference Exponential Family
+### Reading
+* [ ] Deep Learning with Sets and Point Clouds ([arXiv](https://arxiv.org/abs/1611.04500))
+* [ ] Order Matters: Sequence to sequence for sets ([arXiv](https://arxiv.org/abs/1511.06391))
+* [ ] Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))
+* [ ] PointCNN ([arXiv](https://arxiv.org/abs/1801.07791))
+* [ ] Learning Deep Features for Discriminative Localization (a.k.a CAM) ([arXiv](https://arxiv.org/abs/1512.04150))
+* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
+* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
+* [ ] Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning ([arXiv](https://arxiv.org/abs/1506.02142))
+* [ ] Neural Message Passing for Quantum Chemistry ([arXiv](https://arxiv.org/abs/1704.01212))  
+
 ## 2018-01
 ### MyWeekly
   * [Reinforcement Learning Demystified](weekly/RL_demystified.pdf)
@@ -17,7 +52,7 @@ NB: Time below means when I "studied", not when it has been.
 * [x] CS231n 2017 ([AML](topics/advanced_ml.md))
     * [x] Lecture 12: Visualizing and Understanding ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf))
     * [x] Lecture 16: Adversarial Examples and Adversarial Training ([slide](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture16.pdf))
-* [x] Ata0ri Game Playing ([AML](topics/advanced_ml.md))
+* [x] Atari Game Playing ([AML](topics/advanced_ml.md))
 * [ ] Fundamentals of Medical Imaging ([MIC](topics/mic.md))
     * [ ] Chapter 1 
     * [ ] Chapter 2 X-rays
@@ -25,7 +60,6 @@ NB: Time below means when I "studied", not when it has been.
 * [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
     * [ ] Module 2 CT
 * [ ] lunglab-keras ([MIC](topics/mic.md))
-
 ### Reading
 * Convolutional Invasion and Expansion Networks for Tumor Growth Prediction ([IEEE](http://ieeexplore.ieee.org/document/8110658/)): very simple algorithm, even some bad design... but good at bio-medical explanation. Good feature engineering. 
 * Runtime Neural Pruning ([NIPS](https://nips.cc/Conferences/2017/Schedule?showEvent=9006))

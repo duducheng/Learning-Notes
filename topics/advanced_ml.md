@@ -12,6 +12,7 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] MNIST from scratch ([ref](https://github.com/eriklindernoren/ML-From-Scratch/tree/master/mlfromscratch/deep_learning))
 * [ ] [2048](https://github.com/duducheng/2048): RL agent
 * [ ] [Anime generation](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A4) by (C)GAN
+* [ ] Finding the suspect: BMML final project ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
 * [ ] Classification setting + DNI
 * [ ] STN + 3D STN
 

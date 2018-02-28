@@ -7,6 +7,20 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] CS231n [Assignment3](http://cs231n.github.io/assignments2017/assignment3/)
 * [ ] Bayesian Methods for Machine Learning ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
 * [ ] ydxu ([course page](http://www-staff.it.uts.edu.au/~ydxu/statistics.htm))
+* [ ] Bayesian Methods for Machine Learning ([AML](topics/advanced_ml.md))
+  * [ ] Week 1
+  * [ ] Week 2
+  * [ ] Week 3
+  * [ ] Week 4
+  * [ ] Week 5
+  * [ ] Week 6 
+* [ ] ydxu ([AML](topics/advanced_ml.md))
+  * [ ] Expectation Maximisation
+  * [ ] Markov Chain Monte Carlo 
+  * [ ] Slice Sampling
+  * [ ] Variational Inference Basics
+  * [ ] Variational Inference for LDA
+  * [ ] Variational Inference Exponential Family
 
 ## Practice
 * [ ] MNIST from scratch ([ref](https://github.com/eriklindernoren/ML-From-Scratch/tree/master/mlfromscratch/deep_learning))

@@ -12,30 +12,21 @@ NB: Time below means when I "studied", not when it has been.
     * [ ] Module 2 CT
 * [ ] lunglab-keras ([MIC](topics/mic.md))
 * [ ] Pointer Network in PyTorch ([AML](topics/advanced_ml.md))
-* [ ] Bayesian Methods for Machine Learning ([AML](topics/advanced_ml.md))
-  * [ ] Week 1
-  * [ ] Week 2
-  * [ ] Week 3
-  * [ ] Week 4
-  * [ ] Week 5
-  * [ ] Week 6 
-* [ ] ydxu ([AML](topics/advanced_ml.md))
-  * [ ] Expectation Maximisation
-  * [ ] Markov Chain Monte Carlo 
-  * [ ] Slice Sampling
-  * [ ] Variational Inference Basics
-  * [ ] Variational Inference for LDA
-  * [ ] Variational Inference Exponential Family
+
 ### Reading
-* [ ] Deep Learning with Sets and Point Clouds ([arXiv](https://arxiv.org/abs/1611.04500))
-* [ ] Order Matters: Sequence to sequence for sets ([arXiv](https://arxiv.org/abs/1511.06391))
-* [ ] Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))
-* [ ] PointCNN ([arXiv](https://arxiv.org/abs/1801.07791))
-* [ ] Learning Deep Features for Discriminative Localization (a.k.a CAM) ([arXiv](https://arxiv.org/abs/1512.04150))
+* Set / Points
+  * [x] Deep Learning with Sets and Point Clouds ([arXiv](https://arxiv.org/abs/1611.04500)) (another paper: Deep Sets)
+  * [x] Order Matters: Sequence to sequence for sets ([arXiv](https://arxiv.org/abs/1511.06391))
+  * [x] Neural Message Passing for Quantum Chemistry ([arXiv](https://arxiv.org/abs/1704.01212))  
+  * [x] PointCNN ([arXiv](https://arxiv.org/abs/1801.07791))
+* Interpretablity
+  * [x] Learning Deep Features for Discriminative Localization (a.k.a CAM) ([arXiv](https://arxiv.org/abs/1512.04150))
+  * [x] Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization ([arXiv](https://arxiv.org/abs/1610.02391))
+  * [x] Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning ([arXiv](https://arxiv.org/abs/1506.02142))
+  * [x] A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks ([arXiv](https://arxiv.org/abs/1610.02136))
+* [x] Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))
 * [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
 * [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
-* [ ] Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning ([arXiv](https://arxiv.org/abs/1506.02142))
-* [ ] Neural Message Passing for Quantum Chemistry ([arXiv](https://arxiv.org/abs/1704.01212))  
 
 ## 2018-01
 ### MyWeekly

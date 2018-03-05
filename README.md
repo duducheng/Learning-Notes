@@ -2,12 +2,43 @@
 AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image Computing](topics/mic.md) | Prog - [Programming](topics/programming.md)
 
 NB: Time below means when I "studied", not when it has been.
+
+## 2018-03
+### Study Plan
+* [ ] lunglab-keras ([MIC](topics/mic.md))
+* [ ] Pointer Network in PyTorch and plus ([AML](topics/advanced_ml.md))
+* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
+    * [ ] Module 2 CT
+    * [ ] Module 3 Ultrasounds
+* [ ] Try radiomics and genomics ([MIC](topics/mic.md))
+
+### Reading
+* Interpretability
+  * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))
+  * [ ] Interpreting CNNs via Decision Trees ([arXiv](https://arxiv.org/abs/1802.00121))
+  * [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
+  * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
+  * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))
+  * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
+* MIC
+  * [x] Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs ([JAMA](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/45732.pdf))
+  * [ ] Dermatologist-level classification of skin cancer with deep neural networks ([Nature](https://www.nature.com/articles/nature21056))
+  * [x] Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning ([Cell](http://www.cell.com/cell/abstract/S0092-8674(18)30154-5))
+  * [x] Scalable and accurate deep learning for electronic health records ([arXiv](https://arxiv.org/abs/1801.07860))
+  * [x] CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning ([arXiv](https://arxiv.org/abs/1711.05225))
+  * [ ] Automated Pulmonary Nodule Detection via 3D ConvNets with Online Sample Filtering and Hybrid-Loss Residual Learning ([arXiv](https://arxiv.org/abs/1708.03867))
+  * [ ] DeepLung: 3D Deep Convolutional Nets for Automated Pulmonary Nodule Detection and Classification ([arXiv](https://arxiv.org/abs/1709.05538))
+  * [ ] A Survey on Deep Learning in Medical Image Analysis ([arXiv](https://arxiv.org/abs/1702.05747))
+  * [ ] Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach ([Nature Comm](https://www.nature.com/articles/ncomms5006))
+  * [ ] Computational Radiomics System to Decode the Radiographic Phenotype ([Cancer Research](http://cancerres.aacrjournals.org/content/77/21/e104.full-text.pdf))
+* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
+* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
+* [ ] An introduction to ROC analysis ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016786550500303X))
+* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
+
+
 ## 2018-02
 ### Study Plan
-* [ ] Fundamentals of Medical Imaging ([MIC](topics/mic.md))
-    * [ ] Chapter 1 
-    * [ ] Chapter 2 X-rays
-    * [ ] Chapter 3 CT  
 * [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
     * [ ] Module 2 CT
 * [ ] lunglab-keras ([MIC](topics/mic.md))
@@ -19,11 +50,11 @@ NB: Time below means when I "studied", not when it has been.
   * [x] Order Matters: Sequence to sequence for sets ([arXiv](https://arxiv.org/abs/1511.06391))
   * [x] Neural Message Passing for Quantum Chemistry ([arXiv](https://arxiv.org/abs/1704.01212))  
   * [x] PointCNN ([arXiv](https://arxiv.org/abs/1801.07791))
-* Interpretablity
+* Interpretability
   * [x] Learning Deep Features for Discriminative Localization (a.k.a CAM) ([arXiv](https://arxiv.org/abs/1512.04150))
   * [x] Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization ([arXiv](https://arxiv.org/abs/1610.02391))
   * [x] Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning ([arXiv](https://arxiv.org/abs/1506.02142))
-  * [x] A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks ([arXiv](https://arxiv.org/abs/1610.02136))
+  * A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks ([arXiv](https://arxiv.org/abs/1610.02136))
 * [x] Fraternal Dropout ([arXiv](https://arxiv.org/abs/1711.00066))
 * [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
 * [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))

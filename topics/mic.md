@@ -3,7 +3,6 @@ Computer Vision, Medical Imaging and Biomedicine.
 
 ## DOING
 * [ ] 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
-* [ ] Fundamentals of Medical Imaging ([link](https://www.amazon.com/Fundamentals-Medical-Imaging-Paul-Suetens/dp/0521519152/ref=sr_1_2?s=books&ie=UTF8&qid=1448419494&sr=1-2&keywords=P+Suetens))
 * [ ] [lunglab-keras](https://github.com/CreedAI/lunglab-keras)
 
 ## Practice
@@ -16,9 +15,11 @@ Computer Vision, Medical Imaging and Biomedicine.
 * [ ] lunglabv2-CADx
 * [ ] CheXNet ([ref](https://github.com/arnoweng/CheXNet))
 * [ ] CTX-GAN
+* [ ] radiomics and genomics ([ref](http://www.radiomics.io/)) 
 
 ## TODO
 * [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
+* [ ] Fundamentals of Medical Imaging ([link](https://www.amazon.com/Fundamentals-Medical-Imaging-Paul-Suetens/dp/0521519152/ref=sr_1_2?s=books&ie=UTF8&qid=1448419494&sr=1-2&keywords=P+Suetens))
 * [ ] CRCV course ([14](http://crcv.ucf.edu/courses/CAP5415/Fall2014/index.php)) ([17](http://www.cs.ucf.edu/~bagci/teaching/computervision17.html))
 * [ ] [Computer Vision: Algorithms and Application](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf) 
 * [ ] Markov Random Fields for Vision and Image Processing ([ACM](https://dl.acm.org/citation.cfm?id=2024611))

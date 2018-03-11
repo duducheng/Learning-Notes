@@ -1,6 +1,18 @@
 # Advanced Machine Learning Study Plan
 This list mainly focuses on Bayesian Machine Learning.
 
+## to-do soon
+* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
+    * [ ] Module 2 CT
+    * [ ] Module 3 Ultrasounds
+* Interpretability
+  * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))
+  * [ ] Interpreting CNNs via Decision Trees ([arXiv](https://arxiv.org/abs/1802.00121))
+  * [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
+  * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
+  * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))
+  * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
+  
 ## Doing
 * [ ] Pointer Network in PyTorch
 * [ ] CS231n [Assignment2](http://cs231n.github.io/assignments2017/assignment2/)

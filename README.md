@@ -7,19 +7,11 @@ NB: Time below means when I "studied", not when it has been.
 ### Study Plan
 * [ ] lunglab-keras ([MIC](topics/mic.md))
 * [ ] Pointer Network in PyTorch and plus ([AML](topics/advanced_ml.md))
-* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
-    * [ ] Module 2 CT
-    * [ ] Module 3 Ultrasounds
+* [ ] Order matters
+* [ ] Dense Captioning
 * [ ] Try radiomics and genomics ([MIC](topics/mic.md))
 
 ### Reading
-* Interpretability
-  * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))
-  * [ ] Interpreting CNNs via Decision Trees ([arXiv](https://arxiv.org/abs/1802.00121))
-  * [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
-  * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
-  * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))
-  * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
 * MIC
   * [x] Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs ([JAMA](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/45732.pdf))
   * [ ] Dermatologist-level classification of skin cancer with deep neural networks ([Nature](https://www.nature.com/articles/nature21056))
@@ -33,7 +25,7 @@ NB: Time below means when I "studied", not when it has been.
   * [ ] Computational Radiomics System to Decode the Radiographic Phenotype ([Cancer Research](http://cancerres.aacrjournals.org/content/77/21/e104.full-text.pdf))
 * [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
 * [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
-* [ ] An introduction to ROC analysis ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016786550500303X))
+* [x] An introduction to ROC analysis ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016786550500303X))
 * [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
 
 

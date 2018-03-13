@@ -7,20 +7,21 @@ NB: Time below means when I "studied", not when it has been.
 ### Study Plan
 * [ ] lunglab-keras ([MIC](topics/mic.md))
 * [ ] Pointer Network in PyTorch and plus ([AML](topics/advanced_ml.md))
-* [ ] Order matters
+* [ ] Transformer
+* [ ] MIL
 * [ ] Dense Captioning
 * [ ] Try radiomics and genomics ([MIC](topics/mic.md))
 
 ### Reading
 * MIC
   * [x] Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs ([JAMA](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/45732.pdf))
-  * [ ] Dermatologist-level classification of skin cancer with deep neural networks ([Nature](https://www.nature.com/articles/nature21056))
+  * [x] Dermatologist-level classification of skin cancer with deep neural networks ([Nature](https://www.nature.com/articles/nature21056))
   * [x] Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning ([Cell](http://www.cell.com/cell/abstract/S0092-8674(18)30154-5))
   * [x] Scalable and accurate deep learning for electronic health records ([arXiv](https://arxiv.org/abs/1801.07860))
   * [x] CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning ([arXiv](https://arxiv.org/abs/1711.05225))
-  * [ ] Automated Pulmonary Nodule Detection via 3D ConvNets with Online Sample Filtering and Hybrid-Loss Residual Learning ([arXiv](https://arxiv.org/abs/1708.03867))
-  * [ ] DeepLung: 3D Deep Convolutional Nets for Automated Pulmonary Nodule Detection and Classification ([arXiv](https://arxiv.org/abs/1709.05538))
-  * [ ] A Survey on Deep Learning in Medical Image Analysis ([arXiv](https://arxiv.org/abs/1702.05747))
+  * [x] Automated Pulmonary Nodule Detection via 3D ConvNets with Online Sample Filtering and Hybrid-Loss Residual Learning ([arXiv](https://arxiv.org/abs/1708.03867))
+  * [x] DeepLung: 3D Deep Convolutional Nets for Automated Pulmonary Nodule Detection and Classification ([arXiv](https://arxiv.org/abs/1709.05538))
+  * [x] A Survey on Deep Learning in Medical Image Analysis ([arXiv](https://arxiv.org/abs/1702.05747))
   * [ ] Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach ([Nature Comm](https://www.nature.com/articles/ncomms5006))
   * [ ] Computational Radiomics System to Decode the Radiographic Phenotype ([Cancer Research](http://cancerres.aacrjournals.org/content/77/21/e104.full-text.pdf))
 * [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))

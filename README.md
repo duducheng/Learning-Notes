@@ -6,7 +6,7 @@ NB: Time below means when I "studied", not when it has been.
 ## 2018-03
 ### Study Plan
 * [ ] lunglab-keras ([MIC](topics/mic.md))
-* [ ] Pointer Network in PyTorch and plus ([AML](topics/advanced_ml.md))
+* [x] Pointer Network in PyTorch and plus ([AML](topics/advanced_ml.md))
 * [ ] Transformer
 * [ ] MIL
 * [ ] Dense Captioning
@@ -22,12 +22,17 @@ NB: Time below means when I "studied", not when it has been.
   * [x] Automated Pulmonary Nodule Detection via 3D ConvNets with Online Sample Filtering and Hybrid-Loss Residual Learning ([arXiv](https://arxiv.org/abs/1708.03867))
   * [x] DeepLung: 3D Deep Convolutional Nets for Automated Pulmonary Nodule Detection and Classification ([arXiv](https://arxiv.org/abs/1709.05538))
   * [x] A Survey on Deep Learning in Medical Image Analysis ([arXiv](https://arxiv.org/abs/1702.05747))
-  * [ ] Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach ([Nature Comm](https://www.nature.com/articles/ncomms5006))
-  * [ ] Computational Radiomics System to Decode the Radiographic Phenotype ([Cancer Research](http://cancerres.aacrjournals.org/content/77/21/e104.full-text.pdf))
+  * [x] Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach ([Nature Comm](https://www.nature.com/articles/ncomms5006))
+  * [x] Computational Radiomics System to Decode the Radiographic Phenotype ([Cancer Research](http://cancerres.aacrjournals.org/content/77/21/e104.full-text.pdf))
 * [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
 * [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
-* [x] An introduction to ROC analysis ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016786550500303X))
 * [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
+* [x] An introduction to ROC analysis ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016786550500303X))
+* [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
+* [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
+* [x] Graph Attention Networks ([arXiv](https://arxiv.org/abs/1710.10903))
+* [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
+* [ ] mixup: Beyond Empirical Risk Minimization ([arXiv](https://arxiv.org/abs/1710.09412))
 
 
 ## 2018-02

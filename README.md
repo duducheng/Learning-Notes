@@ -45,6 +45,7 @@ NB: Time below means when I "studied", not when it has been.
 * [ ] Classifying and Segmenting Microscopy Images with Deep Multiple Instance Learning ([Bioinformatics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4908336/pdf/btw252.pdf)) ([code](https://github.com/dancsalo/TensorFlow-MIL))
 * [ ] Attention-based Deep Multiple Instance Learning ([arXiv](https://arxiv.org/abs/1802.04712))
 * [ ] Deep multiple instance learning for image classification and auto-annotation ([CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Deep_Multiple_Instance_2015_CVPR_paper.pdf))
+* [ ] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475))
 
 ## 2018-02
 ### Study Plan

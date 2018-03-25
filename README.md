@@ -33,7 +33,13 @@ NB: Time below means when I "studied", not when it has been.
 * [x] Graph Attention Networks ([arXiv](https://arxiv.org/abs/1710.10903))
 * [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
 * [ ] mixup: Beyond Empirical Risk Minimization ([arXiv](https://arxiv.org/abs/1710.09412))
-
+* [x] Deep learning of feature representation with multiple instance learning for medical image analysis ([ICASSP](http://ieeexplore.ieee.org/document/6853873/)): bad writing, trival idea, non-sense to read.
+* [ ] Deep Multi-instance Networks with Sparse Label Assignment for Whole Mammogram Classification ([arXiv](https://arxiv.org/abs/1612.05968))
+* [x] Multi-Instance Deep Learning: Discover Discriminative Local Anatomies for Bodypart Recognition: trival writing, same idea as DSB2017 THU solution.
+* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
+* Hyper Networks ([blog](http://blog.otoro.net/2016/09/28/hyper-networks/))
+* [ ] Learning from Experts: Developing Transferable Deep Features for Patient-Level Lung Cancer Prediction ([MICCAI](https://link.springer.com/chapter/10.1007/978-3-319-46723-8_15))
+* [ ] Non-local Neural Networks ([arXiv](https://arxiv.org/abs/1711.07971))
 
 ## 2018-02
 ### Study Plan

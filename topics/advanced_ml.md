@@ -12,6 +12,9 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
   * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))
   * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
+* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
+* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
+* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
   
 ## Doing
 * [ ] Pointer Network in PyTorch
@@ -38,9 +41,14 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] MNIST from scratch ([ref](https://github.com/eriklindernoren/ML-From-Scratch/tree/master/mlfromscratch/deep_learning))
 * [ ] [2048](https://github.com/duducheng/2048): RL agent
 * [ ] [Anime generation](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A4) by (C)GAN
+* [ ] Average Face as House of Cards V
 * [ ] Finding the suspect: BMML final project ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
 * [ ] Classification setting + DNI
 * [ ] STN + 3D STN
+* [ ] TSP 
+    * [ ] Learning Combinatorial Optimization Algorithms over Graphs ([NIPS](https://papers.nips.cc/paper/7214-learning-combinatorial-optimization-algorithms-over-graphs.pdf))
+    * [ ] Neural Combinatorial Optimization with Reinforcement Learning ([arXiv](https://arxiv.org/abs/1611.09940)) ([code](https://github.com/pemami4911/neural-combinatorial-rl-pytorch))
+    * [ ] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475)) ([code](https://github.com/wouterkool/attention-tsp))
 
 ## TODO
 * Bayesian Machine Learning

@@ -44,6 +44,8 @@ NB: Time below means when I "studied", not when it has been.
 * [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
 * [ ] mixup: Beyond Empirical Risk Minimization ([arXiv](https://arxiv.org/abs/1710.09412))
 * [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
+* [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
+* [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))  
 * Hyper Networks ([blog](http://blog.otoro.net/2016/09/28/hyper-networks/))
 
 

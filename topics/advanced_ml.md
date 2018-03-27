@@ -8,9 +8,7 @@ This list mainly focuses on Bayesian Machine Learning.
 * Interpretability
   * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))
   * [ ] Interpreting CNNs via Decision Trees ([arXiv](https://arxiv.org/abs/1802.00121))
-  * [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
   * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
-  * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))
   * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
 * [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
 * [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))

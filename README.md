@@ -24,6 +24,7 @@ NB: Time below means when I "studied", not when it has been.
   * [x] A Survey on Deep Learning in Medical Image Analysis ([arXiv](https://arxiv.org/abs/1702.05747))
   * [x] Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach ([Nature Comm](https://www.nature.com/articles/ncomms5006))
   * [x] Computational Radiomics System to Decode the Radiographic Phenotype ([Cancer Research](http://cancerres.aacrjournals.org/content/77/21/e104.full-text.pdf))
+  * [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
 * MIL
   * [x] Graph Attention Networks ([arXiv](https://arxiv.org/abs/1710.10903))
   * [x] Deep learning of feature representation with multiple instance learning for medical image analysis ([ICASSP](http://ieeexplore.ieee.org/document/6853873/)): bad writing, trival idea, non-sense to read.
@@ -34,18 +35,21 @@ NB: Time below means when I "studied", not when it has been.
   * [ ] Classifying and Segmenting Microscopy Images with Deep Multiple Instance Learning ([Bioinformatics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4908336/pdf/btw252.pdf)) ([code](https://github.com/dancsalo/TensorFlow-MIL))
   * [x] Attention-based Deep Multiple Instance Learning ([arXiv](https://arxiv.org/abs/1802.04712))
   * [ ] Deep multiple instance learning for image classification and auto-annotation ([CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Deep_Multiple_Instance_2015_CVPR_paper.pdf))
-  * [ ] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475))
+  * [x] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475))
   * [ ] Multiple-Instance Learning for Medical Image and Video Analysis ([IEEE](http://ieeexplore.ieee.org/document/7812612/))
   * [ ] Deep MIML Network ([AAAI](https://github.com/kingfengji/DeepMIML)) ([code](https://github.com/kingfengji/DeepMIML))
   * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
+* Interpretability
+  * [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
+  * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))  
+  * [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
+  * [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
+  * [ ] Understanding Black-box Predictions via Influence Functions ([arXiv](https://arxiv.org/abs/1703.04730))
 * [x] An introduction to ROC analysis ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016786550500303X))
-* [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
-* [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
+* [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
+* [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
 * [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
 * [ ] mixup: Beyond Empirical Risk Minimization ([arXiv](https://arxiv.org/abs/1710.09412))
-* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
-* [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
-* [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))  
 * Hyper Networks ([blog](http://blog.otoro.net/2016/09/28/hyper-networks/))
 
 

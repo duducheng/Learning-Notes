@@ -3,13 +3,43 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
+## 2018-04
+### Study Plan
+* [ ] lunglab-keras ([MIC](topics/mic.md))
+* [ ] Transformer
+* [ ] MIL
+* [ ] Try radiomics and genomics ([MIC](topics/mic.md))
+
+### Reading
+* MIL
+  * [ ] Non-local Neural Networks ([arXiv](https://arxiv.org/abs/1711.07971))
+  * [ ] Classifying and Segmenting Microscopy Images with Deep Multiple Instance Learning ([Bioinformatics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4908336/pdf/btw252.pdf)) ([code](https://github.com/dancsalo/TensorFlow-MIL))
+  * [ ] Deep multiple instance learning for image classification and auto-annotation ([CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Deep_Multiple_Instance_2015_CVPR_paper.pdf))
+  * [ ] Multiple-Instance Learning for Medical Image and Video Analysis ([IEEE](http://ieeexplore.ieee.org/document/7812612/))
+  * [ ] Deep MIML Network ([AAAI](https://github.com/kingfengji/DeepMIML)) ([code](https://github.com/kingfengji/DeepMIML))
+  * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
+* Interpretability
+  * [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
+  * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))  
+  * [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
+  * [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
+  * [ ] Understanding Black-box Predictions via Influence Functions ([arXiv](https://arxiv.org/abs/1703.04730))
+  * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))
+  * [ ] Interpreting CNNs via Decision Trees ([arXiv](https://arxiv.org/abs/1802.00121))
+  * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
+  * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
+* [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
+* [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
+* [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
+* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
+* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
+* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
+* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
+
 ## 2018-03
 ### Study Plan
 * [ ] lunglab-keras ([MIC](topics/mic.md))
 * [x] Pointer Network in PyTorch and plus ([AML](topics/advanced_ml.md))
-* [ ] Transformer
-* [ ] MIL
-* [ ] Dense Captioning
 * [ ] Try radiomics and genomics ([MIC](topics/mic.md))
 
 ### Reading
@@ -31,25 +61,15 @@ NB: Time below means when I "studied", not when it has been.
   * [x] Deep Multi-instance Networks with Sparse Label Assignment for Whole Mammogram Classification ([arXiv](https://arxiv.org/abs/1612.05968)) ([code](https://github.com/wentaozhu/deep-mil-for-whole-mammogram-classification))
   * [x] Multi-Instance Deep Learning: Discover Discriminative Local Anatomies for Bodypart Recognition: trival writing, same idea as DSB2017 THU solution.
   * [x] Learning from Experts: Developing Transferable Deep Features for Patient-Level Lung Cancer Prediction ([MICCAI](https://link.springer.com/chapter/10.1007/978-3-319-46723-8_15)): very very bad writing, hard to find the details of the model / training / data. 
-  * [ ] Non-local Neural Networks ([arXiv](https://arxiv.org/abs/1711.07971))
-  * [ ] Classifying and Segmenting Microscopy Images with Deep Multiple Instance Learning ([Bioinformatics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4908336/pdf/btw252.pdf)) ([code](https://github.com/dancsalo/TensorFlow-MIL))
   * [x] Attention-based Deep Multiple Instance Learning ([arXiv](https://arxiv.org/abs/1802.04712))
-  * [ ] Deep multiple instance learning for image classification and auto-annotation ([CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Deep_Multiple_Instance_2015_CVPR_paper.pdf))
   * [x] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475))
   * [ ] Multiple-Instance Learning for Medical Image and Video Analysis ([IEEE](http://ieeexplore.ieee.org/document/7812612/))
-  * [ ] Deep MIML Network ([AAAI](https://github.com/kingfengji/DeepMIML)) ([code](https://github.com/kingfengji/DeepMIML))
   * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
-* Interpretability
-  * [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
-  * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))  
-  * [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
-  * [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
-  * [ ] Understanding Black-box Predictions via Influence Functions ([arXiv](https://arxiv.org/abs/1703.04730))
 * [x] An introduction to ROC analysis ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016786550500303X))
 * [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
 * [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
 * [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
-* [ ] mixup: Beyond Empirical Risk Minimization ([arXiv](https://arxiv.org/abs/1710.09412))
+* [x] mixup: Beyond Empirical Risk Minimization ([arXiv](https://arxiv.org/abs/1710.09412))
 * Hyper Networks ([blog](http://blog.otoro.net/2016/09/28/hyper-networks/))
 
 

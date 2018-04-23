@@ -5,9 +5,22 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
     * [ ] Module 2 CT
     * [ ] Module 3 Ultrasounds
+* Interpretability
+  * [ ] Understanding Black-box Predictions via Influence Functions ([arXiv](https://arxiv.org/abs/1703.04730))
+  * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))
+  * [ ] Interpreting CNNs via Decision Trees ([arXiv](https://arxiv.org/abs/1802.00121))
+  * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
+  * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
+* [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
+* [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
+* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
+* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
+* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
+* [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
+* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
   
 ## Doing
-* [ ] Pointer Network in PyTorch
+
 * [ ] CS231n [Assignment2](http://cs231n.github.io/assignments2017/assignment2/)
 * [ ] CS231n [Assignment3](http://cs231n.github.io/assignments2017/assignment3/)
 * [ ] Bayesian Methods for Machine Learning ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
@@ -57,3 +70,4 @@ This list mainly focuses on Bayesian Machine Learning.
 * [x] ADLxMLDS ([17](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/syllabus)) ([16](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html))
 * [x] [Atari Game Playing](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A3) @[my fork of `Practical-RL`](https://github.com/duducheng/Practical_RL/tree/master/workspace) 
     * ![Pong](../weekly/Pong.gif)
+* [x] Pointer Network in PyTorch

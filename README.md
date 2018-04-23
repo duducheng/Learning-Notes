@@ -5,10 +5,8 @@ NB: Time below means when I "studied", not when it has been.
 
 ## 2018-04
 ### Study Plan
-* [ ] lunglab-keras ([MIC](topics/mic.md))
 * [ ] Transformer
-* [ ] MIL
-* [ ] Try radiomics and genomics ([MIC](topics/mic.md))
+* [ ] Mammogram MIL
 
 ### Reading
 * MIL
@@ -19,21 +17,15 @@ NB: Time below means when I "studied", not when it has been.
   * [ ] Deep MIML Network ([AAAI](https://github.com/kingfengji/DeepMIML)) ([code](https://github.com/kingfengji/DeepMIML))
   * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
 * Interpretability
-  * [ ] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
-  * [ ] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))  
+  * [x] Learning with Rejection ([page](https://cs.nyu.edu/~mohri/pub/rej.pdf))
+  * [x] Predict Responsibly: Increasing Fairness by Learning To Defer ([arXiv](https://arxiv.org/abs/1711.06664))  
   * [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
   * [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
-  * [ ] Understanding Black-box Predictions via Influence Functions ([arXiv](https://arxiv.org/abs/1703.04730))
-  * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))
-  * [ ] Interpreting CNNs via Decision Trees ([arXiv](https://arxiv.org/abs/1802.00121))
-  * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
-  * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
-* [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
-* [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
-* [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
-* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
-* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
-* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
+* EGFR
+  * [ ] Somatic mutations drive distinct imaging phenotypes in lung cancer ([Cancer Research](http://cancerres.aacrjournals.org/content/early/2017/05/31/0008-5472.CAN-17-0122))
+  * [ ] Defining a Radiomic Response Phenotype: A Pilot Study using targeted therapy in NSCLC ([Scientific Reports](https://www.nature.com/articles/srep33860))
+  * [ ] Non–Small Cell Lung Cancer Radiogenomics Map Identifies Relationships between Molecular and Imaging Phenotypes with Prognostic Implications ([Radiology](https://pubs.rsna.org/doi/10.1148/radiol.2017161845?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed))
+  * [ ] Radiomic Features Are Associated With EGFR Mutation Status in Lung Adenocarcinomas ([Clinical Lung Cancer](https://www.sciencedirect.com/science/article/pii/S1525730416300055?via%3Dihub))
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
 
 ## 2018-03

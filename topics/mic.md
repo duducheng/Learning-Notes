@@ -16,6 +16,10 @@ Computer Vision, Medical Imaging and Biomedicine.
 * [ ] CheXNet ([ref](https://github.com/arnoweng/CheXNet))
 * [ ] CTX-GAN
 * [ ] radiomics and genomics ([ref](http://www.radiomics.io/)) 
+* [ ] open source lungView tools, fix the memory leak problem
+* [ ] make a web page for our Cancer Research paper if accepted, open source code and part of data
+* [ ] lunglab (with PyTorch directly)
+* [ ] DenseSharp++
 
 ## TODO
 * [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))

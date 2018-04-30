@@ -20,7 +20,6 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
   
 ## Doing
-
 * [ ] CS231n [Assignment2](http://cs231n.github.io/assignments2017/assignment2/)
 * [ ] CS231n [Assignment3](http://cs231n.github.io/assignments2017/assignment3/)
 * [ ] Bayesian Methods for Machine Learning ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))

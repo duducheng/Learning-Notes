@@ -20,6 +20,7 @@ Computer Vision, Medical Imaging and Biomedicine.
 * [ ] make a web page for our Cancer Research paper if accepted, open source code and part of data
 * [ ] lunglab (with PyTorch directly)
 * [ ] DenseSharp++
+* [ ] mixed dense
 
 ## TODO
 * [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))

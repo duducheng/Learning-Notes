@@ -11,13 +11,17 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Interpreting CNNs via Decision Trees ([arXiv](https://arxiv.org/abs/1802.00121))
   * [ ] Machine Theory of Mind ([arXiv](https://arxiv.org/abs/1802.07740))
   * [ ] Distilling a Neural Network Into a Soft Decision Tree ([arXiv](https://arxiv.org/abs/1711.09784))
+* MIL
+  * [ ] Non-local Neural Networks ([arXiv](https://arxiv.org/abs/1711.07971))
+  * [ ] Classifying and Segmenting Microscopy Images with Deep Multiple Instance Learning ([Bioinformatics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4908336/pdf/btw252.pdf)) ([code](https://github.com/dancsalo/TensorFlow-MIL))
+  * [ ] Deep multiple instance learning for image classification and auto-annotation ([CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Deep_Multiple_Instance_2015_CVPR_paper.pdf))
+  * [ ] Multiple-Instance Learning for Medical Image and Video Analysis ([IEEE](http://ieeexplore.ieee.org/document/7812612/))
+  * [ ] Deep MIML Network ([AAAI](https://github.com/kingfengji/DeepMIML)) ([code](https://github.com/kingfengji/DeepMIML))
+  * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
 * [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
 * [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
-* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
-* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
 * [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
-* [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
-* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
+
   
 ## Doing
 * [ ] CS231n [Assignment2](http://cs231n.github.io/assignments2017/assignment2/)
@@ -40,9 +44,14 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Variational Inference Exponential Family
 
 ## Practice
+* [ ] DeepLabv3+ Pascal Voc2012 Segmentation with Gluon 
+* [ ] Kaggle track-ml
+* [ ] try a basic dual nli model
+* [ ] Preparing SAT++ project with jinxian
+* [ ] point cloud segmentation
+* [ ] Preparing open source SATs
 * [ ] MNIST from scratch ([ref](https://github.com/eriklindernoren/ML-From-Scratch/tree/master/mlfromscratch/deep_learning))
 * [ ] [2048](https://github.com/duducheng/2048): RL agent
-* [ ] [Anime generation](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A4) by (C)GAN
 * [ ] Average Face as House of Cards V
 * [ ] Finding the suspect: BMML final project ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
 * [ ] Classification setting + DNI

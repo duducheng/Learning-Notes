@@ -3,25 +3,39 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
+## 2018-06
+
+### Reading
+* [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
+* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
+* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
+* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
+* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
+* [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
+* [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
+* MCC tutorial plos one
+* 3D Vision & Point clouds
+  * ...
+* Few Shot
+  * Learning to Compare: Relation Network for Few-Shot Learning ([arXiv](https://arxiv.org/abs/1711.06025))
+  * Low-shot learning with large-scale diffusion ([arXiv](https://arxiv.org/abs/1706.02332))
+  * Few-Shot Image Recognition by Predicting Parameters from Activations ([arXiv](https://arxiv.org/abs/1706.03466))
+* Adversarial
+  * ...
+
 ## 2018-05
 Still a very busy month for preparing papers.
 
 ### Reading
-* MIL
-  * [ ] Non-local Neural Networks ([arXiv](https://arxiv.org/abs/1711.07971))
-  * [ ] Classifying and Segmenting Microscopy Images with Deep Multiple Instance Learning ([Bioinformatics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4908336/pdf/btw252.pdf)) ([code](https://github.com/dancsalo/TensorFlow-MIL))
-  * [ ] Deep multiple instance learning for image classification and auto-annotation ([CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_Deep_Multiple_Instance_2015_CVPR_paper.pdf))
-  * [ ] Multiple-Instance Learning for Medical Image and Video Analysis ([IEEE](http://ieeexplore.ieee.org/document/7812612/))
-  * [ ] Deep MIML Network ([AAAI](https://github.com/kingfengji/DeepMIML)) ([code](https://github.com/kingfengji/DeepMIML))
-  * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
 * EGFR
-  * [ ] Somatic mutations drive distinct imaging phenotypes in lung cancer ([Cancer Research](http://cancerres.aacrjournals.org/content/early/2017/05/31/0008-5472.CAN-17-0122))
-  * [ ] Defining a Radiomic Response Phenotype: A Pilot Study using targeted therapy in NSCLC ([Scientific Reports](https://www.nature.com/articles/srep33860))
-  * [ ] Non–Small Cell Lung Cancer Radiogenomics Map Identifies Relationships between Molecular and Imaging Phenotypes with Prognostic Implications ([Radiology](https://pubs.rsna.org/doi/10.1148/radiol.2017161845?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed))
-  * [ ] Radiomic Features Are Associated With EGFR Mutation Status in Lung Adenocarcinomas ([Clinical Lung Cancer](https://www.sciencedirect.com/science/article/pii/S1525730416300055?via%3Dihub))
+  * [x] Somatic mutations drive distinct imaging phenotypes in lung cancer ([Cancer Research](http://cancerres.aacrjournals.org/content/early/2017/05/31/0008-5472.CAN-17-0122))
+  * [x] Defining a Radiomic Response Phenotype: A Pilot Study using targeted therapy in NSCLC ([Scientific Reports](https://www.nature.com/articles/srep33860))
+  * [x] Non–Small Cell Lung Cancer Radiogenomics Map Identifies Relationships between Molecular and Imaging Phenotypes with Prognostic Implications ([Radiology](https://pubs.rsna.org/doi/10.1148/radiol.2017161845?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed))
+  * [x] Radiomic Features Are Associated With EGFR Mutation Status in Lung Adenocarcinomas ([Clinical Lung Cancer](https://www.sciencedirect.com/science/article/pii/S1525730416300055?via%3Dihub))
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
 * [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
 * [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
+* Dynamic Graph CNN for Learning on Point Clouds ([arXiv](https://arxiv.org/abs/1801.07829))
 
 ## 2018-04
 A very busy month for preparing papers.

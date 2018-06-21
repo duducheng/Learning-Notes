@@ -6,12 +6,12 @@ NB: Time below means when I "studied", not when it has been.
 ## 2018-06
 
 ### Study Plan
-* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
+* [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([MIC](topics/mic.md))
   * [x] Module 2 CT
   * [ ] Module 3 Ultrasounds
   * [ ] Module 4 MRI
   * [ ] Module 5 PET
-* [ ] 计算神经科学 ([MIC](topics/mic.md))
+* [ ] Computational Neuroscience 计算神经科学 ([MIC](topics/mic.md))
   * [x] week1 - Basic neuronal models
   * [x] week2 - Synapse and channel dynamics
 
@@ -23,6 +23,7 @@ NB: Time below means when I "studied", not when it has been.
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
 * [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
 * [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
+* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
 * [x] A Comparison of MCC and CEN Error Measures in Multi-Class Prediction ([PLOS ONE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3414515/))
 * Fully Convolutional Networks for Semantic Segmentation ([CVPR2015](https://arxiv.org/abs/1411.4038))
 * Pyramid Scene Parsing Network ([CVPR2017](https://arxiv.org/abs/1411.4038))

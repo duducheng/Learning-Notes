@@ -2,9 +2,8 @@
 Computer Vision, Medical Imaging and Biomedicine.
 
 ## DOING
-* [ ] 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
-* [ ] 计算神经科学 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:NTHU+MOOC_04+sp/courseware/def9437b3df2456e88dd2e7fa0bb227a/))
-* [ ] [lunglab-keras](https://github.com/CreedAI/lunglab-keras)
+* [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
+* [ ] Computational Neuroscience 计算神经科学 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:NTHU+MOOC_04+sp/courseware/def9437b3df2456e88dd2e7fa0bb227a/))
 
 ## Practice
 * [ ] lunglabv2-CADe ([ref](https://github.com/lfz/DSB2017))
@@ -21,10 +20,12 @@ Computer Vision, Medical Imaging and Biomedicine.
 * [ ] make a web page for our Cancer Research paper if accepted, open source code and part of data
 * [ ] lunglab (with PyTorch directly)
 * [ ] DenseSharp++
-* [ ] mixed dense
 
 ## TODO
 * [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
+* [ ] Fundamentals of Biomedical Imaging: Ultrasounds, X-ray, positron emission tomography (PET) and applications ([edX](https://courses.edx.org/courses/course-v1:EPFLx+FndBioImgx+1T2017/course/))
+* [ ] Fundamentals of Biomedical Imaging : Magnetic Resonance Imaging (MRI) ([edX](https://courses.edx.org/courses/course-v1:EPFLx+FndBioImg2x+1T2017/course/#block-v1:EPFLx+FndBioImg2x+1T2017+type@sequential+block@cd1f9879604a43858c05f23c69515717))
+* [ ] Living with Dementia: Impact on Individuals, Caregivers, Communities and Societies ([Coursera](https://www.coursera.org/learn/dementia-care/home/welcome))
 * [ ] Fundamentals of Medical Imaging ([link](https://www.amazon.com/Fundamentals-Medical-Imaging-Paul-Suetens/dp/0521519152/ref=sr_1_2?s=books&ie=UTF8&qid=1448419494&sr=1-2&keywords=P+Suetens))
 * [ ] CRCV course ([14](http://crcv.ucf.edu/courses/CAP5415/Fall2014/index.php)) ([17](http://www.cs.ucf.edu/~bagci/teaching/computervision17.html))
 * [ ] [Computer Vision: Algorithms and Application](http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf) 

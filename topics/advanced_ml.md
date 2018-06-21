@@ -17,12 +17,9 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
 * [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
 * [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
-* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
 
   
 ## Doing
-* [ ] CS231n [Assignment2](http://cs231n.github.io/assignments2017/assignment2/)
-* [ ] CS231n [Assignment3](http://cs231n.github.io/assignments2017/assignment3/)
 * [ ] Bayesian Methods for Machine Learning ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
 * [ ] ydxu ([course page](http://www-staff.it.uts.edu.au/~ydxu/statistics.htm))
 * [ ] Bayesian Methods for Machine Learning ([AML](topics/advanced_ml.md))
@@ -42,8 +39,6 @@ This list mainly focuses on Bayesian Machine Learning.
 
 ## Practice
 * [ ] DeepLabv3+ Pascal Voc2012 Segmentation with Gluon 
-* [ ] Kaggle track-ml
-* [ ] try a basic dual nli model
 * [ ] Preparing SAT++ project with jinxian
 * [ ] point cloud segmentation
 * [ ] Preparing open source SATs
@@ -69,6 +64,7 @@ This list mainly focuses on Bayesian Machine Learning.
     * [ ] Deep RL Bootcamp ([Berkeley](https://sites.google.com/view/deep-rl-bootcamp/home))
     * [ ] Practical RL ([github](https://github.com/duducheng/Practical_RL))
 * [ ] Learn from Top Kagglers ([Coursera](https://www.coursera.org/learn/competitive-data-science/home/welcome))
+* [ ] Learning Discrete Latent Structure ([UoT](https://duvenaud.github.io/learn-discrete/)) 
 
 ## Done
 * [x] CS231n 2017 ([Stanford](http://cs231n.stanford.edu/syllabus.html))

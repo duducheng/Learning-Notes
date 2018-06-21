@@ -28,7 +28,7 @@ NB: Time below means when I "studied", not when it has been.
 * Pyramid Scene Parsing Network ([CVPR2017](https://arxiv.org/abs/1411.4038))
 * Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation (a.k.a DeepLab v3+) ([arXiv](https://arxiv.org/abs/1802.02611))
 * Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks (a.k.a ODIN) ([ICLR2018](https://arxiv.org/abs/1706.02690))
-* Thoughts on "mixup: Data-Dependent Data Augmentation" ([blog](http://www.inference.vc/mixup-data-dependent-data-augmentation/)) ([zhihu](https://www.zhihu.com/question/67472285))
+* Thoughts on "mixup: Data-Dependent Data Augmentation" ([blog](http://www.inference.vc/mixup-data-dependent-data-augmentation/))
 * 3D Vision & Point clouds
   * RGBD Datasets: Past, Present and Future ([arXiv](https://arxiv.org/abs/1604.00999))
   * 3D ShapeNets: A Deep Representation for Volumetric Shapes (the ModelNet dataset paper) ([CVPR2015](https://arxiv.org/abs/1406.5670))
@@ -261,10 +261,10 @@ A very busy month for preparing papers.
 
 ## 2017-03
 * MyWeekly
-  * [Personal Proceeding on Time Series: DTW, Viz of RNN and Clockwalk RNN Revisiting](weekly/dtw_vizrnn_cwrnn.pdf)
-  * [Personal Proceeding on Time Series (2): Echo State Network and Temporal Kernel RNN](weekly/tkrnn_esn.pdf)
-  * [Personal Proceeding on Time Series (3): Phased LSTM and STL](weekly/plstm_stl.pdf)
-  * [Personal Proceeding on Time Series (4): Fast weights](weekly/fast_weights.pdf)
+  * [On Time Series: DTW, Viz of RNN and Clockwalk RNN Revisiting](weekly/dtw_vizrnn_cwrnn.pdf)
+  * [On Time Series (2): Echo State Network and Temporal Kernel RNN](weekly/tkrnn_esn.pdf)
+  * [On Time Series (3): Phased LSTM and STL](weekly/plstm_stl.pdf)
+  * [On Time Series (4): Fast weights](weekly/fast_weights.pdf)
 * [STL: A Seasonal-Trend Decomposition Procedurue Base on Loess](notes/stl.md) ([link](http://www.wessa.net/download/stl.pdf))
 * [Temporal-Kernel Recurrent Neural Networks](notes/tkrnn.md) ([ScienceDirect](http://www.sciencedirect.com/science/article/pii/S0893608009002664))
 * [REVISIT] A Clockwork RNN ([arXiv](https://arxiv.org/abs/1402.3511)) (non-official [code](https://github.com/braingineer/ikelos/blob/master/ikelos/layers/cwrnn.py))

@@ -5,23 +5,40 @@ NB: Time below means when I "studied", not when it has been.
 
 ## 2018-06
 
+### Study Plan
+* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
+  * [x] Module 2 CT
+  * [ ] Module 3 Ultrasounds
+  * [ ] Module 4 MRI
+  * [ ] Module 5 PET
+* [ ] 计算神经科学 ([MIC](topics/mic.md))
+  * [x] week1 - Basic neuronal models
+  * [x] week2 - Synapse and channel dynamics
+
 ### Reading
-* [ ] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
-* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([arXiv](https://arxiv.org/abs/1706.04737))
+* [x] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
+* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([MICCAI2017](https://arxiv.org/abs/1706.04737))
 * [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
 * [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
 * [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
 * [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
-* MCC tutorial plos one
+* [x] A Comparison of MCC and CEN Error Measures in Multi-Class Prediction ([PLOS ONE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3414515/))
+* Fully Convolutional Networks for Semantic Segmentation ([CVPR2015](https://arxiv.org/abs/1411.4038))
+* Pyramid Scene Parsing Network ([CVPR2017](https://arxiv.org/abs/1411.4038))
+* Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation (a.k.a DeepLab v3+) ([arXiv](https://arxiv.org/abs/1802.02611))
+* Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks (a.k.a ODIN) ([ICLR2018](https://arxiv.org/abs/1706.02690))
+* Thoughts on "mixup: Data-Dependent Data Augmentation" ([blog](http://www.inference.vc/mixup-data-dependent-data-augmentation/)) ([zhihu](https://www.zhihu.com/question/67472285))
 * 3D Vision & Point clouds
-  * ...
+  * RGBD Datasets: Past, Present and Future ([arXiv](https://arxiv.org/abs/1604.00999))
+  * 3D ShapeNets: A Deep Representation for Volumetric Shapes (the ModelNet dataset paper) ([CVPR2015](https://arxiv.org/abs/1406.5670))
 * Few Shot
-  * Learning to Compare: Relation Network for Few-Shot Learning ([arXiv](https://arxiv.org/abs/1711.06025))
-  * Low-shot learning with large-scale diffusion ([arXiv](https://arxiv.org/abs/1706.02332))
-  * Few-Shot Image Recognition by Predicting Parameters from Activations ([arXiv](https://arxiv.org/abs/1706.03466))
+  * Learning to Compare: Relation Network for Few-Shot Learning ([CVPR2018](https://arxiv.org/abs/1711.06025))
+  * Low-shot learning with large-scale diffusion ([CVPR2018](https://arxiv.org/abs/1706.02332))
+  * Few-Shot Image Recognition by Predicting Parameters from Activations ([CVPR2018](https://arxiv.org/abs/1706.03466))
 * Adversarial
-  * ...
+  * Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery ([IPMI2017](https://arxiv.org/abs/1703.05921))
+* Anomaly Detection using One-Class Neural Networks ([KDD2018](https://arxiv.org/abs/1802.06360))
 
 ## 2018-05
 Still a very busy month for preparing papers.

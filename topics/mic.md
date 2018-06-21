@@ -3,6 +3,7 @@ Computer Vision, Medical Imaging and Biomedicine.
 
 ## DOING
 * [ ] 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
+* [ ] 计算神经科学 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:NTHU+MOOC_04+sp/courseware/def9437b3df2456e88dd2e7fa0bb227a/))
 * [ ] [lunglab-keras](https://github.com/CreedAI/lunglab-keras)
 
 ## Practice

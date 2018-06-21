@@ -2,9 +2,6 @@
 This list mainly focuses on Bayesian Machine Learning.
 
 ## to-do soon
-* [ ] 生物医学成像学导论 ([MIC](topics/mic.md))
-    * [ ] Module 2 CT
-    * [ ] Module 3 Ultrasounds
 * Interpretability
   * [ ] Understanding Black-box Predictions via Influence Functions ([arXiv](https://arxiv.org/abs/1703.04730))
   * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))

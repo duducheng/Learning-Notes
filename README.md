@@ -3,32 +3,61 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
-## 2018-06
+## 2018-07
+### Study Plan
+* [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([MIC](topics/mic.md))
+  * [ ] Module 3 Ultrasounds
+  * [ ] Module 4 MRI
+  * [ ] Module 5 PET
+* [ ] Computational Neuroscience 计算神经科学 ([MIC](topics/mic.md))
+  * [ ] week3
 
+### Reading
+* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([MICCAI2017](https://arxiv.org/abs/1706.04737))
+* [ ] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7))
+* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
+* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
+* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
+* [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
+* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
+* [ ] 3D Vision & Point clouds
+  * A scalable active framework for region annotation in 3d shape collections (ShapeNet core dataset) ([ACM TOG](https://www-cs.stanford.edu/~ericyi/papers/part_annotation_16_small.pdf))
+  * 3D Semantic Parsing of Large-Scale Indoor Spaces (S3DIS dataset) ([CVPR2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Armeni_3D_Semantic_Parsing_CVPR_2016_paper.html))
+  * Scannet: Richly-annotated 3d reconstructions of indoor scenes ([CVPR2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_ScanNet_Richly-Annotated_3D_CVPR_2017_paper.pdf))
+  * Frustum PointNets for 3D Object Detection from RGB-D Data ([CVPR2018](https://arxiv.org/abs/1711.08488))
+  * Attentional ShapeContextNet for Point Cloud Recognition ([CVPR2018](http://vcl.ucsd.edu/~sxie/pdf/cvpr_2018_shape_context.pdf))
+  * Indoor Segmentation and Support Inference from RGBD Images (NYU-v2 dataset) ([ECCV2012](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf))
+* [ ] MIC
+  * [ ] ...
+
+## 2018-06
 ### Study Plan
 * [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([MIC](topics/mic.md))
   * [x] Module 2 CT
   * [ ] Module 3 Ultrasounds
   * [ ] Module 4 MRI
   * [ ] Module 5 PET
-* [ ] Computational Neuroscience 计算神经科学 ([MIC](topics/mic.md))
+* [x] Computational Neuroscience 计算神经科学 ([MIC](topics/mic.md))
   * [x] week1 - Basic neuronal models
   * [x] week2 - Synapse and channel dynamics
 
 ### Reading
 * [x] A mixed-scale dense convolutional neural network for image analysis ([PNAS](http://www.pnas.org/content/115/2/254))
 * [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([MICCAI2017](https://arxiv.org/abs/1706.04737))
+* [ ] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7))
 * [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
 * [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
 * [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
-* [ ] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
+* [x] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
 * [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
 * [x] A Comparison of MCC and CEN Error Measures in Multi-Class Prediction ([PLOS ONE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3414515/))
 * Fully Convolutional Networks for Semantic Segmentation ([CVPR2015](https://arxiv.org/abs/1411.4038))
 * Pyramid Scene Parsing Network ([CVPR2017](https://arxiv.org/abs/1411.4038))
 * Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation (a.k.a DeepLab v3+) ([arXiv](https://arxiv.org/abs/1802.02611))
 * Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks (a.k.a ODIN) ([ICLR2018](https://arxiv.org/abs/1706.02690))
+* Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery ([IPMI2017](https://arxiv.org/abs/1703.05921))
+* Anomaly Detection using One-Class Neural Networks ([KDD2018](https://arxiv.org/abs/1802.06360))
 * Thoughts on "mixup: Data-Dependent Data Augmentation" ([blog](http://www.inference.vc/mixup-data-dependent-data-augmentation/))
 * 3D Vision & Point clouds
   * RGBD Datasets: Past, Present and Future ([arXiv](https://arxiv.org/abs/1604.00999))
@@ -37,9 +66,7 @@ NB: Time below means when I "studied", not when it has been.
   * Learning to Compare: Relation Network for Few-Shot Learning ([CVPR2018](https://arxiv.org/abs/1711.06025))
   * Low-shot learning with large-scale diffusion ([CVPR2018](https://arxiv.org/abs/1706.02332))
   * Few-Shot Image Recognition by Predicting Parameters from Activations ([CVPR2018](https://arxiv.org/abs/1706.03466))
-* Adversarial
-  * Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery ([IPMI2017](https://arxiv.org/abs/1703.05921))
-* Anomaly Detection using One-Class Neural Networks ([KDD2018](https://arxiv.org/abs/1802.06360))
+
 
 ## 2018-05
 Still a very busy month for preparing papers.

@@ -17,6 +17,11 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
 * [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
 * [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
+* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
+* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([MICCAI2017](https://arxiv.org/abs/1706.04737))
+* [ ] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7))
+
+
 
   
 ## Doing

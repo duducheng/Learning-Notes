@@ -3,32 +3,44 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
+## 2018-08
+### Reading
+* 3D Vision
+  * [ ] Spherical CNNs ([ICLR2018](https://openreview.net/forum?id=Hkbd5xZRb))
+  * ...
+* Variantional Inference and Discrete Distribution
+  * [x] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
+    - *NB*: very clear description on mean field interation, but seems non-trivial on VMP framework. Mean field is something using independant distribution to approximate the whole distribution.
+  * [x] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
+  * [x] Categorical Reparameterization with Gumbel-Softmax ([ICLR2017](https://openreview.net/forum?id=rkE3y85ee))
+  * [x] Learning Latent Permutations with Gumbel-Sinkhorn Networks ([ICLR2018](https://arxiv.org/abs/1802.08665)) 
+  * The Humble Gumbel Distribution ([blog](http://amid.fish/humble-gumbel))
+* [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
+* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
+* [ ] Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples ([ICML2018 best paper](https://arxiv.org/abs/1802.00420)) 
+* [ ] A New Angle on L2 Regularization ([blog]https://thomas-tanay.github.io/post--L2-regularization/)
+* [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
+* [ ] Instance Noise: A trick for stabilising GAN training ([blog](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/))
+* [ ] Universal Transformers ([arXiv](https://arxiv.org/abs/1807.03819))
+* [ ] Self-Attention with Relative Position Representations ([NAACL2018](https://arxiv.org/abs/1803.02155))
+* [ ] Why Momentum Really Works ([Distll](https://distill.pub/2017/momentum/))
+* [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
+* [ ] Feature-wise transformations ([Distill](https://distill.pub/2018/feature-wise-transformations/))
+* [ ] Neural Processes as distributions over functions ([blog](http://kasparmartens.rbind.io/post/np/))
+* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055))
+* [x] i-RevNet: Deep Invertible Networks ([ICLR2018](https://openreview.net/forum?id=HJsjkMb0Z)): a very interesting paper with numbers of potential applications.
+* [x] Sampling Generative Networks ([NIPS2016](https://arxiv.org/abs/1609.04468)): a good paper with bad writing.
+* [x] Glow: Generative Flow with Invertible 1x1 Convolutions ([arXiv](https://arxiv.org/abs/1807.03039)): introduce a trick Conv1x1 (based on Real NVP, Glow:RealNVP::DCGAN:GAN).
+* [x] Density estimation using Real NVP ([ICLR2017](https://arxiv.org/abs/1605.08803)): a **fantastic** paper.
+* Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer ([arXiv](https://arxiv.org/abs/1807.07543))
+
 ## 2018-07
-### Study Plan
-* [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([MIC](topics/mic.md))
-  * [ ] Module 3 Ultrasounds
-  * [ ] Module 4 MRI
-  * [ ] Module 5 PET
-* [ ] Computational Neuroscience 计算神经科学 ([MIC](topics/mic.md))
-  * [ ] week3
+A busy month for reproducing [DeepLabv3+](https://github.com/duducheng/deeplabv3p_gluon) and NIPS rebuttal. 
 
 ### Reading
-* [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([MICCAI2017](https://arxiv.org/abs/1706.04737))
-* [ ] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7))
-* [ ] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
-* [ ] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
-* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
-* [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
-* [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
-* [ ] 3D Vision & Point clouds
-  * A scalable active framework for region annotation in 3d shape collections (ShapeNet core dataset) ([ACM TOG](https://www-cs.stanford.edu/~ericyi/papers/part_annotation_16_small.pdf))
-  * 3D Semantic Parsing of Large-Scale Indoor Spaces (S3DIS dataset) ([CVPR2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Armeni_3D_Semantic_Parsing_CVPR_2016_paper.html))
-  * Scannet: Richly-annotated 3d reconstructions of indoor scenes ([CVPR2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_ScanNet_Richly-Annotated_3D_CVPR_2017_paper.pdf))
-  * Frustum PointNets for 3D Object Detection from RGB-D Data ([CVPR2018](https://arxiv.org/abs/1711.08488))
-  * Attentional ShapeContextNet for Point Cloud Recognition ([CVPR2018](http://vcl.ucsd.edu/~sxie/pdf/cvpr_2018_shape_context.pdf))
-  * Indoor Segmentation and Support Inference from RGBD Images (NYU-v2 dataset) ([ECCV2012](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf))
-* [ ] MIC
-  * [ ] ...
+* Learning Deep Matrix Representations ([arXiv](https://arxiv.org/abs/1703.01454))
+* Graph Memory Networks for Molecular Activity Prediction ([arXiv](https://arxiv.org/abs/1801.02622))
+* Weighted Transformer Network for Machine Translation ([OpenReview](https://openreview.net/forum?id=SkYMnLxRW))
 
 ## 2018-06
 ### Study Plan

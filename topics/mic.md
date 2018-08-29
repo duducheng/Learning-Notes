@@ -22,7 +22,6 @@ Computer Vision, Medical Imaging and Biomedicine.
 * [ ] DenseSharp++
 
 ## TODO
-* [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
 * [ ] Fundamentals of Biomedical Imaging: Ultrasounds, X-ray, positron emission tomography (PET) and applications ([edX](https://courses.edx.org/courses/course-v1:EPFLx+FndBioImgx+1T2017/course/))
 * [ ] Fundamentals of Biomedical Imaging : Magnetic Resonance Imaging (MRI) ([edX](https://courses.edx.org/courses/course-v1:EPFLx+FndBioImg2x+1T2017/course/#block-v1:EPFLx+FndBioImg2x+1T2017+type@sequential+block@cd1f9879604a43858c05f23c69515717))
 * [ ] Living with Dementia: Impact on Individuals, Caregivers, Communities and Societies ([Coursera](https://www.coursera.org/learn/dementia-care/home/welcome))

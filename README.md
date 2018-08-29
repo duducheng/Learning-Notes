@@ -3,11 +3,27 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
-## 2018-08
+### 2018-09
+
+### Study
+* [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
+  * [ ] Week 1
+  * [ ] Week 2
+  * [ ] Week 3
+  * [ ] Week 4
+
 ### Reading
-* 3D Vision
-  * [ ] Spherical CNNs ([ICLR2018](https://openreview.net/forum?id=Hkbd5xZRb))
-  * ...
+* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
+* [ ] Why Momentum Really Works ([Distll](https://distill.pub/2017/momentum/))
+* [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
+* [ ] Feature-wise transformations ([Distill](https://distill.pub/2018/feature-wise-transformations/))
+* [ ] Neural Processes as distributions over functions ([blog](http://kasparmartens.rbind.io/post/np/))
+* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055))
+
+## 2018-08
+My Bayesian month :)
+
+### Reading
 * Variantional Inference and Discrete Distribution
   * [x] A Tutorial on Variational Bayesian Inference ([pdf](http://www.orchid.ac.uk/eprints/40/1/fox_vbtut.pdf))
     - *NB*: very clear description on mean field interation, but seems non-trivial on VMP framework. Mean field is something using independant distribution to approximate the whole distribution.
@@ -15,24 +31,26 @@ NB: Time below means when I "studied", not when it has been.
   * [x] Categorical Reparameterization with Gumbel-Softmax ([ICLR2017](https://openreview.net/forum?id=rkE3y85ee))
   * [x] Learning Latent Permutations with Gumbel-Sinkhorn Networks ([ICLR2018](https://arxiv.org/abs/1802.08665)) 
   * The Humble Gumbel Distribution ([blog](http://amid.fish/humble-gumbel))
-* [ ] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
-* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
+* Generative Flow
+  * [x] i-RevNet: Deep Invertible Networks ([ICLR2018](https://openreview.net/forum?id=HJsjkMb0Z)): a very interesting paper with numbers of potential applications; but it's not that novel at this time indeed, e.g., highly related to RealNVP and NICE.
+  * [x] Glow: Generative Flow with Invertible 1x1 Convolutions ([arXiv](https://arxiv.org/abs/1807.03039)): introduce a trick Conv1x1 (based on Real NVP, Glow:RealNVP::DCGAN:GAN).
+  * [x] Density estimation using Real NVP ([ICLR2017](https://arxiv.org/abs/1605.08803)): a **fantastic** paper.
+  * [x] Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models ([AAAI2018](https://arxiv.org/abs/1705.08868))
+  * [x] Normalizing Flows Tutorial ([Part 1](https://blog.evjang.com/2018/01/nf1.html)) ([Part 2](https://blog.evjang.com/2018/01/nf2.html))
+  * [x] Improving Variational Inference with Inverse Autoregressive Flow ([arXiv](https://arxiv.org/abs/1606.04934), plus a good [blog](http://bjlkeng.github.io/posts/variational-autoencoders-with-inverse-autoregressive-flows/))
+* [x] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
+* [x] Sampling Generative Networks ([NIPS2016](https://arxiv.org/abs/1609.04468)): a good paper with bad writing.
+* Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer ([arXiv](https://arxiv.org/abs/1807.07543))
+* [x] Instance Noise: A trick for stabilising GAN training ([blog](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/))
+* 3D Vision
+  * [ ] Spherical CNNs ([ICLR2018](https://openreview.net/forum?id=Hkbd5xZRb))
+  * ...
 * [ ] Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples ([ICML2018 best paper](https://arxiv.org/abs/1802.00420)) 
 * [ ] A New Angle on L2 Regularization ([blog]https://thomas-tanay.github.io/post--L2-regularization/)
 * [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
-* [ ] Instance Noise: A trick for stabilising GAN training ([blog](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/))
 * [ ] Universal Transformers ([arXiv](https://arxiv.org/abs/1807.03819))
 * [ ] Self-Attention with Relative Position Representations ([NAACL2018](https://arxiv.org/abs/1803.02155))
-* [ ] Why Momentum Really Works ([Distll](https://distill.pub/2017/momentum/))
-* [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
-* [ ] Feature-wise transformations ([Distill](https://distill.pub/2018/feature-wise-transformations/))
-* [ ] Neural Processes as distributions over functions ([blog](http://kasparmartens.rbind.io/post/np/))
-* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055))
-* [x] i-RevNet: Deep Invertible Networks ([ICLR2018](https://openreview.net/forum?id=HJsjkMb0Z)): a very interesting paper with numbers of potential applications.
-* [x] Sampling Generative Networks ([NIPS2016](https://arxiv.org/abs/1609.04468)): a good paper with bad writing.
-* [x] Glow: Generative Flow with Invertible 1x1 Convolutions ([arXiv](https://arxiv.org/abs/1807.03039)): introduce a trick Conv1x1 (based on Real NVP, Glow:RealNVP::DCGAN:GAN).
-* [x] Density estimation using Real NVP ([ICLR2017](https://arxiv.org/abs/1605.08803)): a **fantastic** paper.
-* Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer ([arXiv](https://arxiv.org/abs/1807.07543))
+
 
 ## 2018-07
 A busy month for reproducing [DeepLabv3+](https://github.com/duducheng/deeplabv3p_gluon) and NIPS rebuttal. 

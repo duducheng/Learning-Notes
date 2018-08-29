@@ -30,7 +30,7 @@ My Bayesian month :)
   * [x] Tutorial on Variational Autoencoders ([arXiv](https://arxiv.org/abs/1606.05908))
   * [x] Categorical Reparameterization with Gumbel-Softmax ([ICLR2017](https://openreview.net/forum?id=rkE3y85ee))
   * [x] Learning Latent Permutations with Gumbel-Sinkhorn Networks ([ICLR2018](https://arxiv.org/abs/1802.08665)) 
-  * The Humble Gumbel Distribution ([blog](http://amid.fish/humble-gumbel))
+  * [x] The Humble Gumbel Distribution ([blog](http://amid.fish/humble-gumbel))
 * Generative Flow
   * [x] i-RevNet: Deep Invertible Networks ([ICLR2018](https://openreview.net/forum?id=HJsjkMb0Z)): a very interesting paper with numbers of potential applications; but it's not that novel at this time indeed, e.g., highly related to RealNVP and NICE.
   * [x] Glow: Generative Flow with Invertible 1x1 Convolutions ([arXiv](https://arxiv.org/abs/1807.03039)): introduce a trick Conv1x1 (based on Real NVP, Glow:RealNVP::DCGAN:GAN).
@@ -38,9 +38,10 @@ My Bayesian month :)
   * [x] Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models ([AAAI2018](https://arxiv.org/abs/1705.08868))
   * [x] Normalizing Flows Tutorial ([Part 1](https://blog.evjang.com/2018/01/nf1.html)) ([Part 2](https://blog.evjang.com/2018/01/nf2.html))
   * [x] Improving Variational Inference with Inverse Autoregressive Flow ([arXiv](https://arxiv.org/abs/1606.04934), plus a good [blog](http://bjlkeng.github.io/posts/variational-autoencoders-with-inverse-autoregressive-flows/))
+  * [x] NICE: Non-linear Independent Components Estimation ([ICLR2015](https://arxiv.org/abs/1410.8516))
 * [x] The Building Blocks of Interpretability ([Distill](https://distill.pub/2018/building-blocks/))
 * [x] Sampling Generative Networks ([NIPS2016](https://arxiv.org/abs/1609.04468)): a good paper with bad writing.
-* Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer ([arXiv](https://arxiv.org/abs/1807.07543))
+* [x] Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer ([arXiv](https://arxiv.org/abs/1807.07543))
 * [x] Instance Noise: A trick for stabilising GAN training ([blog](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/))
 * 3D Vision
   * [ ] Spherical CNNs ([ICLR2018](https://openreview.net/forum?id=Hkbd5xZRb))
@@ -56,9 +57,9 @@ My Bayesian month :)
 A busy month for reproducing [DeepLabv3+](https://github.com/duducheng/deeplabv3p_gluon) and NIPS rebuttal. 
 
 ### Reading
-* Learning Deep Matrix Representations ([arXiv](https://arxiv.org/abs/1703.01454))
-* Graph Memory Networks for Molecular Activity Prediction ([arXiv](https://arxiv.org/abs/1801.02622))
-* Weighted Transformer Network for Machine Translation ([OpenReview](https://openreview.net/forum?id=SkYMnLxRW))
+* [x] Learning Deep Matrix Representations ([arXiv](https://arxiv.org/abs/1703.01454))
+* [x] Graph Memory Networks for Molecular Activity Prediction ([arXiv](https://arxiv.org/abs/1801.02622))
+* [x] Weighted Transformer Network for Machine Translation ([OpenReview](https://openreview.net/forum?id=SkYMnLxRW))
 
 ## 2018-06
 ### Study Plan
@@ -82,20 +83,20 @@ A busy month for reproducing [DeepLabv3+](https://github.com/duducheng/deeplabv3
 * [x] Using Artiﬁcial Intelligence to Augment Human Intelligence ([Distill](https://distill.pub/2017/aia/))
 * [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
 * [x] A Comparison of MCC and CEN Error Measures in Multi-Class Prediction ([PLOS ONE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3414515/))
-* Fully Convolutional Networks for Semantic Segmentation ([CVPR2015](https://arxiv.org/abs/1411.4038))
-* Pyramid Scene Parsing Network ([CVPR2017](https://arxiv.org/abs/1411.4038))
-* Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation (a.k.a DeepLab v3+) ([arXiv](https://arxiv.org/abs/1802.02611))
-* Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks (a.k.a ODIN) ([ICLR2018](https://arxiv.org/abs/1706.02690))
-* Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery ([IPMI2017](https://arxiv.org/abs/1703.05921))
-* Anomaly Detection using One-Class Neural Networks ([KDD2018](https://arxiv.org/abs/1802.06360))
-* Thoughts on "mixup: Data-Dependent Data Augmentation" ([blog](http://www.inference.vc/mixup-data-dependent-data-augmentation/))
+* [x] Fully Convolutional Networks for Semantic Segmentation ([CVPR2015](https://arxiv.org/abs/1411.4038))
+* [x] Pyramid Scene Parsing Network ([CVPR2017](https://arxiv.org/abs/1411.4038))
+* [x] Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation (a.k.a DeepLab v3+) ([arXiv](https://arxiv.org/abs/1802.02611))
+* [x] Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks (a.k.a ODIN) ([ICLR2018](https://arxiv.org/abs/1706.02690))
+* [x] Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery ([IPMI2017](https://arxiv.org/abs/1703.05921))
+* [x] Anomaly Detection using One-Class Neural Networks ([KDD2018](https://arxiv.org/abs/1802.06360))
+* [x] Thoughts on "mixup: Data-Dependent Data Augmentation" ([blog](http://www.inference.vc/mixup-data-dependent-data-augmentation/))
 * 3D Vision & Point clouds
-  * RGBD Datasets: Past, Present and Future ([arXiv](https://arxiv.org/abs/1604.00999))
-  * 3D ShapeNets: A Deep Representation for Volumetric Shapes (the ModelNet dataset paper) ([CVPR2015](https://arxiv.org/abs/1406.5670))
+  * [x] RGBD Datasets: Past, Present and Future ([arXiv](https://arxiv.org/abs/1604.00999))
+  * [x] 3D ShapeNets: A Deep Representation for Volumetric Shapes (the ModelNet dataset paper) ([CVPR2015](https://arxiv.org/abs/1406.5670))
 * Few Shot
-  * Learning to Compare: Relation Network for Few-Shot Learning ([CVPR2018](https://arxiv.org/abs/1711.06025))
-  * Low-shot learning with large-scale diffusion ([CVPR2018](https://arxiv.org/abs/1706.02332))
-  * Few-Shot Image Recognition by Predicting Parameters from Activations ([CVPR2018](https://arxiv.org/abs/1706.03466))
+  * [x] Learning to Compare: Relation Network for Few-Shot Learning ([CVPR2018](https://arxiv.org/abs/1711.06025))
+  * [x] Low-shot learning with large-scale diffusion ([CVPR2018](https://arxiv.org/abs/1706.02332))
+  * [x] Few-Shot Image Recognition by Predicting Parameters from Activations ([CVPR2018](https://arxiv.org/abs/1706.03466))
 
 
 ## 2018-05

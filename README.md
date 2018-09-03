@@ -13,6 +13,14 @@ NB: Time below means when I "studied", not when it has been.
   * [ ] Week 4
 
 ### Reading
+* 3D Vision
+  * [ ] Spherical CNNs ([ICLR2018](https://openreview.net/forum?id=Hkbd5xZRb))
+  * ...
+* [ ] Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples ([ICML2018 best paper](https://arxiv.org/abs/1802.00420)) 
+* [ ] A New Angle on L2 Regularization ([blog]https://thomas-tanay.github.io/post--L2-regularization/)
+* [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
+* [ ] Universal Transformers ([arXiv](https://arxiv.org/abs/1807.03819))
+* [ ] Self-Attention with Relative Position Representations ([NAACL2018](https://arxiv.org/abs/1803.02155))
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
 * [ ] Why Momentum Really Works ([Distll](https://distill.pub/2017/momentum/))
 * [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
@@ -43,14 +51,6 @@ My Bayesian month :)
 * [x] Sampling Generative Networks ([NIPS2016](https://arxiv.org/abs/1609.04468)): a good paper with bad writing.
 * [x] Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer ([arXiv](https://arxiv.org/abs/1807.07543))
 * [x] Instance Noise: A trick for stabilising GAN training ([blog](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/))
-* 3D Vision
-  * [ ] Spherical CNNs ([ICLR2018](https://openreview.net/forum?id=Hkbd5xZRb))
-  * ...
-* [ ] Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples ([ICML2018 best paper](https://arxiv.org/abs/1802.00420)) 
-* [ ] A New Angle on L2 Regularization ([blog]https://thomas-tanay.github.io/post--L2-regularization/)
-* [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
-* [ ] Universal Transformers ([arXiv](https://arxiv.org/abs/1807.03819))
-* [ ] Self-Attention with Relative Position Representations ([NAACL2018](https://arxiv.org/abs/1803.02155))
 
 
 ## 2018-07

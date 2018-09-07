@@ -14,13 +14,17 @@ NB: Time below means when I "studied", not when it has been.
 
 ### Reading
 * 3D Vision
-  * [ ] Spherical CNNs ([ICLR2018](https://openreview.net/forum?id=Hkbd5xZRb))
-  * ...
+  * [ ] Spherical CNNs ([ICLR2018 best](https://openreview.net/forum?id=Hkbd5xZRb)): this paper is too complicated for me to understand :(
+  * [x] Spherical convolutions and their application in molecular modelling ([NIPS2017](https://papers.nips.cc/paper/6935-spherical-convolutions-and-their-application-in-molecular-modelling)): difficult to read for non-native Engish. A good illustration for cubed-sphere grid ([link](http://acmg.seas.harvard.edu/geos/cubed_sphere/CubeSphere_step-by-step.html)).
+  * [x] Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models ([ICCV2017](https://arxiv.org/abs/1704.01222))
 * [ ] Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples ([ICML2018 best paper](https://arxiv.org/abs/1802.00420)) 
 * [ ] A New Angle on L2 Regularization ([blog]https://thomas-tanay.github.io/post--L2-regularization/)
 * [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
-* [ ] Universal Transformers ([arXiv](https://arxiv.org/abs/1807.03819))
-* [ ] Self-Attention with Relative Position Representations ([NAACL2018](https://arxiv.org/abs/1803.02155))
+* [x] Self-Attention Generative Adversarial Networks ([arXiv](https://arxiv.org/abs/1805.08318)): simple yet effective.
+* [x] Spectral Normalization Explained ([paper: ICLR2018](https://openreview.net/forum?id=B1QRgziT-)) ([blog](https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html)): greatly explained. SN means a $W/\sigma(W)$, $\sigma(W)$ denotes the max eigen vector of $W$. Then it provides a simple way to lower the computation.
+* [x] Image Transformer ([ICML2018](https://arxiv.org/abs/1802.05751)): self-attention application to autoregressive models.
+* [x] Self-Attention with Relative Position Representations ([NAACL2018](https://arxiv.org/abs/1803.02155)): a short paper, but provides good insight: instead of using pre-defined absolute postion-encoding, it uses learnable relative position embeddings. 
+* [x] Universal Transformers ([arXiv](https://arxiv.org/abs/1807.03819)): just a simple modification: add recurrence in Transformers (i.e. sharing weights for multiple layers), plus a trivial ACT (just like my setting in the code ...)
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
 * [ ] Why Momentum Really Works ([Distll](https://distill.pub/2017/momentum/))
 * [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))

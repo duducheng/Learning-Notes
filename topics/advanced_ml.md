@@ -20,8 +20,9 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
 * [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([MICCAI2017](https://arxiv.org/abs/1706.04737))
 * [ ] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7))
-
-
+* [ ] Why Momentum Really Works ([Distll](https://distill.pub/2017/momentum/))
+* [ ] Feature-wise transformations ([Distill](https://distill.pub/2018/feature-wise-transformations/))
+* [ ] Neural Processes as distributions over functions ([blog](http://kasparmartens.rbind.io/post/np/))
 
   
 ## Doing

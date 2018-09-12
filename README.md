@@ -17,13 +17,16 @@ NB: Time below means when I "studied", not when it has been.
   * [ ] Spherical CNNs ([ICLR2018 best](https://openreview.net/forum?id=Hkbd5xZRb)): this paper is too complicated for me to understand :(
   * [x] Spherical convolutions and their application in molecular modelling ([NIPS2017](https://papers.nips.cc/paper/6935-spherical-convolutions-and-their-application-in-molecular-modelling)): difficult to read for non-native Engish. A good illustration for cubed-sphere grid ([link](http://acmg.seas.harvard.edu/geos/cubed_sphere/CubeSphere_step-by-step.html)).
   * [x] Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models ([ICCV2017](https://arxiv.org/abs/1704.01222))
+  * [x] SO-Net: Self-Organizing Network for Point Cloud Analysis ([CVPR2018](https://arxiv.org/abs/1803.04249)): basically a PointNet++ with "SOM" clustering.
+  * [x] SPLATNet: Sparse Lattice Networks for Point Cloud Processing ([CVPR2018 oral](https://arxiv.org/abs/1802.08275)): it uses differentiable projection to regular grids (permutohedral lattices), together with sparse convolution for efficiency. However, I have not understood its advantage over set-based networks (e.g., PointNet++). Partial reasons are that I have not understood the advantage of bilateral convolution layer (BCL).
 * [x] Self-Attention Generative Adversarial Networks ([arXiv](https://arxiv.org/abs/1805.08318)): simple yet effective.
 * [x] Spectral Normalization Explained ([paper: ICLR2018](https://openreview.net/forum?id=B1QRgziT-)) ([blog](https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html)): greatly explained. SN means a $W/\sigma(W)$, $\sigma(W)$ denotes the max eigen vector of $W$. Then it provides a simple way to lower the computation.
 * [x] Image Transformer ([ICML2018](https://arxiv.org/abs/1802.05751)): self-attention application to autoregressive models.
 * [x] Self-Attention with Relative Position Representations ([NAACL2018](https://arxiv.org/abs/1803.02155)): a short paper, but provides good insight: instead of using pre-defined absolute postion-encoding, it uses learnable relative position embeddings. 
 * [x] Universal Transformers ([arXiv](https://arxiv.org/abs/1807.03819)): just a simple modification: add recurrence in Transformers (i.e. sharing weights for multiple layers), plus a trivial ACT (just like my setting in the code ...)
+* [x] A radiomics approach to assess tumour-infiltrating CD8 cells and response to anti-PD-1 or anti-PD-L1 immunotherapy: an imaging biomarker, retrospective multicohort study ([LANCET Oncology](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(18)30413-3/fulltext)): excellent angle on the usage of radiomics, though methodology is simple, the study is very meaningful and promising. 
 * [ ] Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples ([ICML2018 best paper](https://arxiv.org/abs/1802.00420)) 
-* [ ] A New Angle on L2 Regularization ([blog]https://thomas-tanay.github.io/post--L2-regularization/)
+* [ ] A New Angle on L2 Regularization ([blog](https://thomas-tanay.github.io/post--L2-regularization/))
 * [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
 * [ ] Hyperbolic Geometry and Poincaré Embeddings ([blog](http://bjlkeng.github.io/posts/hyperbolic-geometry-and-poincare-embeddings/))
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))

@@ -3,14 +3,25 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
-### 2018-09
+## 2018-10
+Main focus: preparing CVPR (and IPMI) [ddl](https://creedai.github.io/ai-deadlines/)
 
 ### Study
 * [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
   * [ ] Week 1
   * [ ] Week 2
-  * [ ] Week 3
-  * [ ] Week 4
+
+### Reading
+* 3D vision is still the main reading
+  * ...
+* [ ] A New Angle on L2 Regularization ([blog](https://thomas-tanay.github.io/post--L2-regularization/))
+* [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
+* [ ] Hyperbolic Geometry and Poincaré Embeddings ([blog](http://bjlkeng.github.io/posts/hyperbolic-geometry-and-poincare-embeddings/))
+* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
+* [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
+* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055))
+
+### 2018-09
 
 ### Reading
 * 3D Vision
@@ -19,9 +30,11 @@ NB: Time below means when I "studied", not when it has been.
   * [x] Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models ([ICCV2017](https://arxiv.org/abs/1704.01222))
   * [x] SO-Net: Self-Organizing Network for Point Cloud Analysis ([CVPR2018](https://arxiv.org/abs/1803.04249)): basically a PointNet++ with "SOM" clustering.
   * [x] SPLATNet: Sparse Lattice Networks for Point Cloud Processing ([CVPR2018 oral](https://arxiv.org/abs/1802.08275)): it uses differentiable projection to regular grids (permutohedral lattices), together with sparse convolution for efficiency. However, I have not understood its advantage over set-based networks (e.g., PointNet++). Partial reasons are that I have not understood the advantage of bilateral convolution layer (BCL).
-  * [ ] Neural 3D Mesh Renderer ([CVPR2018](https://arxiv.org/abs/1711.07566)) ([project page](http://hiroharu-kato.com/projects_en/neural_renderer.html)): very fancy, very useful.
+  * [x] Neural 3D Mesh Renderer ([CVPR2018](https://arxiv.org/abs/1711.07566)) ([project page](http://hiroharu-kato.com/projects_en/neural_renderer.html))
+    - *NB*: very fancy, very useful, but I have not fully understood the graphics-heavy work. I will renew my understanding further. tl;dr: 3 kinds of parameters can be optimized. `vertices`: [n_vertices, 3 (XYZ)], `textures` [n_faces, texture_size, texture_size, texture_size, 3 (RGB)], and `camera_position` [3]. Besides, `faces` [n_faces, 3 (triangle)] indicates the link of vertices (3 vs make a face), which makes the mesh can be processed like graph (it's graph indeed). `faces` seems can not be diff. The paper uses a Straight-Through Estimator to provide the gradients (for the vertices only, not sure at present; the others should have gradients naturally). 
   * [x] Generating 3D Adversarial Point Clouds ([arXiv](https://arxiv.org/abs/1809.07016)): poorly written.
   * [x] Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling ([arXiv](https://arxiv.org/abs/1712.06760)): not very insightful. Trivial modification uses too much language. Limited empirical improvements. However, learning visible (point) kernel is a good idea for interpretability in deep pc learning (which needs more exploration further).
+  * [x] Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images ([ECCV2018](https://arxiv.org/abs/1804.01654)): though appealing, it needs 3D supervision, which is very different from N3MR.
 * [x] Self-Attention Generative Adversarial Networks ([arXiv](https://arxiv.org/abs/1805.08318)): simple yet effective.
 * [x] Spectral Normalization Explained ([paper: ICLR2018](https://openreview.net/forum?id=B1QRgziT-)) ([blog](https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html)): greatly explained. SN means a $W/\sigma(W)$, $\sigma(W)$ denotes the max eigen vector of $W$. Then it provides a simple way to lower the computation.
 * [x] Generative adversarial interpolative autoencoding: adversarial training on latent space interpolations encourage convex latent distributions ([arXiv](https://arxiv.org/abs/1807.06650)): an interesting paper, though intuitive.
@@ -31,15 +44,9 @@ NB: Time below means when I "studied", not when it has been.
 * [x] Universal Transformers ([arXiv](https://arxiv.org/abs/1807.03819)): just a simple modification: add recurrence in Transformers (i.e. sharing weights for multiple layers), plus a trivial ACT (just like my setting in the code ...)
 * [x] A radiomics approach to assess tumour-infiltrating CD8 cells and response to anti-PD-1 or anti-PD-L1 immunotherapy: an imaging biomarker, retrospective multicohort study ([LANCET Oncology](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(18)30413-3/fulltext)): excellent angle on the usage of radiomics, though methodology is simple, the study is very meaningful and promising. 
 * [x] Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples ([ICML2018 best paper](https://arxiv.org/abs/1802.00420))
-  - *NB*: a brilliant conference paper like a journal paper (a research article, a review and a comment paper). Well-writen, comprehensive, well-performing. Very insightful. All the 8 pages are very worthy reading. However, its journal version could be better (if it exists further), since some techniques proposed seem not well suited in its Case Study section, e.g., the Reparameterization for solving Vanisihing & Exploding Gradients seems not to appear; istead, it was solved by BPDA. Besides, I don't understand why LID appears in the "Gradient Shattering" section, let alone that LID was not circumbented by the 3 main attack techniques proposed. Overall, the paper developped a good story about 3 shields (Shattered Gradients, Stochastic Gradients and Exploding & Vanishing Gradients) and 3 swords (Backward Pass Differentiable Approximation BPDA, Expectation over Transformation EOT and Reparameterization), while one should be very cafeful that the shields & swords are not the whole of the paper. The comments in the discussion are also valuable for future studies.
-* [ ] Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning ([ICLR2016 -> T-PAMI](https://arxiv.org/abs/1704.03976)):
+  - *NB*: a brilliant conference paper like a journal paper (a research article, a review and a comment paper). Well-writen, comprehensive, well-performing. Very insightful. All the 8 pages are very worth reading. However, its journal version could be better (if it exists further), since some techniques proposed seem not well suited in its Case Study section, e.g., the Reparameterization for solving Vanisihing & Exploding Gradients seems not to appear; instead, it was solved by BPDA. Besides, I don't understand why LID appears in the "Gradient Shattering" section, let alone that LID was not circumbented by the 3 main attack techniques proposed. Overall, the paper developped a good story about 3 shields (Shattered Gradients, Stochastic Gradients and Exploding & Vanishing Gradients) and 3 swords (Backward Pass Differentiable Approximation BPDA, Expectation over Transformation EOT and Reparameterization), while one should be very cafeful that the shields & swords are not the whole of the paper. The comments in the discussion are also valuable for future studies.
+* [x] Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning ([ICLR2016 -> T-PAMI](https://arxiv.org/abs/1704.03976)):
   - *NB*: good empirical results, elegant solutions. 3 Hyper-parameters: `eplison` (default: 8.0, norm length for (virtual) adversarial training), `num_power_iterations` or `K` (default: 1, the number of power iterations) and `xi` (default: 1e-6, small constant for finite difference). A clean PyTorch implementation [here](https://github.com/lyakaap/VAT-pytorch) but seems with wrong default hyper-p. For the VAT loss only, it needs `K+2` forwards, and `K+1` backwards (my calc is sightly different from the paper).
-* [ ] A New Angle on L2 Regularization ([blog](https://thomas-tanay.github.io/post--L2-regularization/))
-* [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
-* [ ] Hyperbolic Geometry and Poincaré Embeddings ([blog](http://bjlkeng.github.io/posts/hyperbolic-geometry-and-poincare-embeddings/))
-* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
-* [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
-* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055))
 
 ## 2018-08
 My Bayesian month :)

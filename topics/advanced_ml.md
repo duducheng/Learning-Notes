@@ -23,6 +23,9 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] Why Momentum Really Works ([Distll](https://distill.pub/2017/momentum/))
 * [ ] Feature-wise transformations ([Distill](https://distill.pub/2018/feature-wise-transformations/))
 * [ ] Neural Processes as distributions over functions ([blog](http://kasparmartens.rbind.io/post/np/))
+* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
+* [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
+* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055))
 
   
 ## Doing

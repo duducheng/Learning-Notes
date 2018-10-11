@@ -13,15 +13,26 @@ Main focus: preparing CVPR (and IPMI) [ddl](https://creedai.github.io/ai-deadlin
 
 ### Reading
 * 3D vision is still the main reading
-  * ...
+  * [x] FoldingNet: Point Cloud Auto-encoder via Deep Grid Deformation ([CVPR2018](https://arxiv.org/abs/1712.07262))
+  * [x] PU-Net: Point Cloud Upsampling Network ([CVPR2018](https://arxiv.org/abs/1801.06761))
+  * [x] Pointwise Convolutional Neural Networks ([CVPR2018](https://arxiv.org/abs/1712.05245))
+  * [x] 3D Graph Neural Networks for RGBD Semantic Segmentation ([ICCV2017](http://www.cs.toronto.edu/~rjliao/papers/iccv_2017_3DGNN.pdf))
+  * [x] Recurrent Slice Networks for 3D Segmentation of Point Clouds ([CVPR2018](https://arxiv.org/abs/1802.04402))
+  * [ ] Learning Representations and Generative Models for 3D Point Clouds ([ICML2018](https://arxiv.org/abs/1707.02392))
+  * [ ] PointGrid: A Deep Network for 3D Shape Understanding ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf))
+  * [ ] Learning Steerable Filters for Rotation Equivariant CNNs ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Weiler_Learning_Steerable_Filters_CVPR_2018_paper.pdf))
+  * [ ] 3D Steerable CNNs: Learning Rotationally Equivariant Features in Volumetric Data ([arXiv](https://arxiv.org/abs/1807.02547))
+* [x] Efficient Annotation of Segmentation Datasets with PolygonRNN++ ([CVPR2018](http://www.cs.toronto.edu/polyrnn/)): very interesting application of existing algorithms (segmentation + RL + GNN), but some details are missing in this conference paper (maybe better in its journal version?). Many engineering details.
+* [x] Taskonomy: Disentangling Task Transfer Learning ([CVPR2018 best](http://taskonomy.stanford.edu/)): hard to understand.
+* [x] A Low Power, Fully Event-Based Gesture Recognition System ([CVPR2017](https://ieeexplore.ieee.org/document/8100264))
+* [x] Hand PointNet: 3D Hand Pose Estimation using Point Sets ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Ge_Hand_PointNet_3D_CVPR_2018_paper.pdf)): not my area actually. A PointNet application for hand pose regression.
 * [ ] A New Angle on L2 Regularization ([blog](https://thomas-tanay.github.io/post--L2-regularization/))
 * [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
 * [ ] Hyperbolic Geometry and Poincaré Embeddings ([blog](http://bjlkeng.github.io/posts/hyperbolic-geometry-and-poincare-embeddings/))
-* [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
-* [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
-* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055))
 
 ### 2018-09
+
+Our paper `3D Deep Learning from CT Scans Predicts Tumor Invasiveness of Subcentimeter Pulmonary Adenocarcinomas` is accepted by  *[Cancer Research](http://cancerres.aacrjournals.org/content/early/2018/10/02/0008-5472.CAN-18-0696)* (DOI: 10.1158/0008-5472.CAN-18-0696).
 
 ### Reading
 * 3D Vision

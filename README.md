@@ -18,8 +18,11 @@ Main focus: preparing CVPR (and IPMI) [ddl](https://creedai.github.io/ai-deadlin
   * [x] Pointwise Convolutional Neural Networks ([CVPR2018](https://arxiv.org/abs/1712.05245))
   * [x] 3D Graph Neural Networks for RGBD Semantic Segmentation ([ICCV2017](http://www.cs.toronto.edu/~rjliao/papers/iccv_2017_3DGNN.pdf))
   * [x] Recurrent Slice Networks for 3D Segmentation of Point Clouds ([CVPR2018](https://arxiv.org/abs/1802.04402))
-  * [ ] Learning Representations and Generative Models for 3D Point Clouds ([ICML2018](https://arxiv.org/abs/1707.02392))
-  * [ ] PointGrid: A Deep Network for 3D Shape Understanding ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf))
+  * [x] Learning Representations and Generative Models for 3D Point Clouds ([ICML2018](https://arxiv.org/abs/1707.02392)): apart from the GAN for point cloud, the metric to measure two point clouds is also useful (togethor with its [code](https://github.com/optas/latent_3d_points)). A paper solid to win (8-page supplementary experiments).
+  * [x] PointGrid: A Deep Network for 3D Shape Understanding ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf)): a simple yet effective and efficient solution for point cloud. I do like this paper (though not very well-wrtien). However, it seems a purified methodology version of VoxelNet (also CVPR2018). No cross citation between these two papers.
+  * [x] VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/3333.pdf)): a "PointGrid" (CVPR2018 as well) on kitti, better writen. No cross citation between these two papers.
+  * [x] PointGrow: Autoregressively Learned Point Cloud Generation with Self-Attention ([OpenReview](https://openreview.net/forum?id=r1eWW2RqFX), ICLR2019 under review): not very clear writen. Some evaluation is mssing better metrics. Some baseline is missing. I guess a 60% probability to accept. Maybe writen by an intern of authors of DGCNN.
+  * [ ] Group Equivariant Convolutional Networks ([ICML2016](https://arxiv.org/abs/1602.07576)): not 3D, but on Group Equivariance as a premilary for other papers on this topic.
   * [ ] Learning Steerable Filters for Rotation Equivariant CNNs ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Weiler_Learning_Steerable_Filters_CVPR_2018_paper.pdf))
   * [ ] 3D Steerable CNNs: Learning Rotationally Equivariant Features in Volumetric Data ([arXiv](https://arxiv.org/abs/1807.02547))
 * [x] Efficient Annotation of Segmentation Datasets with PolygonRNN++ ([CVPR2018](http://www.cs.toronto.edu/polyrnn/)): very interesting application of existing algorithms (segmentation + RL + GNN), but some details are missing in this conference paper (maybe better in its journal version?). Many engineering details.
@@ -29,6 +32,8 @@ Main focus: preparing CVPR (and IPMI) [ddl](https://creedai.github.io/ai-deadlin
 * [ ] A New Angle on L2 Regularization ([blog](https://thomas-tanay.github.io/post--L2-regularization/))
 * [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
 * [ ] Hyperbolic Geometry and Poincaré Embeddings ([blog](http://bjlkeng.github.io/posts/hyperbolic-geometry-and-poincare-embeddings/))
+* [ ] Hyperbolic Attention Networks ([OpenReview](https://openreview.net/forum?id=rJxHsjRqFQ), [arXiv](https://arxiv.org/abs/1805.09786), ICLR2019 under review)
+* [x] Visible Machine Learning for Biomedicine ([Cell](https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(18)30719-0) Commentary)
 
 ### 2018-09
 
@@ -179,7 +184,7 @@ A very busy month for preparing papers.
   * [x] Deep Multi-instance Networks with Sparse Label Assignment for Whole Mammogram Classification ([arXiv](https://arxiv.org/abs/1612.05968)) ([code](https://github.com/wentaozhu/deep-mil-for-whole-mammogram-classification))
   * [x] Multi-Instance Deep Learning: Discover Discriminative Local Anatomies for Bodypart Recognition: trival writing, same idea as DSB2017 THU solution.
   * [x] Learning from Experts: Developing Transferable Deep Features for Patient-Level Lung Cancer Prediction ([MICCAI](https://link.springer.com/chapter/10.1007/978-3-319-46723-8_15)): very very bad writing, hard to find the details of the model / training / data. 
-  * [x] Attention-based Deep Multiple Instance Learning ([arXiv](https://arxiv.org/abs/1802.04712))
+  * [x] Attention-based Deep Multiple Instance Learning ([ICML2018](https://arxiv.org/abs/1802.04712): !)
   * [x] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475))
   * [ ] Multiple-Instance Learning for Medical Image and Video Analysis ([IEEE](http://ieeexplore.ieee.org/document/7812612/))
   * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))

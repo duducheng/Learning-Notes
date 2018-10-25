@@ -7,9 +7,10 @@ NB: Time below means when I "studied", not when it has been.
 Main focus: preparing CVPR (and IPMI) [ddl](https://creedai.github.io/ai-deadlines/)
 
 ### Study
-* [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
-  * [ ] Week 1
-  * [ ] Week 2
+* [x] 一堂課讓你認識肺癌（Basic Concepts of Lung Cancer: Diagnosis and Treatment）([Coursera](https://www.coursera.org/learn/lung-cancer/))
+* [x] Computational Neuroscience 计算神经科学 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:NTHU+MOOC_04+sp/courseware/def9437b3df2456e88dd2e7fa0bb227a/))
+  * [x] week3 - Signal propagation in neurons
+  * [x] week4 - Neural Network simulators
 
 ### Reading
 * 3D vision is still the main reading
@@ -22,17 +23,20 @@ Main focus: preparing CVPR (and IPMI) [ddl](https://creedai.github.io/ai-deadlin
   * [x] PointGrid: A Deep Network for 3D Shape Understanding ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf)): a simple yet effective and efficient solution for point cloud. I do like this paper (though not very well-wrtien). However, it seems a purified methodology version of VoxelNet (also CVPR2018). No cross citation between these two papers.
   * [x] VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/3333.pdf)): a "PointGrid" (CVPR2018 as well) on kitti, better writen. No cross citation between these two papers.
   * [x] PointGrow: Autoregressively Learned Point Cloud Generation with Self-Attention ([OpenReview](https://openreview.net/forum?id=r1eWW2RqFX), ICLR2019 under review): not very clear writen. Some evaluation is mssing better metrics. Some baseline is missing. I guess a 60% probability to accept. Maybe writen by an intern of authors of DGCNN.
-  * [ ] Group Equivariant Convolutional Networks ([ICML2016](https://arxiv.org/abs/1602.07576)): not 3D, but on Group Equivariance as a premilary for other papers on this topic.
+* Group Equivariance
+  * [ ] Group Equivariant Convolutional Networks ([ICML2016](https://arxiv.org/abs/1602.07576)): as a premilary for other papers on this topic.
   * [ ] Learning Steerable Filters for Rotation Equivariant CNNs ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Weiler_Learning_Steerable_Filters_CVPR_2018_paper.pdf))
   * [ ] 3D Steerable CNNs: Learning Rotationally Equivariant Features in Volumetric Data ([arXiv](https://arxiv.org/abs/1807.02547))
+* Attention / Graph
+  * [x] Hyperbolic Attention Networks ([OpenReview](https://openreview.net/forum?id=rJxHsjRqFQ), [arXiv](https://arxiv.org/abs/1805.09786), ICLR2019 under review): a paper I do not fully understand due to so much missing knowledge in Hyperbolic geometry. A Hyperblic space embedding seems appealing; However, it seems that this paper does not well explained why it is suitable for attention instead of general neural network representation. Worth more exploration.
+  * [ ] Relational Graph Attention Networks ([OpenReview](https://openreview.net/forum?id=Bklzkh0qFm), ICLR2019 under review)
+  * [ ] Hierarchical Graph Representation Learning with Differentiable Pooling ([arXiv](https://arxiv.org/abs/1806.08804))
+  * [ ] Learning Visual Question Answering by Bootstrapping Hard Attention ([ECCV2018](https://arxiv.org/abs/1808.00300))
+* [ ] A New Angle on L2 Regularization ([blog](https://thomas-tanay.github.io/post--L2-regularization/))
 * [x] Efficient Annotation of Segmentation Datasets with PolygonRNN++ ([CVPR2018](http://www.cs.toronto.edu/polyrnn/)): very interesting application of existing algorithms (segmentation + RL + GNN), but some details are missing in this conference paper (maybe better in its journal version?). Many engineering details.
 * [x] Taskonomy: Disentangling Task Transfer Learning ([CVPR2018 best](http://taskonomy.stanford.edu/)): hard to understand.
 * [x] A Low Power, Fully Event-Based Gesture Recognition System ([CVPR2017](https://ieeexplore.ieee.org/document/8100264))
 * [x] Hand PointNet: 3D Hand Pose Estimation using Point Sets ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Ge_Hand_PointNet_3D_CVPR_2018_paper.pdf)): not my area actually. A PointNet application for hand pose regression.
-* [ ] A New Angle on L2 Regularization ([blog](https://thomas-tanay.github.io/post--L2-regularization/))
-* [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
-* [ ] Hyperbolic Geometry and Poincaré Embeddings ([blog](http://bjlkeng.github.io/posts/hyperbolic-geometry-and-poincare-embeddings/))
-* [ ] Hyperbolic Attention Networks ([OpenReview](https://openreview.net/forum?id=rJxHsjRqFQ), [arXiv](https://arxiv.org/abs/1805.09786), ICLR2019 under review)
 * [x] Visible Machine Learning for Biomedicine ([Cell](https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(18)30719-0) Commentary)
 
 ### 2018-09

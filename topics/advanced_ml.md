@@ -1,7 +1,9 @@
 # Advanced Machine Learning Study Plan
 This list mainly focuses on Bayesian Machine Learning.
 
-## to-do soon
+## Doing
+
+## Soon
 * Interpretability
   * [ ] Understanding Black-box Predictions via Influence Functions ([arXiv](https://arxiv.org/abs/1703.04730))
   * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))
@@ -26,9 +28,20 @@ This list mainly focuses on Bayesian Machine Learning.
 * [ ] World Models ([website](https://worldmodels.github.io/)) ([arXiv](https://arxiv.org/abs/1803.10122))
 * [ ] Differentiable Image Parameterizations ([Distill](https://distill.pub/2018/differentiable-parameterizations/))
 * [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055))
+* [ ] The GAN Landscape: Losses, Architectures, Regularization, and Normalization ([arXiv](https://arxiv.org/abs/1807.04720))
+* [ ] Hyperbolic Geometry and Poincaré Embeddings ([blog](http://bjlkeng.github.io/posts/hyperbolic-geometry-and-poincare-embeddings/))
 
-  
-## Doing
+## Practice
+* [ ] MNIST from scratch ([ref](https://github.com/eriklindernoren/ML-From-Scratch/tree/master/mlfromscratch/deep_learning))
+* [ ] Finding the suspect: BMML final project ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
+* [ ] Classification setting + DNI
+* [ ] STN + 3D STN
+* [ ] TSP 
+    * [ ] Learning Combinatorial Optimization Algorithms over Graphs ([NIPS](https://papers.nips.cc/paper/7214-learning-combinatorial-optimization-algorithms-over-graphs.pdf))
+    * [ ] Neural Combinatorial Optimization with Reinforcement Learning ([arXiv](https://arxiv.org/abs/1611.09940)) ([code](https://github.com/pemami4911/neural-combinatorial-rl-pytorch))
+    * [ ] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475)) ([code](https://github.com/wouterkool/attention-tsp))
+
+## TODO
 * [ ] Bayesian Methods for Machine Learning ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
 * [ ] ydxu ([course page](http://www-staff.it.uts.edu.au/~ydxu/statistics.htm))
 * [ ] Bayesian Methods for Machine Learning ([AML](topics/advanced_ml.md))
@@ -45,24 +58,6 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Variational Inference Basics
   * [ ] Variational Inference for LDA
   * [ ] Variational Inference Exponential Family
-
-## Practice
-* [ ] DeepLabv3+ Pascal Voc2012 Segmentation with Gluon 
-* [ ] Preparing SAT++ project with jinxian
-* [ ] point cloud segmentation
-* [ ] Preparing open source SATs
-* [ ] MNIST from scratch ([ref](https://github.com/eriklindernoren/ML-From-Scratch/tree/master/mlfromscratch/deep_learning))
-* [ ] [2048](https://github.com/duducheng/2048): RL agent
-* [ ] Average Face as House of Cards V
-* [ ] Finding the suspect: BMML final project ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
-* [ ] Classification setting + DNI
-* [ ] STN + 3D STN
-* [ ] TSP 
-    * [ ] Learning Combinatorial Optimization Algorithms over Graphs ([NIPS](https://papers.nips.cc/paper/7214-learning-combinatorial-optimization-algorithms-over-graphs.pdf))
-    * [ ] Neural Combinatorial Optimization with Reinforcement Learning ([arXiv](https://arxiv.org/abs/1611.09940)) ([code](https://github.com/pemami4911/neural-combinatorial-rl-pytorch))
-    * [ ] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475)) ([code](https://github.com/wouterkool/attention-tsp))
-
-## TODO
 * Bayesian Machine Learning
     * [ ] [MLaPP](https://www.cs.ubc.ca/~murphyk/MLbook/)
     * [ ] CMU PGM by Eric Xing
@@ -81,3 +76,5 @@ This list mainly focuses on Bayesian Machine Learning.
 * [x] [Atari Game Playing](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/A3) @[my fork of `Practical-RL`](https://github.com/duducheng/Practical_RL/tree/master/workspace) 
     * ![Pong](../weekly/Pong.gif)
 * [x] Pointer Network in PyTorch
+* [x] DeepLabv3+ Pascal Voc2012 Segmentation with Gluon 
+

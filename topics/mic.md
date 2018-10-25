@@ -3,16 +3,21 @@ Computer Vision, Medical Imaging and Biomedicine.
 
 ## DOING
 * [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
-* [ ] Computational Neuroscience 计算神经科学 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:NTHU+MOOC_04+sp/courseware/def9437b3df2456e88dd2e7fa0bb227a/))
+* [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
+  * [ ] Week 1
+  * [ ] Week 2
+* [ ] 现代生物学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:TsinghuaX+10450012X+sp/courseware/d1895429ed6049fe9cfb5d820b1e3332/))
 
 ## Practice
-* [ ] lunglabv2-CADe ([ref](https://github.com/lfz/DSB2017))
+* [ ] lunglab: CADe + CADx ([ref](https://github.com/lfz/DSB2017)
+  * Aimed at very fast speed implementation, weak annotation.
   * [ ] basic 3D Faster R-CNN
   * [ ] lkds + luna16
   * [ ] + fpn
   * [ ] + focal loss
   * [ ] + dense
-* [ ] lunglabv2-CADx
+  * [ ] all ops on GPU (including lung segementation)
+  * [ ] web-based interface
 * [ ] CheXNet ([ref](https://github.com/arnoweng/CheXNet))
 * [ ] CTX-GAN
 * [ ] radiomics and genomics ([ref](http://www.radiomics.io/)) 

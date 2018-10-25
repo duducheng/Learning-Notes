@@ -2,6 +2,7 @@
 Programming & Algorithms.
 
 ## Doing
+* [ ] 计算机图形学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UC_BerkeleyX+CS_184_1x+sp/courseware/Unit_1/))
 
 ## Practice
 * [ ] [autodiff](https://github.com/dlsys-course/assignment1)

@@ -3,6 +3,9 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
+## 2018-11
+Very busy on preparing papers for CVPR18.
+
 ## 2018-10
 Main focus: preparing CVPR (and IPMI) [ddl](https://creedai.github.io/ai-deadlines/)
 

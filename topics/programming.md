@@ -7,7 +7,6 @@ Programming & Algorithms.
 ## Practice
 * [ ] [autodiff](https://github.com/dlsys-course/assignment1)
 * [ ] [2048](https://github.com/duducheng/2048): SearchAgent (e.g. minimax) (ref: [Udacity ML](https://classroom.udacity.com/courses/ud262))
-* [ ] [2048](https://github.com/duducheng/2048) in browser
 
 ## TODO
 * [ ] Deep Learning System [dlsys](http://dlsys.cs.washington.edu/)
@@ -20,4 +19,5 @@ Programming & Algorithms.
 * [ ] Design of Computer Programs ([Udacity](https://classroom.udacity.com/courses/cs212/lessons/48688918/concepts/482769590923))
 
 ## Done
+* [x] [2048-api](https://github.com/duducheng/2048-api) in browser
 

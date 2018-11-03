@@ -18,6 +18,7 @@ Computer Vision, Medical Imaging and Biomedicine.
   * [ ] + dense
   * [ ] all ops on GPU (including lung segementation)
   * [ ] web-based interface
+  * [ ] 3d slicer interface
   * [ ] a project page, including previous work
 * [ ] CheXNet ([ref](https://github.com/arnoweng/CheXNet))
 * [ ] CTX-GAN

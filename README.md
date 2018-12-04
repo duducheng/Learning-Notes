@@ -3,8 +3,29 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
+## 2018-12
+
+Fortunately, IPMI19 ddl is extended to Dec 13. Then I'm preparing one another MIC journal paper.
+
+### Reading
+* [x] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ([arXiv](https://arxiv.org/abs/1810.04805))
+* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055)) 
+* MIC
+  * [ ] Risk Stratification of Lung Nodules Using 3D CNN-Based Multi-task Learning ([IPMI17](https://link.springer.com/chapter/10.1007/978-3-319-59050-9_20))
+  * [ ] Diagnostic Classification Of Lung Nodules Using 3D Neural Networks ([ISBI18](https://arxiv.org/abs/1803.07192))
+  * [ ] Joint Learning for Pulmonary Nodule Segmentation, Attributes and Malignancy Prediction ([ISBI18](https://arxiv.org/abs/1802.03584))
+  * [ ] Transferable Multi-model Ensemble for Benign-Malignant Lung Nodule Classification on Chest CT ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_75))
+  * [ ] Semi-Supervised Multi-Task Learning for Lung Cancer Diagnosis ([arXiv](https://arxiv.org/pdf/1802.06181.pdf))
+  * [ ] Deep Active Self-paced Learning for Accurate Pulmonary Nodule Segmentation ([MICCAI18](https://www.researchgate.net/publication/327629896_Deep_Active_Self-paced_Learning_for_Accurate_Pulmonary_Nodule_Segmentation))
+  * [ ] CT-Realistic Lung Nodule Simulation from 3D Conditional Generative Adversarial Networks for Robust Lung Segmentation ([MICCAI18](https://arxiv.org/abs/1806.04051))
+  * [ ] Automated Pulmonary Nodule Detection: High Sensitivity with Few Candidates ([MICCAI18](https://www.researchgate.net/publication/327629744_Automated_Pulmonary_Nodule_Detection_High_Sensitivity_with_Few_Candidates_21st_International_Conference_Granada_Spain_September_16-20_2018_Proceedings_Part_II))
+  * [ ] Discriminative Localization in CNNs for Weakly-Supervised Segmentation of Pulmonary Nodules ([MICCAI17](https://arxiv.org/abs/1707.01086))
+  * [ ] Curriculum Adaptive Sampling for Extreme Data Imbalance ([MICCAI17](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_73)) ([code](https://github.com/taki0112/CASED-Tensorflow))
+  * [ ] S4ND: Single-Shot Single-Scale Lung Nodule Detection ([MICCAI18](https://arxiv.org/abs/1805.02279))
+  * [ ] DeepEM: Deep 3D ConvNets with EM for Weakly Supervised Pulmonary Nodule Detection ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_90))
+
 ## 2018-11
-Very busy on preparing papers for CVPR18.
+Very busy on preparing papers for CVPR19, then IPMI19.
 
 ## 2018-10
 Main focus: preparing CVPR (and IPMI) [ddl](https://creedai.github.io/ai-deadlines/)

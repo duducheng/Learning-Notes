@@ -4,6 +4,15 @@ This list mainly focuses on Bayesian Machine Learning.
 ## Doing
 
 ## Soon
+* Group Equivariance
+  * [ ] Group Equivariant Convolutional Networks ([ICML2016](https://arxiv.org/abs/1602.07576)): as a premilary for other papers on this topic.
+  * [ ] Learning Steerable Filters for Rotation Equivariant CNNs ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Weiler_Learning_Steerable_Filters_CVPR_2018_paper.pdf))
+  * [ ] 3D Steerable CNNs: Learning Rotationally Equivariant Features in Volumetric Data ([arXiv](https://arxiv.org/abs/1807.02547))
+* Attention
+  * [ ] Relational Graph Attention Networks ([OpenReview](https://openreview.net/forum?id=Bklzkh0qFm), ICLR2019 under review)
+  * [ ] Hierarchical Graph Representation Learning with Differentiable Pooling ([arXiv](https://arxiv.org/abs/1806.08804))
+  * [ ] Learning Visual Question Answering by Bootstrapping Hard Attention ([ECCV2018](https://arxiv.org/abs/1808.00300))
+* [ ] A New Angle on L2 Regularization ([blog](https://thomas-tanay.github.io/post--L2-regularization/))
 * Interpretability
   * [ ] Understanding Black-box Predictions via Influence Functions ([arXiv](https://arxiv.org/abs/1703.04730))
   * [ ] Beyond Sparsity: Tree Regularization of Deep Models for Interpretability ([arXiv](https://arxiv.org/abs/1711.06178))

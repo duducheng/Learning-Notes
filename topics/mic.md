@@ -9,6 +9,13 @@ Computer Vision, Medical Imaging and Biomedicine.
 * [ ] 现代生物学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:TsinghuaX+10450012X+sp/courseware/d1895429ed6049fe9cfb5d820b1e3332/))
 
 ## Practice
+* [ ] lung_preprocess_utils (GPU-accelerated and light-weight):
+    * [ ] dicom, mhd, nii, nrrd for CT
+    * [ ] mhd, nii, nrrd for labels
+    * [ ] numpy-based pre-processing
+    * [ ] torch-based CPU / GPU pre-procesing (window clip, resize, etc.)
+    * [ ] visualization
+    * [ ] light-weight segmentation networks (multiple windows)
 * [ ] lunglab: CADe + CADx ([ref](https://github.com/lfz/DSB2017)
   * Aimed at very fast speed implementation, weak annotation.
   * [ ] basic 3D Faster R-CNN

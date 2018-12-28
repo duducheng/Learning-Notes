@@ -7,13 +7,17 @@ NB: Time below means when I "studied", not when it has been.
 
 Fortunately, IPMI19 ddl is extended to Dec 13. Then I'm preparing one another MIC journal paper.
 
+### Study
+* Interpretable Machine Learning book ([link](https://christophm.github.io/interpretable-ml-book/index.html))
+
 ### Reading
 * [x] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ([arXiv](https://arxiv.org/abs/1810.04805))
 * [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055)) 
 * MIC
-  * [ ] Risk Stratification of Lung Nodules Using 3D CNN-Based Multi-task Learning ([IPMI17](https://link.springer.com/chapter/10.1007/978-3-319-59050-9_20))
-  * [ ] Diagnostic Classification Of Lung Nodules Using 3D Neural Networks ([ISBI18](https://arxiv.org/abs/1803.07192))
-  * [ ] Joint Learning for Pulmonary Nodule Segmentation, Attributes and Malignancy Prediction ([ISBI18](https://arxiv.org/abs/1802.03584))
+  * [x] Risk Stratification of Lung Nodules Using 3D CNN-Based Multi-task Learning ([IPMI17](https://link.springer.com/chapter/10.1007/978-3-319-59050-9_20)): too many details missing in the paper, e.g., how large is the input, detailed network architecture, MTL solution. Note the MTL is not end-to-end. It is not convincing in a cross-validation setting.
+  * [ ] Diagnostic Classification Of Lung Nodules Using 3D Neural Networks ([ISBI18](httpst://arxiv.org/abs/1803.07192))
+  * [x] Joint Learning for Pulmonary Nodule Segmentation, Attributes and Malignancy Prediction ([ISBI18](https://arxiv.org/abs/1802.03584)): it uses different accuracy defination. Very engineering-orient methodology, however not detailed and convincing.
+  * [x] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7)): a very inspiring work. However, Cell paper seems very biology-oriented (at least this one). Some terminology is too complicated for me; thus sadly, I do not understand all the biomedcine translational values :( . Study hard! 
   * [ ] Transferable Multi-model Ensemble for Benign-Malignant Lung Nodule Classification on Chest CT ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_75))
   * [ ] Semi-Supervised Multi-Task Learning for Lung Cancer Diagnosis ([arXiv](https://arxiv.org/pdf/1802.06181.pdf))
   * [ ] Deep Active Self-paced Learning for Accurate Pulmonary Nodule Segmentation ([MICCAI18](https://www.researchgate.net/publication/327629896_Deep_Active_Self-paced_Learning_for_Accurate_Pulmonary_Nodule_Segmentation))
@@ -23,7 +27,15 @@ Fortunately, IPMI19 ddl is extended to Dec 13. Then I'm preparing one another MI
   * [ ] Curriculum Adaptive Sampling for Extreme Data Imbalance ([MICCAI17](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_73)) ([code](https://github.com/taki0112/CASED-Tensorflow))
   * [ ] S4ND: Single-Shot Single-Scale Lung Nodule Detection ([MICCAI18](https://arxiv.org/abs/1805.02279))
   * [ ] DeepEM: Deep 3D ConvNets with EM for Weakly Supervised Pulmonary Nodule Detection ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_90))
-
+* PLOS Medicine Special Issue
+  * [ ] Deep learning for lung cancer prognostication: A retrospective multi-cohort radiomics study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002711))
+  * [ ] Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet ([PLOS Medicine]())
+  * [ ] Prediction of myopia development among Chinese school-aged children using refraction data from electronic medical records: A retrospective, multicentre machine learning study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002674))
+  * [ ] Development and validation of machine learning models to identify high-risk surgical patients using automatically curated electronic health record data (Pythia): A retrospective, single-site study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article/authors?id=10.1371/journal.pmed.1002701))
+  * [ ] Deep learning for chest radiograph diagnosis: A retrospective comparison of the CheXNeXt algorithm to practicing radiologists ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002686))
+  * [ ] Automated detection of moderate and large pneumothorax on frontal chest X-rays using deep convolutional neural networks: A retrospective study ([PLOS Medicine](http://dx.plos.org/10.1371/journal.pmed.1002697))
+  * [ ] Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683))
+  
 ## 2018-11
 Very busy on preparing papers for CVPR19, then IPMI19.
 

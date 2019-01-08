@@ -3,6 +3,10 @@ Computer Vision, Medical Imaging and Biomedicine.
 
 ## DOING
 * [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
+  * [ ] Week 3: Ultrasound
+  * [ ] Week 4: MRI
+  * [ ] Week 5: PET
+  * [ ] Final test
 * [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
   * [ ] Week 1
   * [ ] Week 2

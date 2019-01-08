@@ -3,21 +3,30 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when I "studied", not when it has been.
 
-## 2018-12
-
-Fortunately, IPMI19 ddl is extended to Dec 13. Then I'm preparing one another MIC journal paper.
+## 2019-01
 
 ### Study
 * Interpretable Machine Learning book ([link](https://christophm.github.io/interpretable-ml-book/index.html))
+* [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
+  * [ ] Week 3: Ultrasound
+* [ ] Thoracic Oncology ([Coursera](https://www.coursera.org/learn/thoracic-oncology/home/welcome))
+  * [ ] Week 1
+  * [ ] Week 2
 
 ### Reading
-* [x] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ([arXiv](https://arxiv.org/abs/1810.04805))
-* [ ] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055)) 
+* [x] DARTS: Differentiable Architecture Search ([arXiv](https://arxiv.org/abs/1806.09055)): interesting paper, inspiring, validation dataset is also possible for (iteractive) optimization.
+* [x] Efficient Neural Architecture Search via Parameter Sharing ([arXiv](https://arxiv.org/abs/1802.03268)): a.k.a. ENAS. 
+  * *NB*: Read DARTS and ENAS, it's easy to find these two are highly related. Lots of contributions are proposed by ENAS (or even before?). The experiment settings of DARTS are borrowed much from ENAS. A basic assumption of DARTS is the weight sharing (which is the key contribution of ENAS). DARTS provides an alternative to optimize the networks: ENAS uses RL (with controller LSTM), and DARTS use a soft weights. A single forward for ENAS is just a network, while for DARTS it is an "ensemble" of networks. For experiments, ENAS seems more efficient, though the controller LSTM get gradients with high variance. For me, I prefer ENAS way (just like neural turing machine), while DARTS is clearly easier to implement. The [Switchable Norm](https://arxiv.org/abs/1806.10779) is inspired from / could be viewed as variant of DARTS.  
+* [x] Decoupled Neural Interfaces Using Synthetic Gradients ([ICML17](http://proceedings.mlr.press/v70/jaderberg17a/jaderberg17a.pdf)) ([DeepMind blog](https://deepmind.com/blog/decoupled-neural-networks-using-synthetic-gradients/)): the blog is great for illustration.
+* 3DV
+  * [x] Learning Category-Specific Mesh Reconstruction from Image Collections ([ECCV18](https://arxiv.org/abs/1803.07549)) ([project page](https://akanazawa.github.io/cmr/))
+  * [x] Realistic Adversarial Examples in 3D Meshes ([OpenReview](https://openreview.net/forum?id=SJfcrn0qKX): ICLR19 withdraw): it is indeed very creative, while it was done in a rush. Pitfalls: single-viewpoint issues and the paper writing.
+  * [x] Strike (with) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects ([arXiv](https://arxiv.org/abs/1811.11553))
+  * [ ] Unsupervised Learning of Shape and Pose with Differentiable Point Clouds ([NIPS18](https://arxiv.org/abs/1810.09381))
+  * [ ] Deep Marching Cubes: Learning Explicit Surface Representations ([CVPR18](http://www.cvlibs.net/publications/Liao2018CVPR.pdf))
+  * [ ] Learning to Reconstruct Shapes from Unseen Classes ([NIPS18](https://papers.nips.cc/paper/7494-learning-to-reconstruct-shapes-from-unseen-classes)) ([project page](http://genre.csail.mit.edu/))
 * MIC
-  * [x] Risk Stratification of Lung Nodules Using 3D CNN-Based Multi-task Learning ([IPMI17](https://link.springer.com/chapter/10.1007/978-3-319-59050-9_20)): too many details missing in the paper, e.g., how large is the input, detailed network architecture, MTL solution. Note the MTL is not end-to-end. It is not convincing in a cross-validation setting.
   * [ ] Diagnostic Classification Of Lung Nodules Using 3D Neural Networks ([ISBI18](httpst://arxiv.org/abs/1803.07192))
-  * [x] Joint Learning for Pulmonary Nodule Segmentation, Attributes and Malignancy Prediction ([ISBI18](https://arxiv.org/abs/1802.03584)): it uses different accuracy defination. Very engineering-orient methodology, however not detailed and convincing.
-  * [x] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7)): a very inspiring work. However, Cell paper seems very biology-oriented (at least this one). Some terminology is too complicated for me; thus sadly, I do not understand all the biomedcine translational values :( . Study hard! 
   * [ ] Transferable Multi-model Ensemble for Benign-Malignant Lung Nodule Classification on Chest CT ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_75))
   * [ ] Semi-Supervised Multi-Task Learning for Lung Cancer Diagnosis ([arXiv](https://arxiv.org/pdf/1802.06181.pdf))
   * [ ] Deep Active Self-paced Learning for Accurate Pulmonary Nodule Segmentation ([MICCAI18](https://www.researchgate.net/publication/327629896_Deep_Active_Self-paced_Learning_for_Accurate_Pulmonary_Nodule_Segmentation))
@@ -35,6 +44,30 @@ Fortunately, IPMI19 ddl is extended to Dec 13. Then I'm preparing one another MI
   * [ ] Deep learning for chest radiograph diagnosis: A retrospective comparison of the CheXNeXt algorithm to practicing radiologists ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002686))
   * [ ] Automated detection of moderate and large pneumothorax on frontal chest X-rays using deep convolutional neural networks: A retrospective study ([PLOS Medicine](http://dx.plos.org/10.1371/journal.pmed.1002697))
   * [ ] Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683))
+
+## 2018-12
+
+Fortunately, IPMI19 ddl is extended to Dec 13. Then I'm preparing one another MIC journal paper.
+
+### Study
+* Interpretable Machine Learning book ([link](https://christophm.github.io/interpretable-ml-book/index.html))
+
+### Reading
+* [x] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding ([arXiv](https://arxiv.org/abs/1810.04805))
+* MIC
+  * [x] Risk Stratification of Lung Nodules Using 3D CNN-Based Multi-task Learning ([IPMI17](https://link.springer.com/chapter/10.1007/978-3-319-59050-9_20)): too many details missing in the paper, e.g., how large is the input, detailed network architecture, MTL solution. Note the MTL is not end-to-end. It is not convincing in a cross-validation setting.
+  * [x] Joint Learning for Pulmonary Nodule Segmentation, Attributes and Malignancy Prediction ([ISBI18](https://arxiv.org/abs/1802.03584)): it uses different accuracy defination. Very engineering-orient methodology, however not detailed and convincing.
+  * [x] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7)): a very inspiring work. However, Cell paper seems very biology-oriented (at least this one). Some terminology is too complicated for me; thus sadly, I do not understand all the biomedcine translational values :( . Study hard! 
+  * [x] fastMRI: An Open Dataset and Benchmarks for Accelerated MRI ([arXiv](https://arxiv.org/abs/1811.08839)) ([code](https://github.com/facebookresearch/fastMRI)): "self-contained" paper, nice dataset, the community needs more like this. However, it is not so "self-contained" indeed, more background is needed to carry out brilliant research. It is a good start.
+  * [ ] Transferable Multi-model Ensemble for Benign-Malignant Lung Nodule Classification on Chest CT ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_75))
+  * [ ] Semi-Supervised Multi-Task Learning for Lung Cancer Diagnosis ([arXiv](https://arxiv.org/pdf/1802.06181.pdf))
+  * [ ] Deep Active Self-paced Learning for Accurate Pulmonary Nodule Segmentation ([MICCAI18](https://www.researchgate.net/publication/327629896_Deep_Active_Self-paced_Learning_for_Accurate_Pulmonary_Nodule_Segmentation))
+  * [ ] CT-Realistic Lung Nodule Simulation from 3D Conditional Generative Adversarial Networks for Robust Lung Segmentation ([MICCAI18](https://arxiv.org/abs/1806.04051))
+  * [ ] Automated Pulmonary Nodule Detection: High Sensitivity with Few Candidates ([MICCAI18](https://www.researchgate.net/publication/327629744_Automated_Pulmonary_Nodule_Detection_High_Sensitivity_with_Few_Candidates_21st_International_Conference_Granada_Spain_September_16-20_2018_Proceedings_Part_II))
+  * [ ] Discriminative Localization in CNNs for Weakly-Supervised Segmentation of Pulmonary Nodules ([MICCAI17](https://arxiv.org/abs/1707.01086))
+  * [ ] Curriculum Adaptive Sampling for Extreme Data Imbalance ([MICCAI17](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_73)) ([code](https://github.com/taki0112/CASED-Tensorflow))
+  * [ ] S4ND: Single-Shot Single-Scale Lung Nodule Detection ([MICCAI18](https://arxiv.org/abs/1805.02279))
+  * [ ] DeepEM: Deep 3D ConvNets with EM for Weakly Supervised Pulmonary Nodule Detection ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_90))
   
 ## 2018-11
 Very busy on preparing papers for CVPR19, then IPMI19.

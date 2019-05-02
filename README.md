@@ -1,36 +1,49 @@
 ## Study Plan
 AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image Computing](topics/mic.md) | Prog - [Programming](topics/programming.md)
 
-NB: Time below means when I "studied", not when it has been.
+NB: Time below means when "I am / was studying", not that for the paper itself.
 
-## 2019-02
-
-### Study
-* [ ] Interpretable Machine Learning book ([link](https://christophm.github.io/interpretable-ml-book/index.html))
+## 2019-05
 
 ### Reading
+* Uncertainty
+
+## 2019-04
+
+A terrible month. Mass. It sounds good: I have submited papers to MICCAI'19 and ACM MM, and a paper was accepted by Cancer Medicine. However, my research have little progress indeed. Besides I spent too much time on games. I need focus. For further plan, I need more inputs. Only by this I can go further. Bravo, Jiancheng!
+
+### Reading
+* Graph Neural Networks
+  * [x] How Powerful are Graph Neural Networks? ([ICLR'19](https://openreview.net/forum?id=ryGs6iA5Km)): very good paper, intuitive, insightful. But writing is not great enough. Maybe just because there are many "not such systematic" ideas in this paper. 
+  * [x] Graph U-Net ([ICLR'19 rej->ICML'19](https://openreview.net/forum?id=HJePRoAct7)) 
+
+## 2019-03
+
+### Study
+* Neural Process / Non-parametric
+  * [x] Neural Processes as distributions over functions ([blog](https://kasparmartens.rbind.io/post/np/))
+  * [x] Conditional Neural Process ([ICML'18](https://arxiv.org/pdf/1807.01613.pdf))
+* Uncertainty
+  * [x] Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles ([NIPS'17](https://papers.nips.cc/paper/7219-simple-and-scalable-predictive-uncertainty-estimation-using-deep-ensembles.pdf))
+  * [x] The need for uncertainty quantification in machine-assisted medical decision making ([NatMI](https://www.nature.com/articles/s42256-018-0004-1))
+  * [x] GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training ([ACCV'18](https://arxiv.org/abs/1805.06725)): poorly writen. Limited insights. Something bizarre: how can AUC be less than 0.5?
 * MIC
-  * [ ] Diagnostic Classification Of Lung Nodules Using 3D Neural Networks ([ISBI18](httpst://arxiv.org/abs/1803.07192))
-  * [ ] Transferable Multi-model Ensemble for Benign-Malignant Lung Nodule Classification on Chest CT ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_75))
-  * [ ] Semi-Supervised Multi-Task Learning for Lung Cancer Diagnosis ([arXiv](https://arxiv.org/pdf/1802.06181.pdf))
-  * [ ] Deep Active Self-paced Learning for Accurate Pulmonary Nodule Segmentation ([MICCAI18](https://www.researchgate.net/publication/327629896_Deep_Active_Self-paced_Learning_for_Accurate_Pulmonary_Nodule_Segmentation))
-  * [ ] CT-Realistic Lung Nodule Simulation from 3D Conditional Generative Adversarial Networks for Robust Lung Segmentation ([MICCAI18](https://arxiv.org/abs/1806.04051))
-  * [ ] Automated Pulmonary Nodule Detection: High Sensitivity with Few Candidates ([MICCAI18](https://www.researchgate.net/publication/327629744_Automated_Pulmonary_Nodule_Detection_High_Sensitivity_with_Few_Candidates_21st_International_Conference_Granada_Spain_September_16-20_2018_Proceedings_Part_II))
-  * [ ] Discriminative Localization in CNNs for Weakly-Supervised Segmentation of Pulmonary Nodules ([MICCAI17](https://arxiv.org/abs/1707.01086))
-  * [ ] Curriculum Adaptive Sampling for Extreme Data Imbalance ([MICCAI17](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_73)) ([code](https://github.com/taki0112/CASED-Tensorflow))
-  * [ ] S4ND: Single-Shot Single-Scale Lung Nodule Detection ([MICCAI18](https://arxiv.org/abs/1805.02279))
-  * [ ] DeepEM: Deep 3D ConvNets with EM for Weakly Supervised Pulmonary Nodule Detection ([MICCAI18](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_90))
-  * [ ] Semi-Automatic RECIST Labeling on CT Scans with Cascaded Convolutional Neural Networks ([MICCAI'18](https://arxiv.org/abs/1806.09507))
-  * [ ] Accurate Weakly-Supervised Deep Lesion Segmentation using Large-Scale Clinical Annotations: Slice-Propagated 3D Mask Generation from 2D RECIST ([MICCAI'18](https://arxiv.org/abs/1807.01172))
-* PLOS Medicine Special Issue
-  * [ ] Deep learning for lung cancer prognostication: A retrospective multi-cohort radiomics study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002711))
-  * [ ] Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet ([PLOS Medicine]())
-  * [ ] Prediction of myopia development among Chinese school-aged children using refraction data from electronic medical records: A retrospective, multicentre machine learning study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002674))
-  * [ ] Development and validation of machine learning models to identify high-risk surgical patients using automatically curated electronic health record data (Pythia): A retrospective, single-site study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article/authors?id=10.1371/journal.pmed.1002701))
-  * [ ] Deep learning for chest radiograph diagnosis: A retrospective comparison of the CheXNeXt algorithm to practicing radiologists ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002686))
-  * [ ] Automated detection of moderate and large pneumothorax on frontal chest X-rays using deep convolutional neural networks: A retrospective study ([PLOS Medicine](http://dx.plos.org/10.1371/journal.pmed.1002697))
-  * [ ] Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683))
-* Nature Medicine issue on Digital Medicine
+  * [x] Transferable Multi-model Ensemble for Benign-Malignant Lung Nodule Classification on Chest CT ([MICCAI'17](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_75)): poorly writen with little novel insights.
+  * [x] Diagnostic Classification Of Lung Nodules Using 3D Neural Networks ([ISBI'18](httpst://arxiv.org/abs/1803.07192))
+  * [x] Semi-Supervised Multi-Task Learning for Lung Cancer Diagnosis ([arXiv](https://arxiv.org/pdf/1802.06181.pdf))
+  * [x] Automated Pulmonary Nodule Detection: High Sensitivity with Few Candidates ([MICCAI'18](https://www.researchgate.net/publication/327629744_Automated_Pulmonary_Nodule_Detection_High_Sensitivity_with_Few_Candidates_21st_International_Conference_Granada_Spain_September_16-20_2018_Proceedings_Part_II))
+
+
+## 2019-02
+* During Spring Festival, it was a busy time for CVPR'19 rebuttal. Luckily, 1 of 3 first-author submissions of mine was accepted to CVPR'19! 
+* I then traveled to Thailand and HK. It was a busy month yet with few paper reading.
+
+### Reading
+* Adversarial Robustness
+  * [x] Boosting Adversarial Attacks with Momentum ([CVPR'18](http://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.pdf)): though simple, it is incretibly effective. The writing of the paper is great. Well motivated. Insightful. NIPS2017 AdvExp chanllenge winners of two tracks (untargeted and targeted attack).
+  * [x] Mitigating Adversarial Effects Through Randomization ([ICLR'18](https://openreview.net/forum?id=Sk9yuql0Z)): bypassed by Obfuscated Gradient paper. Good to read the challenge setting.
+* [x] Learning to learn by gradient descent by gradient descent ([NIPS'16](https://arxiv.org/abs/1606.04474)): good insight on learning to learn. Besides, new insights for me, apart from the models and algorithms, are that we can use any value for backprop! Even for a value that is not in a same computation graph! It's actually very straighforward, but very difficult to get it for the first time.
+* [x] Do Deep Generative Models Know What They Don't Know? ([ICLR'19](https://openreview.net/forum?id=H1xwNhCcYm)): OoD samples can have higher likelihood for generative models (emphasis on flow). However, it seems that anomaly detection is still applicable?
 
 ## 2019-01
 
@@ -42,7 +55,6 @@ NB: Time below means when I "studied", not when it has been.
 * [x] A Probabilistic U-Net for Segmentation of Ambiguous Images ([NIPS'18](https://arxiv.org/abs/1806.05034)) (code: [official re-implementation (TensorFlow)](https://github.com/SimonKohl/probabilistic_unet), [PyTorch](https://github.com/stefanknegt/probabilistic_unet_pytorch))
 * [x] Snapshot Ensembles: Train 1, get M for free ([ICLR'17](https://arxiv.org/abs/1704.00109)): not so effective, but consine learning rate seems potential. 
 * [x] Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights ([ECCV'18](http://openaccess.thecvf.com/content_ECCV_2018/papers/Arun_Mallya_Piggyback_Adapting_a_ECCV_2018_paper.pdf)): very inspiring.
-* [ ] Learning to learn by gradient descent by gradient descent ([NIPS'16](https://arxiv.org/abs/1606.04474))
 * Videos
   * [x] Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset ([CVPR'17](https://arxiv.org/abs/1705.07750)) ([code](https://github.com/deepmind/kinetics-i3d)): a.k.a. I3D
   * [x] Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet? ([CVPR'18](https://arxiv.org/abs/1711.09577)) ([code](https://github.com/kenshohara/3D-ResNets-PyTorch)): seems very limited novelty, but may be good to use.
@@ -56,14 +68,12 @@ NB: Time below means when I "studied", not when it has been.
   * [x] GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations ([NIPS'18]): transfer learned graph (element relations) only, rather than directly transfer features / networks. While it seems very tricky instead.
   * [x] Watch Your Step: Learning Node Embeddings via Graph Attention ([NIPS'18](https://papers.nips.cc/paper/8131-watch-your-step-learning-node-embeddings-via-graph-attention.pdf)): use attention in embedding learning, rather than inference, to dynamically determine the feature horizon. I missed some details on graph embeddings.
   * [x] Slimmable Neural Networks ([ICLR'19](https://openreview.net/forum?id=H1gMCsAqY7))
-  * [ ] Hierarchical Graph Representation Learning with Differentiable Pooling ([NIPS'18](http://papers.nips.cc/paper/7729-hierarchical-graph-representation-learning-with-differentiable-pooling))
+  * [x] Hierarchical Graph Representation Learning with Differentiable Pooling ([NIPS'18](http://papers.nips.cc/paper/7729-hierarchical-graph-representation-learning-with-differentiable-pooling))
 * 3DV
   * [x] Learning Category-Specific Mesh Reconstruction from Image Collections ([ECCV18](https://arxiv.org/abs/1803.07549)) ([project page](https://akanazawa.github.io/cmr/))
   * [x] Realistic Adversarial Examples in 3D Meshes ([OpenReview](https://openreview.net/forum?id=SJfcrn0qKX): ICLR19 withdraw): it is indeed very creative, while it was done in a rush. Pitfalls: single-viewpoint issues and the paper writing.
   * [x] Strike (with) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects ([arXiv](https://arxiv.org/abs/1811.11553))
   * [x] Unsupervised Learning of Shape and Pose with Differentiable Point Clouds ([NIPS18](https://arxiv.org/abs/1810.09381)): Very interesting paper, it is not only a point cloud version of neural mesh renderer! It also talks about the camera pose estimation, with joint training, and an ensemble distillation without a REINFORCE-based method able to optimize! Very interesting!
-  * [ ] Deep Marching Cubes: Learning Explicit Surface Representations ([CVPR18](http://www.cvlibs.net/publications/Liao2018CVPR.pdf))
-  * [ ] Learning to Reconstruct Shapes from Unseen Classes ([NIPS18](https://papers.nips.cc/paper/7494-learning-to-reconstruct-shapes-from-unseen-classes)) ([project page](http://genre.csail.mit.edu/))
 
 
 ## 2018-12

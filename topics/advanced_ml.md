@@ -3,7 +3,46 @@ This list mainly focuses on Bayesian Machine Learning.
 
 ## Doing
 
+### Study
+* CMU 10-708 PGM (19) by Eric Xing ([website](https://sailinglab.github.io/pgm-spring-2019/))
+  * [ ] Lecture 1
+  * [ ] Lecture 2
+  * [ ] Lecture 3
+  * [ ] Lecture 4
+  * [ ] Lecture 5
+  * [ ] Lecture 6
+  * [ ] Lecture 7
+  * [ ] Lecture 8
+
 ## Soon
+* Graph Neural Networks
+  * [ ] Learning to Sample ([CVPR'19](https://arxiv.org/abs/1812.01659))
+  * [ ] Invariant and Equivariant Graph Networks ([ICLR'19](https://openreview.net/forum?id=Syx72jC9tm))  
+  * [ ] Generating Long Sequences with Sparse Transformers ([OpenAI](https://openai.com/blog/sparse-transformer/))
+* MIC
+  * [ ] Discriminative Localization in CNNs for Weakly-Supervised Segmentation of Pulmonary Nodules ([MICCAI'17](https://arxiv.org/abs/1707.01086))
+  * [ ] Curriculum Adaptive Sampling for Extreme Data Imbalance ([MICCAI'17](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_73)) ([code](https://github.com/taki0112/CASED-Tensorflow))
+  * [ ] S4ND: Single-Shot Single-Scale Lung Nodule Detection ([MICCAI'18](https://arxiv.org/abs/1805.02279))
+  * [ ] Semi-Automatic RECIST Labeling on CT Scans with Cascaded Convolutional Neural Networks ([MICCAI'18](https://arxiv.org/abs/1806.09507))
+  * [ ] Accurate Weakly-Supervised Deep Lesion Segmentation using Large-Scale Clinical Annotations: Slice-Propagated 3D Mask Generation from 2D RECIST ([MICCAI'18](https://arxiv.org/abs/1807.01172))
+  * [ ] Deep Active Self-paced Learning for Accurate Pulmonary Nodule Segmentation ([MICCAI'18](https://www.researchgate.net/publication/327629896_Deep_Active_Self-paced_Learning_for_Accurate_Pulmonary_Nodule_Segmentation))
+  * [ ] DeepEM: Deep 3D ConvNets with EM for Weakly Supervised Pulmonary Nodule Detection ([MICCAI'18](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_90))
+  * [ ] Ultrasound Image Representation Learning by Modeling Sonographer Visual Attention ([IPMI'19](https://arxiv.org/abs/1903.02974))
+  * [ ] CT-Realistic Lung Nodule Simulation from 3D Conditional Generative Adversarial Networks for Robust Lung Segmentation ([MICCAI'18](https://arxiv.org/abs/1806.04051))
+
+* Neural Process / Non-parametric
+  * [ ] Attentive Neural Processes ([ICLR'19](https://arxiv.org/pdf/1901.05761.pdf))
+  * [ ] Improving Generalization via Scalable Neighborhood Component Analysis ([ECCV'18](https://arxiv.org/abs/1808.04699))
+  * [ ] Neural Process ([ICMLW'18](https://arxiv.org/pdf/1807.01622.pdf))
+* PLOS Medicine Special Issue
+  * [ ] Deep learning for lung cancer prognostication: A retrospective multi-cohort radiomics study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002711))
+  * [ ] Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet ([PLOS Medicine]())
+  * [ ] Prediction of myopia development among Chinese school-aged children using refraction data from electronic medical records: A retrospective, multicentre machine learning study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002674))
+  * [ ] Development and validation of machine learning models to identify high-risk surgical patients using automatically curated electronic health record data (Pythia): A retrospective, single-site study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article/authors?id=10.1371/journal.pmed.1002701))
+  * [ ] Deep learning for chest radiograph diagnosis: A retrospective comparison of the CheXNeXt algorithm to practicing radiologists ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002686))
+  * [ ] Automated detection of moderate and large pneumothorax on frontal chest X-rays using deep convolutional neural networks: A retrospective study ([PLOS Medicine](http://dx.plos.org/10.1371/journal.pmed.1002697))
+  * [ ] Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683))
+* Nature Medicine issue on Digital Medicine
 * Group Equivariance
   * [ ] Group Equivariant Convolutional Networks ([ICML2016](https://arxiv.org/abs/1602.07576)): as a premilary for other papers on this topic.
   * [ ] Learning Steerable Filters for Rotation Equivariant CNNs ([CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/papers/Weiler_Learning_Steerable_Filters_CVPR_2018_paper.pdf))
@@ -26,11 +65,16 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Multiple-Instance Learning for Medical Image and Video Analysis ([IEEE](http://ieeexplore.ieee.org/document/7812612/))
   * [ ] Deep MIML Network ([AAAI](https://github.com/kingfengji/DeepMIML)) ([code](https://github.com/kingfengji/DeepMIML))
   * [ ] Revisiting Multiple Instance Neural Networks ([arXiv](https://arxiv.org/abs/1610.02501))
+* 3DV
+  * [ ] Learning Saliency Maps for Adversarial Point-Cloud Generation ([arXiv](https://arxiv.org/abs/1812.01687))
+  * [ ] Extending Adversarial Attacks and Defenses to Deep 3D Point Cloud Classifiers ([arXiv](https://arxiv.org/abs/1901.03006))
+  * [ ] Tangent Convolutions for Dense Prediction in 3D ([CVPR'18](https://arxiv.org/abs/1807.02443))
+  * [ ] Deep Marching Cubes: Learning Explicit Surface Representations ([CVPR'18](http://www.cvlibs.net/publications/Liao2018CVPR.pdf))
+  * [ ] Learning to Reconstruct Shapes from Unseen Classes ([NIPS'18](https://papers.nips.cc/paper/7494-learning-to-reconstruct-shapes-from-unseen-classes)) ([project page](http://genre.csail.mit.edu/))
 * [ ] Adaptive Computation Time for Recurrent Neural Networks ([arXiv](https://arxiv.org/abs/1603.08983))
 * [ ] Spatially Adaptive Computation Time for Residual Networks ([arXiv](https://arxiv.org/abs/1612.02297))
 * [ ] Memory-Efficient Implementation of DenseNets ([arXiv](https://arxiv.org/abs/1707.06990))
 * [ ] Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation ([MICCAI2017](https://arxiv.org/abs/1706.04737))
-* [ ] In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images ([Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)30364-7))
 * [ ] Why Momentum Really Works ([Distll](https://distill.pub/2017/momentum/))
 * [ ] Feature-wise transformations ([Distill](https://distill.pub/2018/feature-wise-transformations/))
 * [ ] Neural Processes as distributions over functions ([blog](http://kasparmartens.rbind.io/post/np/))
@@ -50,23 +94,8 @@ This list mainly focuses on Bayesian Machine Learning.
     * [ ] Neural Combinatorial Optimization with Reinforcement Learning ([arXiv](https://arxiv.org/abs/1611.09940)) ([code](https://github.com/pemami4911/neural-combinatorial-rl-pytorch))
     * [ ] Attention Solves Your TSP ([arXiv](https://arxiv.org/abs/1803.08475)) ([code](https://github.com/wouterkool/attention-tsp))
 
-## TODO
-* [ ] Bayesian Methods for Machine Learning ([Coursera](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/welcome))
-* [ ] ydxu ([course page](http://www-staff.it.uts.edu.au/~ydxu/statistics.htm))
-* [ ] Bayesian Methods for Machine Learning ([AML](topics/advanced_ml.md))
-  * [ ] Week 1
-  * [ ] Week 2
-  * [ ] Week 3
-  * [ ] Week 4
-  * [ ] Week 5
-  * [ ] Week 6 
-* [ ] ydxu ([AML](topics/advanced_ml.md))
-  * [ ] Expectation Maximisation
-  * [ ] Markov Chain Monte Carlo 
-  * [ ] Slice Sampling
-  * [ ] Variational Inference Basics
-  * [ ] Variational Inference for LDA
-  * [ ] Variational Inference Exponential Family
+## Study
+* [ ] Interpretable Machine Learning book ([link](https://christophm.github.io/interpretable-ml-book/index.html))
 * Bayesian Machine Learning
     * [ ] [MLaPP](https://www.cs.ubc.ca/~murphyk/MLbook/)
     * [ ] CMU PGM by Eric Xing

@@ -6,7 +6,13 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 ## 2019-05
 
 ### Reading
+* [x] Learning to Sample ([CVPR'19](https://arxiv.org/abs/1812.01659)): not well-writen, all the paper controls is the loss. It is not elegant, and not easy to apply in practical applications. For example, the proposed methods are non-trivial to apply in hierachical architectures, e.g., PointNet++. 
 * Uncertainty
+  * [x] Out-of-Distribution Detection Using an Ensemble of Self Supervised Leave-out Classifiers ([ECCV'18](http://openaccess.thecvf.com/content_ECCV_2018/papers/Apoorv_Vyas_Out-of-Distribution_Detection_Using_ECCV_2018_paper.pdf)): not well writen. Bad logic. Somewhat good results. However, it lacks a strong baseline: CIFAR-80 vs. CIFAR-20.
+  * [x] Learning Confidence for Out-of-Distribution Detection in Neural Networks ([arXiv](https://arxiv.org/abs/1802.04865)): a simple scheme, yet effective. 
+  * [ ] Improving Simple Models with Confidence Profiles ([NeurIPS'18](https://papers.nips.cc/paper/8231-improving-simple-models-with-confidence-profiles.pdf))
+  * [ ] Predictive Uncertainty Estimation via Prior Networks ([NeurIPS'18](https://papers.nips.cc/paper/7936-predictive-uncertainty-estimation-via-prior-networks.pdf))
+  * [ ] What uncertainties do we need in bayesian deep learning for computer vision ([NIPS'17](https://papers.nips.cc/paper/7141-what-uncertainties-do-we-need-in-bayesian-deep-learning-for-computer-vision.pdf))
 
 ## 2019-04
 

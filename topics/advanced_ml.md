@@ -16,7 +16,7 @@ This list mainly focuses on Bayesian Machine Learning.
 
 ## Soon
 * Graph Neural Networks
-  * [ ] Learning to Sample ([CVPR'19](https://arxiv.org/abs/1812.01659))
+
   * [ ] Invariant and Equivariant Graph Networks ([ICLR'19](https://openreview.net/forum?id=Syx72jC9tm))  
   * [ ] Generating Long Sequences with Sparse Transformers ([OpenAI](https://openai.com/blog/sparse-transformer/))
 * MIC

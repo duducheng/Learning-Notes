@@ -10,7 +10,12 @@ I gave up rushing NIPS ddl, and turn to AAAI ddl due to limited experiments. Any
 * [x] Learning to Sample ([CVPR'19](https://arxiv.org/abs/1812.01659)): not well-writen, all the paper controls is the loss. It is not elegant, and not easy to apply in practical applications. For example, the proposed methods are non-trivial to apply in hierachical architectures, e.g., PointNet++. 
 * [x] Revisiting Batch Normalization For Practical Domain Adaptation ([ICLR'17 workshop](https://openreview.net/forum?id=Hk6dkJQFx))
 * [x] nnU-Net: Breaking the Spell on Successful Medical Image Segmentation ([arXiv, ?MICCAI'19 submission](https://arxiv.org/abs/1904.08128)): a fantastic work, though very "engineering", it proposes an important direction with very promising results. It hard encodes many engineering tricks. I suppose it to be the MICCAI'19 best paper. 
-* [ ] A large annotated medical image dataset for the development and evaluation of segmentation algorithms ([arXiv](https://arxiv.org/abs/1902.09063)): an awesome study towards medical AutoML, a Nature-level dataset preparation, maybe submit to Nature Machine Intelligence?
+* [x] A large annotated medical image dataset for the development and evaluation of segmentation algorithms ([arXiv](https://arxiv.org/abs/1902.09063)): an awesome study towards medical AutoML, a Nature-level dataset preparation, maybe submit to Nature Machine Intelligence?  
+* Adversarial Examples
+  * [x] Evading Defenses to Transferable Adversarial Examples by Translation-Invariant Attacks ([CVPR'19](https://arxiv.org/abs/1904.02884))
+  * [ ] Improving Transferability of Adversarial Examples with Input Diversity ([ECCV'18->CVPR'19](https://arxiv.org/abs/1803.06978))
+  * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
+  * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
 * Uncertainty
   * [x] Out-of-Distribution Detection Using an Ensemble of Self Supervised Leave-out Classifiers ([ECCV'18](http://openaccess.thecvf.com/content_ECCV_2018/papers/Apoorv_Vyas_Out-of-Distribution_Detection_Using_ECCV_2018_paper.pdf)): not well writen. Bad logic. Somewhat good results. However, it lacks a strong baseline: CIFAR-80 vs. CIFAR-20.
   * [x] Learning Confidence for Out-of-Distribution Detection in Neural Networks ([arXiv](https://arxiv.org/abs/1802.04865)): a simple scheme, yet effective. 
@@ -21,6 +26,7 @@ I gave up rushing NIPS ddl, and turn to AAAI ddl due to limited experiments. Any
  ([NeurIPS'18](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks))
   * [ ] Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples ([ICLR'18](https://arxiv.org/abs/1711.09325))
   * [ ] Hierarchical Novelty Detection for Visual Object Recognition ([CVPR'18](https://arxiv.org/abs/1804.00722))
+* Adversarial Examples
 
 ## 2019-04
 

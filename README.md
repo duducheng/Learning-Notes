@@ -7,15 +7,19 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 I gave up rushing NIPS ddl, and turn to AAAI ddl due to limited experiments. Anyway, it should be a Bayesian month. 
 
 ### Reading
-* [x] Learning to Sample ([CVPR'19](https://arxiv.org/abs/1812.01659)): not well-writen, all the paper controls is the loss. It is not elegant, and not easy to apply in practical applications. For example, the proposed methods are non-trivial to apply in hierachical architectures, e.g., PointNet++. 
 * [x] Revisiting Batch Normalization For Practical Domain Adaptation ([ICLR'17 workshop](https://openreview.net/forum?id=Hk6dkJQFx))
 * [x] nnU-Net: Breaking the Spell on Successful Medical Image Segmentation ([arXiv, ?MICCAI'19 submission](https://arxiv.org/abs/1904.08128)): a fantastic work, though very "engineering", it proposes an important direction with very promising results. It hard encodes many engineering tricks. I suppose it to be the MICCAI'19 best paper. 
 * [x] A large annotated medical image dataset for the development and evaluation of segmentation algorithms ([arXiv](https://arxiv.org/abs/1902.09063)): an awesome study towards medical AutoML, a Nature-level dataset preparation, maybe submit to Nature Machine Intelligence?  
 * Adversarial Examples
-  * [x] Evading Defenses to Transferable Adversarial Examples by Translation-Invariant Attacks ([CVPR'19](https://arxiv.org/abs/1904.02884))
-  * [ ] Improving Transferability of Adversarial Examples with Input Diversity ([ECCV'18->CVPR'19](https://arxiv.org/abs/1803.06978))
+  * [x] Evading Defenses to Transferable Adversarial Examples by Translation-Invariant Attacks ([CVPR'19](https://arxiv.org/abs/1904.02884)): a very insightful work. DYP is indeed a brilliant young researcher that pushes the frontier of ADV. His paper always comes with great insights / motivations, together with a simple solution / method. 
+  * [x] Improving Transferability of Adversarial Examples with Input Diversity ([ECCV'18->CVPR'19](https://arxiv.org/abs/1803.06978))
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+* 3DV
+  * [x] Learning to Sample ([CVPR'19](https://arxiv.org/abs/1812.01659)): not well-writen, all the paper controls is the loss. It is not elegant, and not easy to apply in practical applications. For example, the proposed methods are non-trivial to apply in hierachical architectures, e.g., PointNet++. 
+  * [ ] MeshCNN: A Network with an Edge ([SigGraph'19](https://arxiv.org/abs/1809.05910)) ([proj](https://ranahanocka.github.io/MeshCNN/))
+  * [ ] MeshNet: Mesh Neural Network for 3D Shape Representation ([AAAI'19]()) ([code](https://github.com/Yue-Group/MeshNet))
+  * [ ] PointConv: Deep Convolutional Networks on 3D Point Clouds ([CVPR'19](https://arxiv.org/abs/1811.07246))
 * Uncertainty
   * [x] Out-of-Distribution Detection Using an Ensemble of Self Supervised Leave-out Classifiers ([ECCV'18](http://openaccess.thecvf.com/content_ECCV_2018/papers/Apoorv_Vyas_Out-of-Distribution_Detection_Using_ECCV_2018_paper.pdf)): not well writen. Bad logic. Somewhat good results. However, it lacks a strong baseline: CIFAR-80 vs. CIFAR-20.
   * [x] Learning Confidence for Out-of-Distribution Detection in Neural Networks ([arXiv](https://arxiv.org/abs/1802.04865)): a simple scheme, yet effective. 

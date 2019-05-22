@@ -6,10 +6,19 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 ## 2019-05
 I gave up rushing NIPS ddl, and turn to AAAI ddl due to limited experiments. Anyway, it should be a Bayesian month. 
 
+### Study
+* [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
+  * [ ] Week 3: Ultrasound
+  * [ ] Week 4: MRI
+  * [ ] Week 5: PET
+ `
 ### Reading
 * [x] Revisiting Batch Normalization For Practical Domain Adaptation ([ICLR'17 workshop](https://openreview.net/forum?id=Hk6dkJQFx))
-* [x] nnU-Net: Breaking the Spell on Successful Medical Image Segmentation ([arXiv, ?MICCAI'19 submission](https://arxiv.org/abs/1904.08128)): a fantastic work, though very "engineering", it proposes an important direction with very promising results. It hard encodes many engineering tricks. I suppose it to be the MICCAI'19 best paper. 
-* [x] A large annotated medical image dataset for the development and evaluation of segmentation algorithms ([arXiv](https://arxiv.org/abs/1902.09063)): an awesome study towards medical AutoML, a Nature-level dataset preparation, maybe submit to Nature Machine Intelligence?  
+* Medical
+  * [x] nnU-Net: Breaking the Spell on Successful Medical Image Segmentation ([arXiv, ?MICCAI'19 submission](https://arxiv.org/abs/1904.08128)): a fantastic work, though very "engineering", it proposes an important direction with very promising results. It hard encodes many engineering tricks. I suppose it to be the MICCAI'19 best paper. 
+  * [x] A large annotated medical image dataset for the development and evaluation of segmentation algorithms ([arXiv](https://arxiv.org/abs/1902.09063)): an awesome study towards medical AutoML, a Nature-level dataset preparation, maybe submit to Nature Machine Intelligence?  
+  * [ ] End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography ([Nat Medicine](https://www.nature.com/articles/s41591-019-0447-x))
+  * [ ] Elastic Boundary Projection for 3D Medical Imaging Segmentation ([CVPR'19](https://arxiv.org/pdf/1812.00518.pdf))
 * Adversarial Examples
   * [x] Evading Defenses to Transferable Adversarial Examples by Translation-Invariant Attacks ([CVPR'19](https://arxiv.org/abs/1904.02884)): a very insightful work. DYP is indeed a brilliant young researcher that pushes the frontier of ADV. His paper always comes with great insights / motivations, together with a simple solution / method. 
   * [x] Improving Transferability of Adversarial Examples with Input Diversity ([ECCV'18->CVPR'19](https://arxiv.org/abs/1803.06978))
@@ -30,7 +39,6 @@ I gave up rushing NIPS ddl, and turn to AAAI ddl due to limited experiments. Any
  ([NeurIPS'18](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks))
   * [ ] Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples ([ICLR'18](https://arxiv.org/abs/1711.09325))
   * [ ] Hierarchical Novelty Detection for Visual Object Recognition ([CVPR'18](https://arxiv.org/abs/1804.00722))
-* Adversarial Examples
 
 ## 2019-04
 

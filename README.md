@@ -4,20 +4,29 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
 ## 2019-06
+Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!
+
 ### Study
-* [ ] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
-  * [ ] Week 4: MRI
-  * [ ] Week 5: PET
+* [x] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
+  * [x] Week 4: MRI - it is beyond my knowledge so far... too much about signal and physics.
+  * [x] Week 5: PET
+* [ ] CS231A: CS231A: Computer Vision, From 3D Reconstruction to Recognition (no video) ([syllabus](http://web.stanford.edu/class/cs231a/syllabus.html)) ([notes](http://web.stanford.edu/class/cs231a/course_notes.html))
+  * [ ] Lecture 1 & 2 Introduction & Camera Models
+  * [ ] Lecture 3 Camera Models II and Camera Calibration
+  * [ ] TA 1 Problem Set 1 Review
+  * [ ] Note 1 Camera Models
 
 ### Reading
 * Medical
   * [ ] End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography ([Nat Medicine](https://www.nature.com/articles/s41591-019-0447-x))
   * [ ] Elastic Boundary Projection for 3D Medical Imaging Segmentation ([CVPR'19](https://arxiv.org/pdf/1812.00518.pdf))
+  * [ ] Biologically-Constrained Graphs for Global Connectomics Reconstruction ([CVPR'19](https://donglaiw.github.io/paper/2019_cvpr_skel.pdf))
+  * [ ] Data augmentation using learned transformations for one-shot medical image segmentation ([CVPR'19](https://arxiv.org/abs/1902.09383))
 * Adversarial Examples
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
 * 3DV
-  * [ ] MeshCNN: A Network with an Edge ([SigGraph'19](https://arxiv.org/abs/1809.05910)) ([proj](https://ranahanocka.github.io/MeshCNN/))
+  * [ ] MeshCNN: A Network with an Edge ([SIGGRAPH'19](https://arxiv.org/abs/1809.05910)) ([proj](https://ranahanocka.github.io/MeshCNN/))
   * [ ] MeshNet: Mesh Neural Network for 3D Shape Representation ([AAAI'19]()) ([code](https://github.com/Yue-Group/MeshNet))
   * [ ] PointConv: Deep Convolutional Networks on 3D Point Clouds ([CVPR'19](https://arxiv.org/abs/1811.07246))
 * Uncertainty

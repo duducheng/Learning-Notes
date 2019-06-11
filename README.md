@@ -6,11 +6,13 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 ## 2019-06
 Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!
 
+I will be attending CVPR'19 (Jun 15 - 21), See you at Long Bench, CA!
+
 ### Study
 * [x] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
   * [x] Week 4: MRI - it is beyond my knowledge so far... too much about signal and physics.
   * [x] Week 5: PET
-* [ ] CS231A: CS231A: Computer Vision, From 3D Reconstruction to Recognition (no video) ([syllabus](http://web.stanford.edu/class/cs231a/syllabus.html)) ([notes](http://web.stanford.edu/class/cs231a/course_notes.html))
+* [ ] CS231A: CS231A: Computer Vision, From 3D Reconstruction to Recognition (no video) ([syllabus](http://web.stanford.edu/ class/cs231a/syllabus.html)) ([notes](http://web.stanford.edu/class/cs231a/course_notes.html))
   * [ ] Lecture 1 & 2 Introduction & Camera Models
   * [ ] Lecture 3 Camera Models II and Camera Calibration
   * [ ] TA 1 Problem Set 1 Review
@@ -22,9 +24,6 @@ Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!
   * [ ] Elastic Boundary Projection for 3D Medical Imaging Segmentation ([CVPR'19](https://arxiv.org/pdf/1812.00518.pdf))
   * [ ] Biologically-Constrained Graphs for Global Connectomics Reconstruction ([CVPR'19](https://donglaiw.github.io/paper/2019_cvpr_skel.pdf))
   * [ ] Data augmentation using learned transformations for one-shot medical image segmentation ([CVPR'19](https://arxiv.org/abs/1902.09383))
-* Adversarial Examples
-  * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
-  * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
 * 3DV
   * [ ] MeshCNN: A Network with an Edge ([SIGGRAPH'19](https://arxiv.org/abs/1809.05910)) ([proj](https://ranahanocka.github.io/MeshCNN/))
   * [ ] MeshNet: Mesh Neural Network for 3D Shape Representation ([AAAI'19]()) ([code](https://github.com/Yue-Group/MeshNet))
@@ -35,6 +34,9 @@ Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!
  ([NeurIPS'18](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks))
   * [ ] Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples ([ICLR'18](https://arxiv.org/abs/1711.09325))
   * [ ] Hierarchical Novelty Detection for Visual Object Recognition ([CVPR'18](https://arxiv.org/abs/1804.00722))
+* Adversarial Examples
+  * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
+  * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
 
 ## 2019-05
 I gave up rushing NIPS ddl, and turn to AAAI ddl due to limited experiments. Anyway, it should be a Bayesian month. 
@@ -75,7 +77,7 @@ I gave up rushing NIPS ddl, and turn to AAAI ddl due to limited experiments. Any
 
 ## 2019-04
 
-A terrible month. Mass. It sounds good: I have submited papers to MICCAI'19 and ACM MM, and a paper was accepted by Cancer Medicine. However, my research have little progress indeed. Besides I spent too much time on games. I need focus. For further plan, I need more inputs. Only by this I can go further. Bravo, Jiancheng!
+A terrible month. Mass. It sounds good: I have submited papers to MICCAI'19 and ACM MM, and a paper was accepted by Cancer Medicine. However, my research have little progress indeed. Besides I spent too much time on games (especially `The Legend of Zelda: Breath of the Wild` :) ). I need focus. For further plan, I need more inputs. Only by this I can go further. Bravo, Jiancheng!
 
 ### Reading
 * Graph Neural Networks

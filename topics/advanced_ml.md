@@ -14,6 +14,12 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Lecture 7
   * [ ] Lecture 8
 
+* [ ] CS231A: CS231A: Computer Vision, From 3D Reconstruction to Recognition (no video) ([syllabus](http://web.stanford.edu/ class/cs231a/syllabus.html)) ([notes](http://web.stanford.edu/class/cs231a/course_notes.html))
+  * [ ] Lecture 1 & 2 Introduction & Camera Models
+  * [ ] Lecture 3 Camera Models II and Camera Calibration
+  * [ ] TA 1 Problem Set 1 Review
+  * [ ] Note 1 Camera Models
+
 ## Soon
 * Graph Neural Networks
 

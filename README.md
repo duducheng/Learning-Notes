@@ -6,17 +6,12 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 ## 2019-06
 Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!
 
-I will be attending CVPR'19 (Jun 15 - 21), See you at Long Bench, CA!
+I will be attending CVPR'19 (Jun 15 - 21). See you at Long Bench, CA!
 
 ### Study
 * [x] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
   * [x] Week 4: MRI - it is beyond my knowledge so far... too much about signal and physics.
   * [x] Week 5: PET
-* [ ] CS231A: CS231A: Computer Vision, From 3D Reconstruction to Recognition (no video) ([syllabus](http://web.stanford.edu/ class/cs231a/syllabus.html)) ([notes](http://web.stanford.edu/class/cs231a/course_notes.html))
-  * [ ] Lecture 1 & 2 Introduction & Camera Models
-  * [ ] Lecture 3 Camera Models II and Camera Calibration
-  * [ ] TA 1 Problem Set 1 Review
-  * [ ] Note 1 Camera Models
 
 ### Reading
 * Medical

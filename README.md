@@ -4,6 +4,8 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
 ## 2019-06
+I am excited and lucky to have my [research paper](https://onlinelibrary.wiley.com/doi/full/10.1002/cam4.2233) accepted as cover article on [Cancer Medicine](https://onlinelibrary.wiley.com/toc/20457634/2019/8/7)!
+
 Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!
 
 I will be attending CVPR'19 (Jun 15 - 21). See you at Long Bench, CA!

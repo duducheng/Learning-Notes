@@ -3,17 +3,9 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
-## 2019-06
+## 2019-07
+
 I am excited and lucky to have my [research paper](https://onlinelibrary.wiley.com/doi/full/10.1002/cam4.2233) accepted as cover article on [Cancer Medicine](https://onlinelibrary.wiley.com/toc/20457634/2019/8/7)!
-
-Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!
-
-I will be attending CVPR'19 (Jun 15 - 21). See you at Long Bench, CA!
-
-### Study
-* [x] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
-  * [x] Week 4: MRI - it is beyond my knowledge so far... too much about signal and physics.
-  * [x] Week 5: PET
 
 ### Reading
 * Medical
@@ -34,6 +26,19 @@ I will be attending CVPR'19 (Jun 15 - 21). See you at Long Bench, CA!
 * Adversarial Examples
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+
+## 2019-06
+Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!
+
+I will be attending CVPR'19 (Jun 15 - 21). See you at Long Bench, CA!
+
+Mass without complete paper reading in depth :-(
+
+### Study
+* [x] Introduction to Biomedical Imaging 生物医学成像学导论 ([Xuetangx](http://www.xuetangx.com/courses/course-v1:UQx+BIOIMG101x+sp/courseware/a9ae78343c0f47ad91159d3b9035ea9c/))
+  * [x] Week 4: MRI - it is beyond my knowledge so far... too much about signal and physics.
+  * [x] Week 5: PET
+
 
 ## 2019-05
 I gave up rushing NIPS ddl, and turn to AAAI ddl due to limited experiments. Anyway, it should be a Bayesian month. 

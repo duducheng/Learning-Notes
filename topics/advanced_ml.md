@@ -25,6 +25,9 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Invariant and Equivariant Graph Networks ([ICLR'19](https://openreview.net/forum?id=Syx72jC9tm))  
   * [ ] Generating Long Sequences with Sparse Transformers ([OpenAI](https://openai.com/blog/sparse-transformer/))
 * MIC
+  * [ ] Elastic Boundary Projection for 3D Medical Imaging Segmentation ([CVPR'19](https://arxiv.org/pdf/1812.00518.pdf))
+  * [ ] Biologically-Constrained Graphs for Global Connectomics Reconstruction ([CVPR'19](https://donglaiw.github.io/paper/2019_cvpr_skel.pdf))
+  * [ ] Data augmentation using learned transformations for one-shot medical image segmentation ([CVPR'19](https://arxiv.org/abs/1902.09383))
   * [ ] Discriminative Localization in CNNs for Weakly-Supervised Segmentation of Pulmonary Nodules ([MICCAI'17](https://arxiv.org/abs/1707.01086))
   * [ ] Curriculum Adaptive Sampling for Extreme Data Imbalance ([MICCAI'17](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_73)) ([code](https://github.com/taki0112/CASED-Tensorflow))
   * [ ] S4ND: Single-Shot Single-Scale Lung Nodule Detection ([MICCAI'18](https://arxiv.org/abs/1805.02279))
@@ -40,7 +43,6 @@ This list mainly focuses on Bayesian Machine Learning.
   * [ ] Improving Generalization via Scalable Neighborhood Component Analysis ([ECCV'18](https://arxiv.org/abs/1808.04699))
   * [ ] Neural Process ([ICMLW'18](https://arxiv.org/pdf/1807.01622.pdf))
 * PLOS Medicine Special Issue
-  * [ ] Deep learning for lung cancer prognostication: A retrospective multi-cohort radiomics study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002711))
   * [ ] Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet ([PLOS Medicine]())
   * [ ] Prediction of myopia development among Chinese school-aged children using refraction data from electronic medical records: A retrospective, multicentre machine learning study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002674))
   * [ ] Development and validation of machine learning models to identify high-risk surgical patients using automatically curated electronic health record data (Pythia): A retrospective, single-site study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article/authors?id=10.1371/journal.pmed.1002701))

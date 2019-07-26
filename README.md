@@ -7,6 +7,8 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 
 I am excited and lucky to have my [research paper](https://onlinelibrary.wiley.com/doi/full/10.1002/cam4.2233) selected as cover article on [Cancer Medicine](https://onlinelibrary.wiley.com/toc/20457634/2019/8/7)!
 
+One paper was accepted by ICCV'19, and another one was accpeted by Thoracic Cancer (Journal). 
+
 ### Reading
 * XAI
   * [ ] Network Dissection: Quantifying Interpretability of Deep Visual Representations ([CVPR'17](https://ieeexplore.ieee.org/document/8099837)) ([project](http://netdissect.csail.mit.edu/))
@@ -15,21 +17,24 @@ I am excited and lucky to have my [research paper](https://onlinelibrary.wiley.c
   * [ ] End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography ([Nat Medicine](https://www.nature.com/articles/s41591-019-0447-x))
   * [x] Deep learning for lung cancer prognostication: A retrospective multi-cohort radiomics study ([PLOS Medicine](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002711)): though only with radiotherapy and surgery patients, it is a good study with entensive experiments.
   * [x] Deep Learning Predicts Lung Cancer Treatment Response from Serial Medical Imaging ([Clinical Cancer Research](http://clincancerres.aacrjournals.org/content/25/11/3266)): a study very similar to what I am doing.
+  * [ ] Signet Ring Cell Detection With a Semi-supervised Learning Framework ([IPMI'19](https://arxiv.org/abs/1907.03954))
 * 3DV
   * [x] MeshCNN: A Network with an Edge ([SIGGRAPH'19](https://arxiv.org/abs/1809.05910)) ([proj](https://ranahanocka.github.io/MeshCNN/))
   * [ ] MeshNet: Mesh Neural Network for 3D Shape Representation ([AAAI'19]()) ([code](https://github.com/Yue-Group/MeshNet))
   * [ ] PointConv: Deep Convolutional Networks on 3D Point Clouds ([CVPR'19](https://arxiv.org/abs/1811.07246))
+  * [x] Meta-SR: A Magnification-Arbitrary Network for Super-Resolution ([CVPR'19](https://arxiv.org/abs/1903.00875)): very bad writing...
 * Uncertainty
+  * [ ] PHiSeg: Capturing Uncertainty in Medical Image Segmentation ([MICCAI'19](https://arxiv.org/abs/1906.04045)) ([code](https://github.com/baumgach/PHiSeg-code))
+  * [ ] Direct Uncertainty Prediction for Medical Second Opinions ([ICML'19](https://arxiv.org/abs/1807.01771))
   * [ ] Improving Simple Models with Confidence Profiles ([NeurIPS'18](https://papers.nips.cc/paper/8231-improving-simple-models-with-confidence-profiles.pdf))
   * [ ] A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
  ([NeurIPS'18](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks))
   * [ ] Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples ([ICLR'18](https://arxiv.org/abs/1711.09325))
   * [ ] Hierarchical Novelty Detection for Visual Object Recognition ([CVPR'18](https://arxiv.org/abs/1804.00722))
-  * [ ] PHiSeg: Capturing Uncertainty in Medical Image Segmentation ([MICCAI'19](https://arxiv.org/abs/1906.04045)) ([code](https://github.com/baumgach/PHiSeg-code))
 * Adversarial Examples
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
-  * [ ] Bit-Flip Attack: Crushing Neural Network with Progressive Bit Search ([ICCV'19](https://arxiv.org/abs/1903.12269)): although with not good writing and structure, it proposed a novel and interesting adversarial attack setting towards model parameter (bit-flip), with strong enough performance.
+  * [x] Bit-Flip Attack: Crushing Neural Network with Progressive Bit Search ([ICCV'19](https://arxiv.org/abs/1903.12269)): although with not good writing and structure, it proposed a novel and interesting adversarial attack setting towards model parameter (bit-flip), with strong enough performance.
 
 ## 2019-06
 Luckily, one of my MICCAI'19 submissions has been accepted! See you in Shenzhen!

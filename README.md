@@ -13,8 +13,8 @@ Work hard for T-PAMI and CVPR!!!!
 * Medical
   * [ ] End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography ([Nat Medicine](https://www.nature.com/articles/s41591-019-0447-x))
   * [ ] Signet Ring Cell Detection With a Semi-supervised Learning Framework ([IPMI'19](https://arxiv.org/abs/1907.03954))
-  * [ ] Attention U-Net: Learning Where to Look for the  ([MIDL'18](https://openreview.net/pdf?id=Skft7cijM))
-  * [ ] UNet++: A Nested U-Net Architecture for Medical Image Segmentation ([MICCAI'18 Workshop](https://arxiv.org/abs/1807.10165))
+  * [x] Attention U-Net: Learning Where to Look for the  ([MIDL'18](https://openreview.net/pdf?id=Skft7cijM))
+  * [x] UNet++: A Nested U-Net Architecture for Medical Image Segmentation ([MICCAI'18 Workshop](https://arxiv.org/abs/1807.10165))
 * 3DV
   * [ ] PointConv: Deep Convolutional Networks on 3D Point Clouds ([CVPR'19](https://arxiv.org/abs/1811.07246))
 * Uncertainty
@@ -23,8 +23,8 @@ Work hard for T-PAMI and CVPR!!!!
   * [ ] Improving Simple Models with Confidence Profiles ([NeurIPS'18](https://papers.nips.cc/paper/8231-improving-simple-models-with-confidence-profiles.pdf))
  ([NeurIPS'18](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks))
   * [ ] Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples ([ICLR'18](https://arxiv.org/abs/1711.09325))
-  * ~ A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
-  * ~ Hierarchical Novelty Detection for Visual Object Recognition ([CVPR'18](https://arxiv.org/abs/1804.00722))
+  * [x] ~A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
+  * [x] ~Hierarchical Novelty Detection for Visual Object Recognition ([CVPR'18](https://arxiv.org/abs/1804.00722))
 * Vision
   * [x] Meta-SR: A Magnification-Arbitrary Network for Super-Resolution ([CVPR'19](https://arxiv.org/abs/1903.00875)): very bad writing...
   * [ ] Gradient Harmonized Single-stage Detector ([AAAI'19](https://arxiv.org/abs/1811.05181)): it seems a good and effective paper. 

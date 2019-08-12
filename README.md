@@ -1,7 +1,7 @@
 ## Study Plan
 AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image Computing](topics/mic.md) | Prog - [Programming](topics/programming.md)
 
-(Robustness-Learning-Notes)[https://github.com/duducheng/Robustness-Learning-Notes]
+[Robustness-Learning-Notes](https://github.com/duducheng/Robustness-Learning-Notes)
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
@@ -31,6 +31,8 @@ Work hard for T-PAMI and CVPR!!!!
   * [x] Meta-SR: A Magnification-Arbitrary Network for Super-Resolution ([CVPR'19](https://arxiv.org/abs/1903.00875)): very bad writing...
   * [x] Gradient Harmonized Single-stage Detector ([AAAI'19](https://arxiv.org/abs/1811.05181)): it seems a good and effective paper. Surprisingly effective on my dataset.
   * [x] Deep Layer Aggregation ([CVPR'18](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.pdf))
+* Time Series
+  * [ ] Autoregressive Convolutional Neural Networks for Asynchronous Time Series ([ICML'18](http://proceedings.mlr.press/v80/binkowski18a/binkowski18a.pdf))
 * Adversarial Examples
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))

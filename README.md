@@ -5,37 +5,55 @@ AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image 
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
-## 2019-08
-Work hard for T-PAMI and CVPR!!!!
+## 2019-09
 
 ### Reading
 * XAI
   * [ ] Network Dissection: Quantifying Interpretability of Deep Visual Representations ([CVPR'17](https://ieeexplore.ieee.org/document/8099837)) ([project](http://netdissect.csail.mit.edu/))
   * [ ] GAN Dissection: Visualizing and Understanding Generative Adversarial Networks ([ICLR'19](https://openreview.net/pdf?id=Hyg_X2C5FX)) ([project](https://gandissect.csail.mit.edu/))
 * Medical
+  * [ ] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982))
+* Time Series
+  * [ ] Autoregressive Convolutional Neural Networks for Asynchronous Time Series ([ICML'18](http://proceedings.mlr.press/v80/binkowski18a/binkowski18a.pdf))
+* Adversarial Examples
+  * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
+  * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+* Reinforcement Learning
+  * [ ] Recurrent World Models Facilitate Policy Evolution ([NIPS'18](https://papers.nips.cc/paper/7512-recurrent-world-models-facilitate-policy-evolution.pdf)) ([website](https://worldmodels.github.io/))
+  * [ ] ~Continuous control with deep reinforcement learning (a.k.a. DDPG) ([ICLR'16](https://arxiv.org/abs/1509.02971))
+
+## 2019-08
+Work hard for T-PAMI and CVPR!!!!
+
+
+### Reading
+* Medical
   * [x] End-to-end lung cancer screening with three-dimensional deep learning on low-dose chest computed tomography ([Nat Medicine](https://www.nature.com/articles/s41591-019-0447-x)): train existing methods on NLST, on healthy (95%+)patients without intermediate results (complete detection results). It is not real world. It is not practical indeed (only produce final diagnosis, with very limited intermediate outputs).
   * [x] Signet Ring Cell Detection With a Semi-supervised Learning Framework ([IPMI'19](https://arxiv.org/abs/1907.03954))
   * [x] Attention U-Net: Learning Where to Look for the  ([MIDL'18](https://openreview.net/pdf?id=Skft7cijM))
   * [x] UNet++: A Nested U-Net Architecture for Medical Image Segmentation ([MICCAI'18 Workshop](https://arxiv.org/abs/1807.10165)): something similar to DLA.
-* 3DV
-  * [ ] PointConv: Deep Convolutional Networks on 3D Point Clouds ([CVPR'19](https://arxiv.org/abs/1811.07246))
+  * [ ] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982))
 * Uncertainty
   * [x] PHiSeg: Capturing Uncertainty in Medical Image Segmentation ([MICCAI'19](https://arxiv.org/abs/1906.04045)) ([code](https://github.com/baumgach/PHiSeg-code)): good results, enhanced Prob-UNet. Multi-scale prior encoding for ambiguous segmentation.
   * [x] Direct Uncertainty Prediction for Medical Second Opinions ([ICML'19](https://arxiv.org/abs/1807.01771)) ([Supp](http://proceedings.mlr.press/v97/raghu19a/raghu19a-supp.pdf)): it is not an easy-to-follow paper, though the core idea is very simple... it needs ground truth disagreement. It does not well leverage the classification and uncertainty prediction task (joint training drops the performance). Anyway, it is not easy to follow, thus I did not read all the experiment part.
   * [ ] ~ Who Said What: Modeling Individual Labelers Improves Classification ([ICLR'17 Workshop->AAAI'18](https://arxiv.org/abs/1703.08774)): Google JAMA paper dataset. Just like my multi-softmax idea. With a little bit improvement in performance in this dataset. EM on the labels is also referred.
-  * [ ] Improving Simple Models with Confidence Profiles ([NeurIPS'18](https://papers.nips.cc/paper/8231-improving-simple-models-with-confidence-profiles.pdf))
-  * [ ] Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples ([ICLR'18](https://arxiv.org/abs/1711.09325))
+  * [ ] ~Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples ([ICLR'18](https://arxiv.org/abs/1711.09325))
   * [ ] ~A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks ([NeurIPS'18](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks))
   * [ ] ~Hierarchical Novelty Detection for Visual Object Recognition ([CVPR'18](https://arxiv.org/abs/1804.00722))
 * Vision
   * [x] Meta-SR: A Magnification-Arbitrary Network for Super-Resolution ([CVPR'19](https://arxiv.org/abs/1903.00875)): very bad writing...
   * [x] Gradient Harmonized Single-stage Detector ([AAAI'19](https://arxiv.org/abs/1811.05181)): it seems a good and effective paper. Surprisingly effective on my dataset.
   * [x] Deep Layer Aggregation ([CVPR'18](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.pdf))
+  * [x] SSD: Single Shot MultiBox Detector | a PyTorch Tutorial to Object Detection ([blog](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection)): a very good tutorial to refresh the details in object detection, too much details in CNN parts.
 * Time Series
   * [ ] Autoregressive Convolutional Neural Networks for Asynchronous Time Series ([ICML'18](http://proceedings.mlr.press/v80/binkowski18a/binkowski18a.pdf))
 * Adversarial Examples
+  * [x] How to know when machine learning does not know ([blog](http://www.cleverhans.io/security/2019/05/20/dknn.html))
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+* Reinforcement Learning
+  * [ ] Recurrent World Models Facilitate Policy Evolution ([NIPS'18](https://papers.nips.cc/paper/7512-recurrent-world-models-facilitate-policy-evolution.pdf)) ([website](https://worldmodels.github.io/))
+  * [ ] ~Continuous control with deep reinforcement learning (a.k.a. DDPG) ([ICLR'16](https://arxiv.org/abs/1509.02971))
 
 
 ## 2019-07

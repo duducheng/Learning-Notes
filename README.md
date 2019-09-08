@@ -21,6 +21,7 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 * Graph
   * [ ] Deep Generative Models for Graphs: Methods & Applications ([ICLR'19 tutorial](https://slideslive.com/38915801/deep-graph-generative-models-methods-applications))
   * [ ] Representation Learning on Networks ([WWW'18 tutorial](http://snap.stanford.edu/proj/embeddings-www/))
+  * [ ] ~网络表示学习综述 ([pdf](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/sc2017_nrl.pdf))
 * Adversarial Examples
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))

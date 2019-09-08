@@ -13,14 +13,26 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
   * [ ] GAN Dissection: Visualizing and Understanding Generative Adversarial Networks ([ICLR'19](https://openreview.net/pdf?id=Hyg_X2C5FX)) ([project](https://gandissect.csail.mit.edu/))
 * Medical
   * [ ] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982))
-* Time Series
-  * [ ] Autoregressive Convolutional Neural Networks for Asynchronous Time Series ([ICML'18](http://proceedings.mlr.press/v80/binkowski18a/binkowski18a.pdf))
+  * [ ] Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis ([MICCAI'19](https://paperswithcode.com/paper/models-genesis-generic-autodidactic-models))
+  * [ ] Med3D: Transfer Learning for 3D Medical Image Analysis ([arXiv](https://arxiv.org/abs/1904.00625)) ([code](https://github.com/Tencent/MedicalNet))
+  * [ ] 3D Anisotropic Hybrid Network: Transferring Convolutional Features from 2D Images to 3D Anisotropic Volumes ([MICCAI'18](https://arxiv.org/abs/1711.08580))
+  * [ ] H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes ([TMI'18](https://arxiv.org/abs/1709.07330))
+  * [ ] Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
+* Graph
+  * [ ] Deep Generative Models for Graphs: Methods & Applications ([ICLR'19 tutorial](https://slideslive.com/38915801/deep-graph-generative-models-methods-applications))
+  * [ ] Representation Learning on Networks ([WWW'18 tutorial](http://snap.stanford.edu/proj/embeddings-www/))
 * Adversarial Examples
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+* Vision
+  * [x] Expectation-Maximization Attention Networks for Semantic Segmentation ([ICCV'19](https://arxiv.org/abs/1907.13426)) ([code](https://github.com/XiaLiPKU/EMANet)): I have thought about the "EMA" mechanism (I even wrote the very similar code, not on segmentation task). However, the authors make the idea work, by making the initial base vectors independent on data, while dependent on dataset. I think it is the key.
 * Reinforcement Learning
   * [ ] Recurrent World Models Facilitate Policy Evolution ([NIPS'18](https://papers.nips.cc/paper/7512-recurrent-world-models-facilitate-policy-evolution.pdf)) ([website](https://worldmodels.github.io/))
   * [ ] ~Continuous control with deep reinforcement learning (a.k.a. DDPG) ([ICLR'16](https://arxiv.org/abs/1509.02971))
+* Misc
+  * [x] Autoregressive Convolutional Neural Networks for Asynchronous Time Series ([ICML'18](http://proceedings.mlr.press/v80/binkowski18a/binkowski18a.pdf))
+  * [ ] Hidden Technical Debt in Machine Learning Systems ([NIPS'15](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems))
+
 
 ## 2019-08
 Work hard for T-PAMI and CVPR!!!!
@@ -46,7 +58,7 @@ Work hard for T-PAMI and CVPR!!!!
   * [x] Deep Layer Aggregation ([CVPR'18](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.pdf))
   * [x] SSD: Single Shot MultiBox Detector | a PyTorch Tutorial to Object Detection ([blog](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection)): a very good tutorial to refresh the details in object detection, too much details in CNN parts.
 * Time Series
-  * [ ] Autoregressive Convolutional Neural Networks for Asynchronous Time Series ([ICML'18](http://proceedings.mlr.press/v80/binkowski18a/binkowski18a.pdf))
+  * [x] Autoregressive Convolutional Neural Networks for Asynchronous Time Series ([ICML'18](http://proceedings.mlr.press/v80/binkowski18a/binkowski18a.pdf)): very hard to read (writing problem). I don't think it is good solution to treat async duration as inputs.
 * Adversarial Examples
   * [x] How to know when machine learning does not know ([blog](http://www.cleverhans.io/security/2019/05/20/dknn.html))
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))

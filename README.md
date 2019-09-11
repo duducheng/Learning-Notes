@@ -32,7 +32,7 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
   * [ ] ~Continuous control with deep reinforcement learning (a.k.a. DDPG) ([ICLR'16](https://arxiv.org/abs/1509.02971))
 * Misc
   * [x] Autoregressive Convolutional Neural Networks for Asynchronous Time Series ([ICML'18](http://proceedings.mlr.press/v80/binkowski18a/binkowski18a.pdf))
-  * [ ] Hidden Technical Debt in Machine Learning Systems ([NIPS'15](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems))
+  * [x] Hidden Technical Debt in Machine Learning Systems ([NIPS'15](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems)): worth reading but difficult (for me), because of lots of software engineering terms. 
 
 
 ## 2019-08

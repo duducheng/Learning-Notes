@@ -13,10 +13,10 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
   * [ ] GAN Dissection: Visualizing and Understanding Generative Adversarial Networks ([ICLR'19](https://openreview.net/pdf?id=Hyg_X2C5FX)) ([project](https://gandissect.csail.mit.edu/))
 * Medical
   * [ ] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982))
-  * [ ] Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis ([MICCAI'19](https://paperswithcode.com/paper/models-genesis-generic-autodidactic-models))
+  * [x] Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis ([MICCAI'19](https://paperswithcode.com/paper/models-genesis-generic-autodidactic-models)): self-supervised learning on MIC.
   * [ ] Med3D: Transfer Learning for 3D Medical Image Analysis ([arXiv](https://arxiv.org/abs/1904.00625)) ([code](https://github.com/Tencent/MedicalNet))
   * [ ] 3D Anisotropic Hybrid Network: Transferring Convolutional Features from 2D Images to 3D Anisotropic Volumes ([MICCAI'18](https://arxiv.org/abs/1711.08580))
-  * [ ] H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes ([TMI'18](https://arxiv.org/abs/1709.07330)) ([code](https://github.com/xmengli999/H-DenseUNet))
+  * [x] H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes ([TMI'18](https://arxiv.org/abs/1709.07330)) ([code](https://github.com/xmengli999/H-DenseUNet)): good result as a strong baseline but not elegent method.
   * [ ] Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
 * Graph
   * [ ] Deep Generative Models for Graphs: Methods & Applications ([ICLR'19 tutorial](https://slideslive.com/38915801/deep-graph-generative-models-methods-applications))

@@ -20,10 +20,10 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
   * [x] H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes ([TMI'18](https://arxiv.org/abs/1709.07330)) ([code](https://github.com/xmengli999/H-DenseUNet)): good result as a strong baseline but not elegent method.
   * [ ] 3DFPN-HS2: 3D Feature Pyramid Network Based High Sensitivity and Specificity Pulmonary Nodule Detection ([MICCAI'19]https://arxiv.org/abs/1906.03467)
   * [ ] Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
-  * [ ] Thickened 2D Networks for 3D Medical Image Segmentation ([arXiv](https://arxiv.org/abs/1904.01150))
-  * [ ] Bridging the Gap Between 2D and 3D Organ Segmentation with Volumetric Fusion Net ([MICCAI'18](https://arxiv.org/abs/1804.00392))
-  * [ ] V-NAS: Neural Architecture Search for Volumetric Medical Image Segmentation ([arXiv](https://arxiv.org/pdf/1906.02817.pdf))
-  * [ ] A New Ensemble Learning Framework for 3D Biomedical Image Segmentation ([AAAI'19](https://arxiv.org/abs/1812.03945))
+  * [x] Thickened 2D Networks for 3D Medical Image Segmentation ([arXiv](https://arxiv.org/abs/1904.01150))
+  * [x] Bridging the Gap Between 2D and 3D Organ Segmentation with Volumetric Fusion Net ([MICCAI'18](https://arxiv.org/abs/1804.00392))
+  * [x] V-NAS: Neural Architecture Search for Volumetric Medical Image Segmentation ([arXiv](https://arxiv.org/pdf/1906.02817.pdf)): search 2D / 3D CNN kernels.
+  * [x] A New Ensemble Learning Framework for 3D Biomedical Image Segmentation ([AAAI'19](https://arxiv.org/abs/1812.03945)): VFN + multi-view consistency training loss.
 * Graph
   * [ ] Deep Generative Models for Graphs: Methods & Applications ([ICLR'19 tutorial](https://slideslive.com/38915801/deep-graph-generative-models-methods-applications))
   * [ ] Representation Learning on Networks ([WWW'18 tutorial](http://snap.stanford.edu/proj/embeddings-www/))

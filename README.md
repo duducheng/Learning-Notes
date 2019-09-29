@@ -8,9 +8,7 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 ## 2019-09
 
 ### Reading
-* XAI
-  * [ ] Network Dissection: Quantifying Interpretability of Deep Visual Representations ([CVPR'17](https://ieeexplore.ieee.org/document/8099837)) ([project](http://netdissect.csail.mit.edu/))
-  * [ ] GAN Dissection: Visualizing and Understanding Generative Adversarial Networks ([ICLR'19](https://openreview.net/pdf?id=Hyg_X2C5FX)) ([project](https://gandissect.csail.mit.edu/))
+
 * Medical
   * [ ] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982))
   * [x] Elastic Boundary Projection for 3D Medical Imaging Segmentation ([CVPR'19](https://arxiv.org/abs/1812.00518)): it is still 2D segmentation, while iteratively. Only eligible for segmentation task. The inference speed should be very low. Now aplicable for irregular geometric shape. The whole idea is very related to shape modeling / human-in-the-loop segmentation.
@@ -18,8 +16,9 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
   * [x] Med3D: Transfer Learning for 3D Medical Image Analysis ([arXiv](https://arxiv.org/abs/1904.00625)) ([code](https://github.com/Tencent/MedicalNet)): easy but useful. Better carefully using.
   * [x] 3D Anisotropic Hybrid Network: Transferring Convolutional Features from 2D Images to 3D Anisotropic Volumes ([MICCAI'18](https://arxiv.org/abs/1711.08580)): important direction but not cool: not elegant solution, bad writing. 
   * [x] H-DenseUNet: Hybrid Densely Connected UNet for Liver and Tumor Segmentation from CT Volumes ([TMI'18](https://arxiv.org/abs/1709.07330)) ([code](https://github.com/xmengli999/H-DenseUNet)): good result as a strong baseline but not elegent method.
-  * [ ] 3DFPN-HS2: 3D Feature Pyramid Network Based High Sensitivity and Specificity Pulmonary Nodule Detection ([MICCAI'19]https://arxiv.org/abs/1906.03467)
-  * [ ] Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
+  * [x] 3DFPN-HS2: 3D Feature Pyramid Network Based High Sensitivity and Specificity Pulmonary Nodule Detection ([MICCAI'19]https://arxiv.org/abs/1906.03467): very high performance.
+  * [ ] ~Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
+  * [ ] NoduleNet: Decoupled False Positive Reduction for Pulmonary Nodule Detection and Segmentation ([MICCAI'19](https://arxiv.org/abs/1907.11320)) ([code](https://github.com/uci-cbcl/NoduleNet))
   * [x] Thickened 2D Networks for 3D Medical Image Segmentation ([arXiv](https://arxiv.org/abs/1904.01150))
   * [x] Bridging the Gap Between 2D and 3D Organ Segmentation with Volumetric Fusion Net ([MICCAI'18](https://arxiv.org/abs/1804.00392))
   * [x] V-NAS: Neural Architecture Search for Volumetric Medical Image Segmentation ([arXiv](https://arxiv.org/pdf/1906.02817.pdf)): search 2D / 3D CNN kernels.

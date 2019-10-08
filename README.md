@@ -8,6 +8,26 @@ Related projects:
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
+
+## 2019-10
+I have just submitted papers to ISBI 2019 and will be attending MICCAI 2019 in Shenzhen, China.
+
+### Reading
+
+* Medical
+  * [ ] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982))
+  * [ ] ~Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
+  * [ ] NoduleNet: Decoupled False Positive Reduction for Pulmonary Nodule Detection and Segmentation ([MICCAI'19](https://arxiv.org/abs/1907.11320)) ([code](https://github.com/uci-cbcl/NoduleNet))
+* Graph
+  * [ ] Deep Generative Models for Graphs: Methods & Applications ([ICLR'19 tutorial](https://slideslive.com/38915801/deep-graph-generative-models-methods-applications))
+  * [ ] Representation Learning on Networks ([WWW'18 tutorial](http://snap.stanford.edu/proj/embeddings-www/))
+  * [ ] ~网络表示学习综述 ([pdf](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/sc2017_nrl.pdf))
+* Adversarial Examples
+  * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
+  * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+* Reinforcement Learning
+  * [ ] Recurrent World Models Facilitate Policy Evolution ([NIPS'18](https://papers.nips.cc/paper/7512-recurrent-world-models-facilitate-policy-evolution.pdf)) ([website](https://worldmodels.github.io/))
+
 ## 2019-09
 
 ### Reading

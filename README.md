@@ -15,7 +15,7 @@ I have just submitted papers to ISBI 2019 and will be attending MICCAI 2019 in S
 ### Reading
 
 * Medical (Emphasis on MICCAI'19)
-  * [x] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982))
+  * [x] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982)): very insightful. Less data contributes to low sensitivity / recall to foreground rather than precision. 
   * [ ] Searching Learning Strategy with Reinforcement Learning for 3D Medical Image Segmentation ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_1))
   * [ ] One Network to Segment Them All: A General, Lightweight System for Accurate 3D Medical Image Segmentation ([MICCAI'19](https://link.springer.com/chapter/10.1007%2F978-3-030-32245-8_4)) ([code](https://github.com/perslev/MultiPlanarUNet))
   * [ ] 3D Tiled Convolution for Effective Segmentation of Volumetric Medical Images ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_17)) ([code](https://github.com/guoyanzheng/LPNet))

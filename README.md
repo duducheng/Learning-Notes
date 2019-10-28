@@ -16,8 +16,8 @@ I have just submitted papers to ISBI 2019 and will be attending MICCAI 2019 in S
 
 * Medical (Emphasis on MICCAI'19)
   * [x] Overfitting of neural nets under class imbalance: Analysis and improvements for segmentation ([MICCAI'19](https://arxiv.org/abs/1907.10982)): very insightful. Less data contributes to low sensitivity / recall to foreground rather than precision. 
-  * [ ] DeepOrgan: Multi-level Deep Convolutional Networks for Automated Pancreas Segmentation ([MICCAI'15](https://link.springer.com/chapter/10.1007%2F978-3-319-24553-9_68)) ([dataset](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT): a.k.a. NIH Pancreas CT)
-  * [ ] Recurrent Saliency Transformation Network: Incorporating Multi-Stage Visual Cues for Small Organ Segmentation ([CVPR'18](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Recurrent_Saliency_Transformation_CVPR_2018_paper.pdf)) ([code](https://github.com/twni2016/OrganSegRSTN_PyTorch))
+  * [x] DeepOrgan: Multi-level Deep Convolutional Networks for Automated Pancreas Segmentation ([MICCAI'15](https://link.springer.com/chapter/10.1007%2F978-3-319-24553-9_68)) ([dataset](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT): a.k.a. NIH Pancreas CT)
+  * [x] Recurrent Saliency Transformation Network: Incorporating Multi-Stage Visual Cues for Small Organ Segmentation ([CVPR'18](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Recurrent_Saliency_Transformation_CVPR_2018_paper.pdf)) ([code](https://github.com/twni2016/OrganSegRSTN_PyTorch))
   * [ ] Harnessing 2D Networks and 3D Features for Automated Pancreas Segmentation from Volumetric CT Images ([MICCAI'19](https://link.springer.com/chapter/10.1007%2F978-3-030-32226-7_38))
   * [ ] Fully Automated Pancreas Segmentation with Two-Stage 3D Convolutional Neural Networks ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_23))
   * [ ] Searching Learning Strategy with Reinforcement Learning for 3D Medical Image Segmentation ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_1))

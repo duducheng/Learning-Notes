@@ -8,6 +8,9 @@ Related projects:
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
+## 2019-12
+See u at RSNA 2019, Chicago!
+
 ## 2019-11
 Prepare CVPR submissions...
 
@@ -24,6 +27,7 @@ Prepare CVPR submissions...
   * [ ] Resource Optimized Neural Architecture Search for 3D Medical Image Segmentation([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_26))
   * [ ] Clinically applicable deep learning framework for organs at risk delineation in CT images ([Nature Machine Intelligence](https://www.nature.com/articles/s42256-019-0099-z))
   * [ ] ~Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
+  * [ ] Deep Probabilistic Modeling of Glioma Growth ([MICCAI'19](https://arxiv.org/abs/1907.04064))
 * Adversarial Examples
   * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
   * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))

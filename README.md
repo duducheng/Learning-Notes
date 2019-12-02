@@ -11,9 +11,6 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 ## 2019-12
 See u at RSNA 2019, Chicago!
 
-## 2019-11
-Prepare CVPR submissions...
-
 ### Reading
 * Medical (Emphasis on MICCAI'19)
   * [ ] Harnessing 2D Networks and 3D Features for Automated Pancreas Segmentation from Volumetric CT Images ([MICCAI'19](https://link.springer.com/chapter/10.1007%2F978-3-030-32226-7_38))
@@ -36,7 +33,12 @@ Prepare CVPR submissions...
 * Reinforcement Learning
   * [ ] Recurrent World Models Facilitate Policy Evolution ([NIPS'18](https://papers.nips.cc/paper/7512-recurrent-world-models-facilitate-policy-evolution.pdf)) ([website](https://worldmodels.github.io/))
 
+## 2019-11
+Prepare CVPR submissions...
 
+### Reading
+* [x] SinGAN: Learning a Generative Model from a Single Natural Image ([ICCV'19 best paper](http://webee.technion.ac.il/people/tomermic/SinGAN/SinGAN.htm)): good method, very strong results and application (especially the application on single image annimation, very impressive).
+* [x] CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features ([ICCV'19](https://arxiv.org/abs/1905.04899)): simple method, good results. 
 
 ## 2019-10
 I have just submitted papers to ISBI 2019 and will be attending MICCAI 2019 in Shenzhen, China.

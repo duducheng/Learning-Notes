@@ -1,3 +1,17 @@
+* Medical (Emphasis on MICCAI'19)
+  * [ ] Harnessing 2D Networks and 3D Features for Automated Pancreas Segmentation from Volumetric CT Images ([MICCAI'19](https://link.springer.com/chapter/10.1007%2F978-3-030-32226-7_38))
+  * [ ] Fully Automated Pancreas Segmentation with Two-Stage 3D Convolutional Neural Networks ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_23))
+  * [ ] Searching Learning Strategy with Reinforcement Learning for 3D Medical Image Segmentation ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_1))
+  * [ ] One Network to Segment Them All: A General, Lightweight System for Accurate 3D Medical Image Segmentation ([MICCAI'19](https://link.springer.com/chapter/10.1007%2F978-3-030-32245-8_4)) ([code](https://github.com/perslev/MultiPlanarUNet))
+  * [ ] 3D Tiled Convolution for Effective Segmentation of Volumetric Medical Images ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_17)) ([code](https://github.com/guoyanzheng/LPNet))
+  * [ ] 3D U2-Net: A 3D Universal U-Net for Multi-Domain Medical Image Segmentation ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_33)) ([code](https://github.com/huangmozhilv/u2net_torch/))
+  * [ ] Scalable Neural Architecture Search for 3D Medical Image Segmentation ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_25))
+  * [ ] Self-supervised Feature Learning for 3D Medical Images by Playing a Rubik’s Cube ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32251-9_46))
+  * [ ] Resource Optimized Neural Architecture Search for 3D Medical Image Segmentation([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_26))
+  * [ ] Clinically applicable deep learning framework for organs at risk delineation in CT images ([Nature Machine Intelligence](https://www.nature.com/articles/s42256-019-0099-z))
+  * [ ] ~Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
+  * [ ] Deep Probabilistic Modeling of Glioma Growth ([MICCAI'19](https://arxiv.org/abs/1907.04064))
+
 * XAI
   * [ ] Network Dissection: Quantifying Interpretability of Deep Visual Representations ([CVPR'17](https://ieeexplore.ieee.org/document/8099837)) ([project](http://netdissect.csail.mit.edu/))
   * [ ] GAN Dissection: Visualizing and Understanding Generative Adversarial Networks ([ICLR'19](https://openreview.net/pdf?id=Hyg_X2C5FX)) ([project](https://gandissect.csail.mit.edu/))
@@ -16,6 +30,9 @@
   * [ ] DeepEM: Deep 3D ConvNets with EM for Weakly Supervised Pulmonary Nodule Detection ([MICCAI'18](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_90))
   * [ ] Ultrasound Image Representation Learning by Modeling Sonographer Visual Attention ([IPMI'19](https://arxiv.org/abs/1903.02974))
   * [ ] CT-Realistic Lung Nodule Simulation from 3D Conditional Generative Adversarial Networks for Robust Lung Segmentation ([MICCAI'18](https://arxiv.org/abs/1806.04051))
+
+* Reinforcement Learning
+  * [ ] Recurrent World Models Facilitate Policy Evolution ([NIPS'18](https://papers.nips.cc/paper/7512-recurrent-world-models-facilitate-policy-evolution.pdf)) ([website](https://worldmodels.github.io/))
 
 * Neural Process / Non-parametric
   * [ ] Attentive Neural Processes ([ICLR'19](https://arxiv.org/pdf/1901.05761.pdf))

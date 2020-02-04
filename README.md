@@ -10,7 +10,7 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 
 ## 2020-02
 
-China is in the shadow of 2019-nCov. I'm super busy but upset. Hope everything works well and I could be better me.
+China is in the shadow of 2019-nCoV. I'm super busy but upset. Hope everything works well and I could be better me.
 
 ### Reading
 * Adversarial Examples
@@ -23,7 +23,7 @@ China is in the shadow of 2019-nCov. I'm super busy but upset. Hope everything w
 
 ## 2020-01
 
-Super busy but less productive. Chinese new year is comming, I need focus and hard work! I wish all Chinese could be safe under the threat of 2019-nCov, and the world could be fine.
+Super busy but less productive. Chinese new year is comming, I need focus and hard work! I wish all Chinese could be safe under the threat of 2019-nCoV, and the world could be fine.
 
 ### Study
 * [x] 心理学概论 ([Xuetangx](https://next.xuetangx.com/learn/THU07111000416/THU07111000416/1516445/video/1395645)): Module 1,2,3

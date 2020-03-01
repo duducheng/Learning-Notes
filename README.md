@@ -8,13 +8,11 @@ Related projects:
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
-## 2020-02
-
-China is in the shadow of 2019-nCoV. I'm super busy but upset. Hope everything works well and I could be better me.
+## 2020-03
+Preparing ECCV'20 and MICCAI'20 submissions, plus a clinical journal submission.
 
 ### Reading
 * Medical 
-  * [x] Rectified Cross-Entropy and Upper Transition Loss for Weakly Supervised Whole Slide Image Classifier ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_39))
   * [ ] Holistic and Comprehensive Annotation of Clinically Significant Findings on Diverse CT Images: Learning from Radiology Reports and Label Ontology ([CVPR'19](https://arxiv.org/abs/1904.04661))
   * [ ] Deep Lesion Graphs in the Wild: Relationship Learning and Organization of Significant Radiology Image Findings in a Diverse Large-scale Lesion Database ([CVPR'18](https://arxiv.org/abs/1711.10535))
   * [ ] Deep Probabilistic Modeling of Glioma Growth ([MICCAI'19](https://arxiv.org/abs/1907.04064))
@@ -22,18 +20,35 @@ China is in the shadow of 2019-nCoV. I'm super busy but upset. Hope everything w
   * [ ] 3D Context Enhanced Region-based Convolutional Neural Network for End-to-End Lesion Detection ([MICCAI'18](https://arxiv.org/abs/1806.09648))
   * [ ] MVP-Net: Multi-view FPN with Position-aware Attention for Deep Universal Lesion Detection ([MICCAI'19](https://arxiv.org/abs/1909.04247/))
 * Misc
+  * [ ] Neural Ordinary Differential Equations ([NeurIPS'18 best](https://arxiv.org/abs/1806.07366))
+
+
+
+## 2020-02
+
+China is in the shadow of 2019-nCoV. I'm super busy but upset. Hope everything works well and I could be better me.
+
+We have submitted a paper to ICML'20. 
+
+One paper on 3D pose estimation was accepted by CVPR'20. 
+
+Besides, we are (very) likely to host a MICCAI challenge this year.
+
+### Reading
+  * [x] Rectified Cross-Entropy and Upper Transition Loss for Weakly Supervised Whole Slide Image Classifier ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_39))
   * [x] PointRend: Image Segmentation as Rendering ([arXiv](https://arxiv.org/abs/1912.08193))
   * [x] Larger Norm More Transferable: An Adaptive Feature Norm Approach for Unsupervised Domain Adaptation ([ICCV'19](https://arxiv.org/abs/1811.07456)) ([code](https://github.com/jihanyang/AFN))
-  * [ ] Neural Ordinary Differential Equations ([NeurIPS'18 best](https://arxiv.org/abs/1806.07366))
   * [x] ~Attract or Distract: Exploit the Margin of Open Set ([ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/papers/Feng_Attract_or_Distract_Exploit_the_Margin_of_Open_Set_ICCV_2019_paper.pdf))
   * [x] Class-Balanced Loss Based on Effective Number of Samples ([CVPR'19](http://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf))
   * [x] Large-Scale Long-Tailed Recognition in an Open World ([CVPR'19](https://arxiv.org/abs/1904.05160))
-  * [ ] CARAFE: Content-Aware ReAssembly of FEatures ([ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/html/Wang_CARAFE_Content-Aware_ReAssembly_of_FEatures_ICCV_2019_paper.html))
+  * [x] ~CARAFE: Content-Aware ReAssembly of FEatures ([ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/html/Wang_CARAFE_Content-Aware_ReAssembly_of_FEatures_ICCV_2019_paper.html)): it resemables Meta-SR.
 
 
 ## 2020-01
 
 Super busy but less productive. Chinese new year is comming, I need focus and hard work! I wish all Chinese could be safe under the threat of 2019-nCoV, and the world could be fine.
+
+One paper was accepted by ISBI'20.
 
 ### Study
 * [x] 心理学概论 ([Xuetangx](https://next.xuetangx.com/learn/THU07111000416/THU07111000416/1516445/video/1395645)): Module 1,2,3

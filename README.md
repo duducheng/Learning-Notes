@@ -22,8 +22,6 @@ Preparing ECCV'20 and MICCAI'20 submissions, plus a clinical journal submission.
 * Misc
   * [ ] Neural Ordinary Differential Equations ([NeurIPS'18 best](https://arxiv.org/abs/1806.07366))
 
-
-
 ## 2020-02
 
 China is in the shadow of 2019-nCoV. I'm super busy but upset. Hope everything works well and I could be better me.
@@ -32,7 +30,7 @@ We have submitted a paper to ICML'20.
 
 One paper on 3D pose estimation was accepted by CVPR'20. 
 
-Besides, we are (very) likely to host a MICCAI challenge this year.
+Besides, we are informed to be (very) likely to host a MICCAI challenge this year.
 
 ### Reading
   * [x] Rectified Cross-Entropy and Upper Transition Loss for Weakly Supervised Whole Slide Image Classifier ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_39))

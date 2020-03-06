@@ -1,10 +1,10 @@
 ## Study Plan
-AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image Computing](topics/mic.md) | Prog - [Programming](topics/programming.md)
+<!-- AML - [Advanced Machine Learning](topics/advanced_ml.md) | MIC - [Medical Image Computing](topics/mic.md) | Prog - [Programming](topics/programming.md) -->
 
 Related projects: 
 * [`M3DV/ai-deadlines`](https://github.com/M3DV/ai-deadlines): Top AI deadline countdowns (with an emphasis on computer vision and medical images).
 * [`M3DV/Kickstart`](https://github.com/M3DV/Kickstart): Study route for learners in machine learning / deep learning / computer vision.
-* [`M3DV/Readiness-Seminar`](https://github.com/M3DV/Readiness-Seminar): A cooperative paper list on 3D vision and deep learning robustness.
+<!-- * [`M3DV/Readiness-Seminar`](https://github.com/M3DV/Readiness-Seminar): A cooperative paper list on 3D vision and deep learning robustness. -->
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
@@ -20,7 +20,7 @@ Preparing ECCV'20 and MICCAI'20 submissions, plus a clinical journal submission.
   * [ ] 3D Context Enhanced Region-based Convolutional Neural Network for End-to-End Lesion Detection ([MICCAI'18](https://arxiv.org/abs/1806.09648))
   * [ ] MVP-Net: Multi-view FPN with Position-aware Attention for Deep Universal Lesion Detection ([MICCAI'19](https://arxiv.org/abs/1909.04247/))
 * Misc
-  * [ ] Neural Ordinary Differential Equations ([NeurIPS'18 best](https://arxiv.org/abs/1806.07366))
+  * [x] Neural Ordinary Differential Equations ([NeurIPS'18 best](https://arxiv.org/abs/1806.07366)): it is absolutely a very innotative paper. I did not care the proof on how to get the gradient of ODE. There seems lots of applications.
 
 ## 2020-02
 
@@ -30,7 +30,7 @@ We have submitted a paper to ICML'20.
 
 One paper on 3D pose estimation was accepted by CVPR'20. 
 
-Besides, we are informed to be (very) likely to host a MICCAI challenge this year.
+Besides, we are informed to be (very) likely to host a MICCAI challenge this year. I am the leading organizer.
 
 ### Reading
   * [x] Rectified Cross-Entropy and Upper Transition Loss for Weakly Supervised Whole Slide Image Classifier ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_39))

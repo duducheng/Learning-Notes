@@ -13,12 +13,12 @@ Preparing ECCV'20 and MICCAI'20 submissions, plus a clinical journal submission.
 
 ### Reading
 * Medical 
-  * [ ] Holistic and Comprehensive Annotation of Clinically Significant Findings on Diverse CT Images: Learning from Radiology Reports and Label Ontology ([CVPR'19](https://arxiv.org/abs/1904.04661))
-  * [ ] Deep Lesion Graphs in the Wild: Relationship Learning and Organization of Significant Radiology Image Findings in a Diverse Large-scale Lesion Database ([CVPR'18](https://arxiv.org/abs/1711.10535))
-  * [ ] Deep Probabilistic Modeling of Glioma Growth ([MICCAI'19](https://arxiv.org/abs/1907.04064))
-  * [ ] MULAN: Multitask Universal Lesion Analysis Network for Joint Lesion Detection, Tagging, and Segmentation ([MICCAI'19](https://arxiv.org/abs/1908.04373))
-  * [ ] 3D Context Enhanced Region-based Convolutional Neural Network for End-to-End Lesion Detection ([MICCAI'18](https://arxiv.org/abs/1806.09648))
-  * [ ] MVP-Net: Multi-view FPN with Position-aware Attention for Deep Universal Lesion Detection ([MICCAI'19](https://arxiv.org/abs/1909.04247/))
+  * [x] Holistic and Comprehensive Annotation of Clinically Significant Findings on Diverse CT Images: Learning from Radiology Reports and Label Ontology ([CVPR'19](https://arxiv.org/abs/1904.04661))
+  * [x] Deep Lesion Graphs in the Wild: Relationship Learning and Organization of Significant Radiology Image Findings in a Diverse Large-scale Lesion Database ([CVPR'18](https://arxiv.org/abs/1711.10535))
+  * [x] Deep Probabilistic Modeling of Glioma Growth ([MICCAI'19](https://arxiv.org/abs/1907.04064))
+  * [x] MULAN: Multitask Universal Lesion Analysis Network for Joint Lesion Detection, Tagging, and Segmentation ([MICCAI'19](https://arxiv.org/abs/1908.04373))
+  * [x] 3D Context Enhanced Region-based Convolutional Neural Network for End-to-End Lesion Detection ([MICCAI'18](https://arxiv.org/abs/1806.09648))
+  * [x] MVP-Net: Multi-view FPN with Position-aware Attention for Deep Universal Lesion Detection ([MICCAI'19](https://arxiv.org/abs/1909.04247/))
 * Misc
   * [x] Neural Ordinary Differential Equations ([NeurIPS'18 best](https://arxiv.org/abs/1806.07366)): it is absolutely a very innotative paper. I did not care the proof on how to get the gradient of ODE. There seems lots of applications.
 

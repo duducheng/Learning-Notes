@@ -1,8 +1,3 @@
-* Adversarial Examples
-  * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
-  * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
-  * [ ] Prior Convictions: Black-box Adversarial Attacks with Bandits and Priors ([ICLR'19](https://openreview.net/forum?id=BkMiWhR5K7))
-  * [ ] Improving Black-box Adversarial Attacks with a Transfer-based Prior ([NeurIPS'19](https://arxiv.org/abs/1906.06919)) ([code](https://github.com/prior-guided-rgf/Prior-Guided-RGF))
 
 * Medical (Emphasis on MICCAI'19)
   * [ ] Harnessing 2D Networks and 3D Features for Automated Pancreas Segmentation from Volumetric CT Images ([MICCAI'19](https://link.springer.com/chapter/10.1007%2F978-3-030-32226-7_38))
@@ -14,8 +9,7 @@
   * [ ] Scalable Neural Architecture Search for 3D Medical Image Segmentation ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32248-9_25))
   * [ ] Self-supervised Feature Learning for 3D Medical Images by Playing a Rubik’s Cube ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32251-9_46))
   * [ ] Resource Optimized Neural Architecture Search for 3D Medical Image Segmentation([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_26))
-  * [ ] Clinically applicable deep learning framework for organs at risk delineation in CT images ([Nature Machine Intelligence](https://www.nature.com/articles/s42256-019-0099-z))
-  * [ ] ~Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
+
 
 * XAI
   * [ ] Network Dissection: Quantifying Interpretability of Deep Visual Representations ([CVPR'17](https://ieeexplore.ieee.org/document/8099837)) ([project](http://netdissect.csail.mit.edu/))
@@ -24,8 +18,7 @@
   * [ ] Invariant and Equivariant Graph Networks ([ICLR'19](https://openreview.net/forum?id=Syx72jC9tm))  
   * [ ] Generating Long Sequences with Sparse Transformers ([OpenAI](https://openai.com/blog/sparse-transformer/))
 * MIC
-  * [ ] Biologically-Constrained Graphs for Global Connectomics Reconstruction ([CVPR'19](https://donglaiw.github.io/paper/2019_cvpr_skel.pdf))
-  * [ ] Data augmentation using learned transformations for one-shot medical image segmentation ([CVPR'19](https://arxiv.org/abs/1902.09383))
+
   * [ ] Discriminative Localization in CNNs for Weakly-Supervised Segmentation of Pulmonary Nodules ([MICCAI'17](https://arxiv.org/abs/1707.01086))
   * [ ] Curriculum Adaptive Sampling for Extreme Data Imbalance ([MICCAI'17](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_73)) ([code](https://github.com/taki0112/CASED-Tensorflow))
   * [ ] S4ND: Single-Shot Single-Scale Lung Nodule Detection ([MICCAI'18](https://arxiv.org/abs/1805.02279))

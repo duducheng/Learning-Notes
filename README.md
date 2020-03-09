@@ -19,8 +19,19 @@ Preparing ECCV'20 and MICCAI'20 submissions, plus a clinical journal submission.
   * [x] MULAN: Multitask Universal Lesion Analysis Network for Joint Lesion Detection, Tagging, and Segmentation ([MICCAI'19](https://arxiv.org/abs/1908.04373))
   * [x] 3D Context Enhanced Region-based Convolutional Neural Network for End-to-End Lesion Detection ([MICCAI'18](https://arxiv.org/abs/1806.09648))
   * [x] MVP-Net: Multi-view FPN with Position-aware Attention for Deep Universal Lesion Detection ([MICCAI'19](https://arxiv.org/abs/1909.04247/))
+  * [ ] Biologically-Constrained Graphs for Global Connectomics Reconstruction ([CVPR'19](https://donglaiw.github.io/paper/2019_cvpr_skel.pdf))
+  * [ ] Data augmentation using learned transformations for one-shot medical image segmentation ([CVPR'19](https://arxiv.org/abs/1902.09383))
+  * [ ] Clinically applicable deep learning framework for organs at risk delineation in CT images ([Nature Machine Intelligence](https://www.nature.com/articles/s42256-019-0099-z))
+  * [ ] ~Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://arxiv.org/abs/1902.07208))
+* Adversarial Examples
+  * [ ] Adversarial Examples Are Not Bugs, They Are Features ([arXiv](https://arxiv.org/abs/1905.02175))
+  * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+  * [ ] Prior Convictions: Black-box Adversarial Attacks with Bandits and Priors ([ICLR'19](https://openreview.net/forum?id=BkMiWhR5K7))
+  * [ ] Improving Black-box Adversarial Attacks with a Transfer-based Prior ([NeurIPS'19](https://arxiv.org/abs/1906.06919)) ([code](https://github.com/prior-guided-rgf/Prior-Guided-RGF))
 * Misc
   * [x] Neural Ordinary Differential Equations ([NeurIPS'18 best](https://arxiv.org/abs/1806.07366)): it is absolutely a very innotative paper. I did not care the proof on how to get the gradient of ODE. There seems lots of applications.
+  * [ ] Momentum Contrast for Unsupervised Visual Representation Learning ([arXiv](https://arxiv.org/abs/1911.05722/))
+  * [ ] GhostNet: More Features from Cheap Operations ([CVPR'20](httpse://arxiv.org/abs/1911.11907))
 
 ## 2020-02
 

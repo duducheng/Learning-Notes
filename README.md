@@ -8,7 +8,12 @@ Related projects:
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
+## 2020-05
+Three papers (first author) were accepted by MICCAI'20! All are early accept! Lucky ;)
+
 ## 2020-04
+
+One paper on noisy labels for detection (our 1st runner up solution of MICCAI DigestPath2019 challenge) was accepted by Neurpcomputing.
 
 * Medical 
   * [ ] Biologically-Constrained Graphs for Global Connectomics Reconstruction ([CVPR'19](https://donglaiw.github.io/paper/2019_cvpr_skel.pdf))
@@ -21,6 +26,7 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
   * [ ] Prior Convictions: Black-box Adversarial Attacks with Bandits and Priors ([ICLR'19](https://openreview.net/forum?id=BkMiWhR5K7))
   * [ ] Improving Black-box Adversarial Attacks with a Transfer-based Prior ([NeurIPS'19](https://arxiv.org/abs/1906.06919)) ([code](https://github.com/prior-guided-rgf/Prior-Guided-RGF))
 * Misc
+  * [x] Guided evolutionary strategies: Augmenting random search with surrogate gradients ([ICML'19](http://proceedings.mlr.press/v97/maheswaranathan19a/maheswaranathan19a.pdf))
   * [ ] Momentum Contrast for Unsupervised Visual Representation Learning ([arXiv](https://arxiv.org/abs/1911.05722/))
   * [ ] GhostNet: More Features from Cheap Operations ([CVPR'20](httpse://arxiv.org/abs/1911.11907))
   * [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB)) ([trax code](https://github.com/google/trax/tree/master/trax/models/reformer)) ([PyTorch code](https://github.com/lucidrains/reformer-pytorch))

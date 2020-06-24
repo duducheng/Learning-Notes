@@ -8,8 +8,27 @@ Related projects:
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
+## 2020-06
+There is time with no updating the repo... I will restart it.
+
+I got one more (co-first authored) paper accepted by MICCAI'20, which results in 4 totally. How lucky!
+
+### Reading
+* [x] Using transfer learning on whole slide images to predict tumor mutational burden in bladder cancer patients ([bioRxiv](https://www.biorxiv.org/content/10.1101/554527v1))
+* [x] Guided evolutionary strategies: Augmenting random search with surrogate gradients ([ICML'19](http://proceedings.mlr.press/v97/maheswaranathan19a/maheswaranathan19a.pdf))
+* [x] UNet 3+: A Full-Scale Connected UNet for Medical Image Segmentation ([ICASSP'20](http://arxiv.org/abs/2004.08790))
+* [x] Light-Weight Hybrid Convolutional Network for Liver Tumor Segmentation ([IJCAI'19](https://www.ijcai.org/Proceedings/2019/0593.pdf))
+* [ ] Decoupling Representation and Classifier for Long-Tailed Recognition ([ICLR'20](https://arxiv.org/abs/1910.09217))
+* [ ] Deep Learning Based Rib Centerline Extraction and Labeling ([MICCAI'18 MSKI 2018 Workshop](https://arxiv.org/abs/1809.07082))
+* [ ] X3D: Expanding Architectures for Efficient Video Recognition ([CVPR'20 oral](https://arxiv.org/abs/2004.04730))
+* [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))
+* [ ] Embracing Imperfect Datasets: A Review of Deep Learning Solutions for Medical Image Segmentation ([MedIA](https://arxiv.org/abs/1908.10454))
+* [ ] ~What Makes for Good Views for Contrastive Learning? ([arXiv](https://arxiv.org/abs/2005.10243)) ([code](https://github.com/HobbitLong/PyContrast))
+* [ ] ~Prototypical Contrastive Learning of Unsupervised Representations ([arXiv](https://arxiv.org/abs/2005.04966))
+
+
 ## 2020-05
-Three papers (first author) were accepted by MICCAI'20! All are early accept! Lucky ;)
+Three papers (first author) were accepted by MICCAI'20! All are early accepted! Lucky ;)
 
 ## 2020-04
 

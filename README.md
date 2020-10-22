@@ -10,12 +10,18 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 
 # 2020-10
 ### Reading
-* [ ] Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chibane_Implicit_Functions_in_Feature_Space_for_3D_Shape_Reconstruction_and_CVPR_2020_paper.pdf)): A very good paper with journal-level reviews of related work. Good method modified from DISN, easy to implement, and also good results.
-* [ ] DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction ([NeurIPS'19](http://papers.nips.cc/paper/8340-disn-deep-implicit-surface-network-for-high-quality-single-view-3d-reconstruction))
+* [x] Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chibane_Implicit_Functions_in_Feature_Space_for_3D_Shape_Reconstruction_and_CVPR_2020_paper.pdf)): A  very good paper with journal-level reviews of related work. Good method modified from DISN, easy to implement, and also good results.
+* [x] DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction ([NeurIPS'19](http://papers.nips.cc/paper/8340-disn-deep-implicit-surface-network-for-high-quality-single-view-3d-reconstruction)): interesting paper for single image recontruction, the base of IF-Net. Some writing parts are hard to follow. 
 * [ ] Point-Voxel CNN for Efficient 3D Deep Learning ([NeurIPS'19](https://arxiv.org/abs/1907.03739))
 * [ ] 3D Shape Reconstruction from Vision and Touch ([NeurIPS'20](https://arxiv.org/abs/2007.03778))
 * [ ] ShapeFlow: Learnable Deformations Among 3D Shapes ([NeurIPS'20](https://arxiv.org/abs/2006.07982))
 * [ ] What shapes feature representations? Exploring datasets, architectures, and training ([NeurIPS'20](https://arxiv.org/abs/2006.12433))
+* [ ] MeshSDF: Differentiable Iso-Surface Extraction ([NeurIPS'20](https://arxiv.org/abs/2006.03997))
+* [ ] UCLID-Net: Single View Reconstruction in Object Space
+ ([NeurIPS'20](https://arxiv.org/abs/2006.03817))
+* [ ] Continuous Surface Embeddings ([NeurIPS'20](?))
+* [ ] Neural Unsigned Distance Fields for Implicit Function Learning
+ ([NeurIPS'20](?))
 
 # 2020-08
 There is time with no updating the repo... I will soon re-launch it. 

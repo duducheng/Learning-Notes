@@ -8,6 +8,31 @@ Related projects:
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
+# 2020-10
+### Reading
+* [ ] Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chibane_Implicit_Functions_in_Feature_Space_for_3D_Shape_Reconstruction_and_CVPR_2020_paper.pdf)): A very good paper with journal-level reviews of related work. Good method modified from DISN, easy to implement, and also good results.
+* [ ] DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction ([NeurIPS'19](http://papers.nips.cc/paper/8340-disn-deep-implicit-surface-network-for-high-quality-single-view-3d-reconstruction))
+* [ ] Point-Voxel CNN for Efficient 3D Deep Learning ([NeurIPS'19](https://arxiv.org/abs/1907.03739))
+* [ ] 3D Shape Reconstruction from Vision and Touch ([NeurIPS'20](https://arxiv.org/abs/2007.03778))
+* [ ] ShapeFlow: Learnable Deformations Among 3D Shapes ([NeurIPS'20](https://arxiv.org/abs/2006.07982))
+* [ ] What shapes feature representations? Exploring datasets, architectures, and training ([NeurIPS'20](https://arxiv.org/abs/2006.12433))
+
+# 2020-08
+There is time with no updating the repo... I will soon re-launch it. 
+
+## 2020-07
+
+### Reading
+* [ ] Decoupling Representation and Classifier for Long-Tailed Recognition ([ICLR'20](https://arxiv.org/abs/1910.09217))
+* [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))
+* [ ] ~What Makes for Good Views for Contrastive Learning? ([arXiv](https://arxiv.org/abs/2005.10243)) ([code](https://github.com/HobbitLong/PyContrast))
+* [ ] ~Prototypical Contrastive Learning of Unsupervised Representations ([arXiv](https://arxiv.org/abs/2005.04966))
+* [ ] ~Momentum Contrast for Unsupervised Visual Representation Learning ([arXiv](https://arxiv.org/abs/1911.05722/)) ([PyTorch code](https://github.com/facebookresearch/moco))
+* [ ] ~Improved Baselines with Momentum Contrastive Learning (a.k.a MOCOv2) ([arXiv](https://arxiv.org/abs/2003.04297))
+* [ ] ~A Simple Framework for Contrastive Learning of Visual Representations ([arXiv](https://arxiv.org/abs/2002.05709)) ([code](https://github.com/google-research/simclr))
+* [x] Predicting tumour mutational burden from histopathological images using multiscale deep learning ([Nat MI](https://www.nature.com/articles/s42256-020-0190-5)) ([biorxiv]https://www.biorxiv.org/content/10.1101/2020.06.15.153379v1))
+
+
 ## 2020-06
 There is time with no updating the repo... I will restart it.
 
@@ -19,12 +44,15 @@ I got one more (co-first authored) paper accepted by MICCAI'20, which results in
 * [x] UNet 3+: A Full-Scale Connected UNet for Medical Image Segmentation ([ICASSP'20](http://arxiv.org/abs/2004.08790))
 * [x] Light-Weight Hybrid Convolutional Network for Liver Tumor Segmentation ([IJCAI'19](https://www.ijcai.org/Proceedings/2019/0593.pdf))
 * [ ] Decoupling Representation and Classifier for Long-Tailed Recognition ([ICLR'20](https://arxiv.org/abs/1910.09217))
-* [ ] Deep Learning Based Rib Centerline Extraction and Labeling ([MICCAI'18 MSKI 2018 Workshop](https://arxiv.org/abs/1809.07082))
-* [ ] X3D: Expanding Architectures for Efficient Video Recognition ([CVPR'20 oral](https://arxiv.org/abs/2004.04730))
+* [x] Deep Learning Based Rib Centerline Extraction and Labeling ([MICCAI'18 MSKI 2018 Workshop](https://arxiv.org/abs/1809.07082)): it is in fact a very interesting paper, although towards small audience. Solid methods (although not elegant with lots of hand-crafted "engineering"), good results. It deserves a better publication venue and more citation if presented with good story. The authors seem to assume the audience to have much background in chest CT image analysis.
+* [x] X3D: Expanding Architectures for Efficient Video Recognition ([CVPR'20 oral](https://arxiv.org/abs/2004.04730)): a good paper with solid results. Straightforward method: simple and compact basis network to expand in terms of temporal, spatial, network width and depth, etc., just like EfficientNet for videos. However, the writing is somehow misleading in certain words (although it is better to understand with the supplementary materials). There is also typos (I read the arXiv version).  
 * [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))
-* [ ] Embracing Imperfect Datasets: A Review of Deep Learning Solutions for Medical Image Segmentation ([MedIA](https://arxiv.org/abs/1908.10454))
+* [x] Embracing Imperfect Datasets: A Review of Deep Learning Solutions for Medical Image Segmentation ([MedIA](https://arxiv.org/abs/1908.10454)): a systematic review for scarce and weak annotations. Good to relate the methods, but seems not surprising for me. PS: it is very long (30+ pages). 
 * [ ] ~What Makes for Good Views for Contrastive Learning? ([arXiv](https://arxiv.org/abs/2005.10243)) ([code](https://github.com/HobbitLong/PyContrast))
 * [ ] ~Prototypical Contrastive Learning of Unsupervised Representations ([arXiv](https://arxiv.org/abs/2005.04966))
+* [ ] ~Momentum Contrast for Unsupervised Visual Representation Learning ([arXiv](https://arxiv.org/abs/1911.05722/)) ([PyTorch code](https://github.com/facebookresearch/moco))
+* [ ] ~Improved Baselines with Momentum Contrastive Learning (a.k.a MOCOv2) ([arXiv](https://arxiv.org/abs/2003.04297))
+* [ ] ~A Simple Framework for Contrastive Learning of Visual Representations ([arXiv](https://arxiv.org/abs/2002.05709)) ([code](https://github.com/google-research/simclr))
 
 
 ## 2020-05

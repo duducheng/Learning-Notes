@@ -8,8 +8,8 @@ Related projects:
 
 NB: Time below means when "I am / was studying", not that for the paper itself.
 
-# 2020-10
-### Reading
+## 2020-10
+### Research
 * [x] Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chibane_Implicit_Functions_in_Feature_Space_for_3D_Shape_Reconstruction_and_CVPR_2020_paper.pdf)): A  very good paper with journal-level reviews of related work. Good method modified from DISN, easy to implement, and also good results.
 * [x] DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction ([NeurIPS'19](http://papers.nips.cc/paper/8340-disn-deep-implicit-surface-network-for-high-quality-single-view-3d-reconstruction)): interesting paper for single image recontruction, the base of IF-Net. Some writing parts are hard to follow. 
 * [x] Point-Voxel CNN for Efficient 3D Deep Learning ([NeurIPS'19](https://arxiv.org/abs/1907.03739)): solid work for point cloud understanding.
@@ -23,7 +23,21 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 * [ ] Neural Unsigned Distance Fields for Implicit Function Learning
  ([NeurIPS'20](?))
 
-# 2020-08
+### Study
+* [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.
+  * [x] Lecture 01 Overview of Computer Graphics
+  * [x] ~Lecture 02 Review of Linear Algebra
+  * [ ] Lecture 03 Transformation
+  * [ ] Lecture 04 Transformation Cont.
+  * [ ] Lecture 05 Rasterization 1 (Triangles)
+  * [ ] Lecture 06 Rasterization 2 (Antialiasing and Z-Buffering)
+* [ ] [AI for Medical Prognosis](https://www.coursera.org/learn/ai-for-medical-prognosis/home/welcome): quick review and practice.
+  * [ ] Week 1 Linear prognostic models
+  * [ ] Week 2 Prognosis with Tree-based models
+  <!-- * [ ] Week 3 Survival Models and Time -->
+  <!-- * [ ] Week 4 Build a risk model using linear and tree-based models -->
+
+## 2020-08
 There is time with no updating the repo... I will soon re-launch it. 
 
 ## 2020-07

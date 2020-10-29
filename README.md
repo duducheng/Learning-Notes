@@ -20,8 +20,8 @@ NB: Time below means when "I am / was studying", not that for the paper itself.
 * [ ] UCLID-Net: Single View Reconstruction in Object Space
  ([NeurIPS'20](https://arxiv.org/abs/2006.03817))
 * [ ] Continuous Surface Embeddings ([NeurIPS'20](?))
-* [ ] Neural Unsigned Distance Fields for Implicit Function Learning
- ([NeurIPS'20](?))
+* [ ] Neural Unsigned Distance Fields for Implicit Function Learning ([NeurIPS'20](?))
+* [ ] Graph Cross Networks with Vertex Infomax Pooling ([NeurIPS'20](https://arxiv.org/abs/2010.01804))
 
 # 2020-08
 There is time with no updating the repo... I will soon re-launch it. 

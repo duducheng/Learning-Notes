@@ -1,0 +1,1 @@
+move notes of 2019 here in the beginning of 2021

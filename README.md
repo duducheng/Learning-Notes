@@ -10,13 +10,19 @@ Related projects:
 * [`M3DV/Kickstart`](https://github.com/M3DV/Kickstart): Study route for learners in machine learning / deep learning / computer vision.
 <!-- * [`M3DV/Readiness-Seminar`](https://github.com/M3DV/Readiness-Seminar): A cooperative paper list on 3D vision and deep learning robustness. -->
 
+## 2020-11
+### Research
+* [x] An objective comparison of cell-tracking algorithms ([Nature Methods](https://www.nature.com/articles/nmeth.4473))
+
 
 ## 2020-10
 ### Research
 * [x] Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chibane_Implicit_Functions_in_Feature_Space_for_3D_Shape_Reconstruction_and_CVPR_2020_paper.pdf)): A  very good paper with journal-level reviews of related work. Good method modified from DISN, easy to implement, and also good results.
 * [x] DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction ([NeurIPS'19](http://papers.nips.cc/paper/8340-disn-deep-implicit-surface-network-for-high-quality-single-view-3d-reconstruction)): interesting paper for single image recontruction, the base of IF-Net. Some writing parts are hard to follow. 
 * [x] Point-Voxel CNN for Efficient 3D Deep Learning ([NeurIPS'19](https://arxiv.org/abs/1907.03739)): solid work for point cloud understanding.
+* [ ] MAST: A Memory-Augmented Self-supervised Tracker ([CVPR'20](https://arxiv.org/abs/2002.07793>)) ([code](https://github.com/zlai0/MAST))
 * [ ] 3D Shape Reconstruction from Vision and Touch ([NeurIPS'20](https://arxiv.org/abs/2007.03778))
+Self-Supervising Point Cloud Representation Learning by Shape-Correction
 * [ ] ShapeFlow: Learnable Deformations Among 3D Shapes ([NeurIPS'20](https://arxiv.org/abs/2006.07982))
 * [ ] What shapes feature representations? Exploring datasets, architectures, and training ([NeurIPS'20](https://arxiv.org/abs/2006.12433))
 * [ ] MeshSDF: Differentiable Iso-Surface Extraction ([NeurIPS'20](https://arxiv.org/abs/2006.03997))

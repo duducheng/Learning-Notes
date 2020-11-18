@@ -13,6 +13,7 @@ Related projects:
 ## 2020-11
 ### Research
 * [x] An objective comparison of cell-tracking algorithms ([Nature Methods](https://www.nature.com/articles/nmeth.4473))
+* [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([Medical Image Analysis](https://doi.org/10.1016/j.media.2019.06.01))
 
 
 ## 2020-10

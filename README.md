@@ -14,7 +14,10 @@ Related projects:
 ### Research
 * [x] An objective comparison of cell-tracking algorithms ([Nature Methods](https://www.nature.com/articles/nmeth.4473))
 * [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([Medical Image Analysis](https://doi.org/10.1016/j.media.2019.06.01))
-
+* [x] Born Again Neural Networks ([ICML'18](http://proceedings.mlr.press/v80/furlanello18a.html))
+* [x] Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation ([ICCV'19](https://doi.org/10.1109/ICCV.2019.00381)): deep supervision + (self-)distillation
+* [x] Task-Oriented Feature Distillation ([NeurIPS'20](https://papers.nips.cc/paper/2020/file/a96b65a721e561e1e3de768ac819ffbb-Paper.pdf))
+* [x] ~NBDT: Neural-Backed Decision Trees ([arXiv](https://arxiv.org/abs/2004.00221))
 
 ## 2020-10
 ### Research

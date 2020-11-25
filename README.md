@@ -18,6 +18,17 @@ Related projects:
 * [x] Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation ([ICCV'19](https://doi.org/10.1109/ICCV.2019.00381)): deep supervision + (self-)distillation
 * [x] Task-Oriented Feature Distillation ([NeurIPS'20](https://papers.nips.cc/paper/2020/file/a96b65a721e561e1e3de768ac819ffbb-Paper.pdf))
 * [x] ~NBDT: Neural-Backed Decision Trees ([arXiv](https://arxiv.org/abs/2004.00221))
+* [x] Square Attack: a query-efficient black-box adversarial attack via random search ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680477.pdf))
+* [ ] Learning Loss for Test-Time Augmentation ([NeurIPS'20](https://arxiv.org/abs/2010.11422))
+
+### Study
+* [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.
+  <!-- * [x] Lecture 01 Overview of Computer Graphics -->
+  <!-- * [x] ~Lecture 02 Review of Linear Algebra -->
+  * [ ] Lecture 03 Transformation
+  * [ ] Lecture 04 Transformation Cont.
+  * [ ] Lecture 05 Rasterization 1 (Triangles)
+  * [ ] Lecture 06 Rasterization 2 (Antialiasing and Z-Buffering)
 
 ## 2020-10
 ### Research

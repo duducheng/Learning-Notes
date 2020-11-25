@@ -18,7 +18,7 @@ Related projects:
 * [x] Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation ([ICCV'19](https://doi.org/10.1109/ICCV.2019.00381)): deep supervision + (self-)distillation
 * [x] Task-Oriented Feature Distillation ([NeurIPS'20](https://papers.nips.cc/paper/2020/file/a96b65a721e561e1e3de768ac819ffbb-Paper.pdf))
 * [x] ~NBDT: Neural-Backed Decision Trees ([arXiv](https://arxiv.org/abs/2004.00221))
-* [x] Square Attack: a query-efficient black-box adversarial attack via random search ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680477.pdf))
+* [x] Square Attack: a query-efficient black-box adversarial attack via random search ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680477.pdf)): generate heavily hand-crafted perturbation sensitive to CNNs (somehow "adversarially structured noises"). Simple idea but lots of trials. Paper is not easy to read, maybe step-by-step illustration of the perturbation generation is better. Very impressive results without surrogate models, though our NeurIPS'20 paper works better still (we use surrogate models) ;).
 * [ ] Learning Loss for Test-Time Augmentation ([NeurIPS'20](https://arxiv.org/abs/2010.11422))
 
 ### Study

@@ -20,6 +20,7 @@ Related projects:
 * [x] ~NBDT: Neural-Backed Decision Trees ([arXiv](https://arxiv.org/abs/2004.00221))
 * [x] Square Attack: a query-efficient black-box adversarial attack via random search ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680477.pdf)): generate heavily hand-crafted perturbation sensitive to CNNs (somehow "adversarially structured noises"). Simple idea but lots of trials. Paper is not easy to read, maybe step-by-step illustration of the perturbation generation is better. Very impressive results without surrogate models, though our NeurIPS'20 paper works better still (we use surrogate models) ;).
 * [ ] Learning Loss for Test-Time Augmentation ([NeurIPS'20](https://arxiv.org/abs/2010.11422))
+* [ ] MAST: A Memory-Augmented Self-supervised Tracker ([CVPR'20](https://arxiv.org/abs/2002.07793))
 
 ### Study
 * [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.

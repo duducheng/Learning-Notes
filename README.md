@@ -16,28 +16,42 @@ Related projects:
 * [x] SlowFast Networks for Video Recognition ([ICCV'19 Oral](https://arxiv.org/abs/1812.03982))
 * [x] ~Temporal Interlacing Network ([AAAI'20](https://arxiv.org/abs/2001.06499)): extension of TSM, something similar to RubiksNet (input-conditional shift). Bad writing.
 * [x] ~Temporal Pyramid Network for Action Recognition ([CVPR'20](https://arxiv.org/abs/2004.03548))
-* [ ] RandAugment: Practical automated data augmentation with a reduced search space ([NeurIPS'20](https://proceedings.neurips.cc/paper/2020/file/d85b63ef0ccb114d0a3bb7b7d808028f-Paper.pdf))
-* [ ] Adversarial AutoAugment ([ICLR'20](https://arxiv.org/abs/1912.11188))
+* [x] RandAugment: Practical automated data augmentation with a reduced search space ([NeurIPS'20](https://proceedings.neurips.cc/paper/2020/file/d85b63ef0ccb114d0a3bb7b7d808028f-Paper.pdf)): a surprisingly simple method which beats several learnable AutoAug. 
+* [x] ~Adversarial AutoAugment ([ICLR'20](https://arxiv.org/abs/1912.11188))
 * [ ] Fast AutoAugment ([NeurIPS'19](https://papers.nips.cc/paper/2019/hash/6add07cf50424b14fdf649da87843d01-Abstract.html))
 * [ ] Faster AutoAugment: Learning Augmentation Strategies Using Backpropagation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700001.pdf))
 * [ ] DADA: Differentiable Automatic Data Augmentation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670579.pdf))
 * [ ] Differentiable Augmentation for Data-Efficient GAN Training ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/55479c55ebd1efd3ff125f1337100388-Abstract.html))
 * [ ] Improving Auto-Augment via Augmentation-Wise Weight Sharing ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/dc49dfebb0b00fd44aeff5c60cc1f825-Abstract.html))
 * [ ] Test-Time Training with Self-Supervision for Generalization under Distribution Shifts ([ICML'20](https://arxiv.org/abs/1909.13231))
-* [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([Medical Image Analysis](https://doi.org/10.1016/j.media.2019.06.01))
+* [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([MedIA'19](https://doi.org/10.1016/j.media.2019.06.01))
 * [ ] Graph Cross Networks with Vertex Infomax Pooling ([NeurIPS'20](https://arxiv.org/abs/2010.01804))
 * [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))
 * [ ] Rethinking Attention with Performers ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=Ua6zuk0WRH))
 * [ ] LambdaNetworks: Modeling long-range Interactions without Attention ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=xTJEN-ggl1b))
 * [ ] DeepCenterline: a Multi-task Fully Convolutional Network for Centerline Extraction ([IPMI'19](https://arxiv.org/abs/1903.10481))
 * [ ] Deep Distance Transform for Tubular Structure Segmentation in CT Scans ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Deep_Distance_Transform_for_Tubular_Structure_Segmentation_in_CT_Scans_CVPR_2020_paper.html))
-* [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
+* [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([MedIA'20](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
 * [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications](https://www.nature.com/articles/s41467-020-18606-2))
 * [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
 * [x] ～Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution ([ICCV'19](https://arxiv.org/abs/1904.05049))
 * [x] ~Decoupling Representation and Classifier for Long-Tailed Recognition ([ICLR'20](https://arxiv.org/abs/1910.09217))
 * [x] ~Stacked U-Nets: A No-Frills Approach to Natural Image Segmentation ([arXiv](https://arxiv.org/abs/1804.10343))
 * [x] ~GhostNet: More Features from Cheap Operations ([CVPR'20](https://arxiv.org/abs/1911.11907))
+* [x] Recalibrating 3D ConvNets with Project & Excite ([TMI'20](https://arxiv.org/abs/2002.10994)): a not so naive extension of SE block for 3D conv.
+* [x] ～ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks ([ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ding_ACNet_Strengthening_the_Kernel_Skeletons_for_Powerful_CNN_via_Asymmetric_ICCV_2019_paper.pdf))
+* [x] Self-supervised Feature Learning for 3D Medical Images by Playing a Rubik's Cube ([MICCAI'19](https://arxiv.org/abs/1910.02241))
+* [x] Rubik’s Cube+: A self-supervised feature learning framework for 3D medical image analysis ([MedIA'20](https://doi.org/10.1016/j.media.2020.101746))
+* [x] ~Efficient Multiple Organ Localization in CT Image Using 3D Region Proposal Network ([TMI'19](https://ieeexplore.ieee.org/document/8625393)): abdomen(-chest) CT organ localization annotations for LiTS dataset with a baseline 3D detection.
+
+### Study
+* [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.
+  <!-- * [x] Lecture 01 Overview of Computer Graphics -->
+  <!-- * [x] ~Lecture 02 Review of Linear Algebra -->
+  * [x] Lecture 03 Transformation
+  * [ ] Lecture 04 Transformation Cont.
+  * [ ] Lecture 05 Rasterization 1 (Triangles)
+  * [ ] Lecture 06 Rasterization 2 (Antialiasing and Z-Buffering)
 
 ## 2020-11
 ### Research
@@ -101,10 +115,10 @@ There is time with no updating the repo... I will soon re-launch it.
 * [ ] Decoupling Representation and Classifier for Long-Tailed Recognition ([ICLR'20](https://arxiv.org/abs/1910.09217))
 * [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))
 * [ ] ~What Makes for Good Views for Contrastive Learning? ([arXiv](https://arxiv.org/abs/2005.10243)) ([code](https://github.com/HobbitLong/PyContrast))
-* [ ] ~Prototypical Contrastive Learning of Unsupervised Representations ([arXiv](https://arxiv.org/abs/2005.04966))
-* [ ] ~Momentum Contrast for Unsupervised Visual Representation Learning ([arXiv](https://arxiv.org/abs/1911.05722/)) ([PyTorch code](https://github.com/facebookresearch/moco))
-* [ ] ~Improved Baselines with Momentum Contrastive Learning (a.k.a MOCOv2) ([arXiv](https://arxiv.org/abs/2003.04297))
-* [ ] ~A Simple Framework for Contrastive Learning of Visual Representations ([arXiv](https://arxiv.org/abs/2002.05709)) ([code](https://github.com/google-research/simclr))
+* [x] ~Prototypical Contrastive Learning of Unsupervised Representations ([arXiv](https://arxiv.org/abs/2005.04966)): MoCo + clustering-based "supervised" learning (there seems paper on this, but I can not recall).
+* [x] ~Momentum Contrast for Unsupervised Visual Representation Learning ([arXiv](https://arxiv.org/abs/1911.05722/)) ([PyTorch code](https://github.com/facebookresearch/moco))
+* [x] ~Improved Baselines with Momentum Contrastive Learning (a.k.a MOCOv2) ([arXiv](https://arxiv.org/abs/2003.04297))
+* [x] ~A Simple Framework for Contrastive Learning of Visual Representations ([arXiv](https://arxiv.org/abs/2002.05709)) ([code](https://github.com/google-research/simclr))
 * [x] Predicting tumour mutational burden from histopathological images using multiscale deep learning ([Nat MI](https://www.nature.com/articles/s42256-020-0190-5)) ([biorxiv]https://www.biorxiv.org/content/10.1101/2020.06.15.153379v1))
 
 

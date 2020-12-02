@@ -13,7 +13,7 @@ Related projects:
 
 ## 2020-12
 ### Research
-* [ ] SlowFast Networks for Video Recognition ([ICCV'19 Oral](https://arxiv.org/abs/1812.03982))
+* [x] SlowFast Networks for Video Recognition ([ICCV'19 Oral](https://arxiv.org/abs/1812.03982))
 * [ ] Temporal Interlacing Network ([AAAI'20](https://arxiv.org/abs/2001.06499))
 * [ ] Temporal Pyramid Network for Action Recognition ([CVPR'20](https://arxiv.org/abs/2004.03548))
 * [ ] RandAugment: Practical automated data augmentation with a reduced search space ([NeurIPS'20](https://proceedings.neurips.cc/paper/2020/file/d85b63ef0ccb114d0a3bb7b7d808028f-Paper.pdf))
@@ -34,6 +34,7 @@ Related projects:
 * [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
 * [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications](https://www.nature.com/articles/s41467-020-18606-2))
 * [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
+* [x] ～Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution ([ICCV'19](https://arxiv.org/abs/1904.05049))
 
 
 

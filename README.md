@@ -10,6 +10,34 @@ Related projects:
 * [`M3DV/Kickstart`](https://github.com/M3DV/Kickstart): Study route for learners in machine learning / deep learning / computer vision.
 <!-- * [`M3DV/Readiness-Seminar`](https://github.com/M3DV/Readiness-Seminar): A cooperative paper list on 3D vision and deep learning robustness. -->
 
+
+## 2020-12
+### Research
+* [ ] SlowFast Networks for Video Recognition ([ICCV'19 Oral](https://arxiv.org/abs/1812.03982))
+* [ ] Temporal Interlacing Network ([AAAI'20](https://arxiv.org/abs/2001.06499))
+* [ ] Temporal Pyramid Network for Action Recognition ([CVPR'20](https://arxiv.org/abs/2004.03548))
+* [ ] RandAugment: Practical automated data augmentation with a reduced search space ([NeurIPS'20](https://proceedings.neurips.cc/paper/2020/file/d85b63ef0ccb114d0a3bb7b7d808028f-Paper.pdf))
+* [ ] Adversarial AutoAugment ([ICLR'20](https://arxiv.org/abs/1912.11188))
+* [ ] Fast AutoAugment ([NeurIPS'19](https://papers.nips.cc/paper/2019/hash/6add07cf50424b14fdf649da87843d01-Abstract.html))
+* [ ] Faster AutoAugment: Learning Augmentation Strategies Using Backpropagation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700001.pdf))
+* [ ] DADA: Differentiable Automatic Data Augmentation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670579.pdf))
+* [ ] Differentiable Augmentation for Data-Efficient GAN Training ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/55479c55ebd1efd3ff125f1337100388-Abstract.html))
+* [ ] Improving Auto-Augment via Augmentation-Wise Weight Sharing ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/dc49dfebb0b00fd44aeff5c60cc1f825-Abstract.html))
+* [ ] Test-Time Training with Self-Supervision for Generalization under Distribution Shifts ([ICML'20](https://arxiv.org/abs/1909.13231))
+* [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([Medical Image Analysis](https://doi.org/10.1016/j.media.2019.06.01))
+* [ ] Graph Cross Networks with Vertex Infomax Pooling ([NeurIPS'20](https://arxiv.org/abs/2010.01804))
+* [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))
+* [ ] Rethinking Attention with Performers ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=Ua6zuk0WRH))
+* [ ] LambdaNetworks: Modeling long-range Interactions without Attention ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=xTJEN-ggl1b))
+* [ ] DeepCenterline: a Multi-task Fully Convolutional Network for Centerline Extraction ([IPMI'19](https://arxiv.org/abs/1903.10481))
+* [ ] Deep Distance Transform for Tubular Structure Segmentation in CT Scans ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Deep_Distance_Transform_for_Tubular_Structure_Segmentation_in_CT_Scans_CVPR_2020_paper.html))
+* [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
+* [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications](https://www.nature.com/articles/s41467-020-18606-2))
+* [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
+
+
+
+
 ## 2020-11
 ### Research
 * [x] An objective comparison of cell-tracking algorithms ([Nature Methods](https://www.nature.com/articles/nmeth.4473))
@@ -21,7 +49,7 @@ Related projects:
 * [x] Square Attack: a query-efficient black-box adversarial attack via random search ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680477.pdf)): generate heavily hand-crafted perturbation sensitive to CNNs (somehow "adversarially structured noises"). Simple idea but lots of trials. Paper is not easy to read, maybe step-by-step illustration of the perturbation generation is better. Very impressive results without surrogate models, though our NeurIPS'20 paper works better still ;) (we use surrogate models).
 * [x] Learning Loss for Test-Time Augmentation ([NeurIPS'20](https://arxiv.org/abs/2010.11422)): Imitation learning for test-time augmentation with a ranking loss. Writing is not good.
 * [x] ~RubiksNet: Learnable 3D-Shift for Efficient Video Action Recognition ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640494.pdf)): Shift in 3D, using interpolation (like our AlignShift) and temperture annealing.
-* [x] MAST: A Memory-Augmented Self-supervised Tracker ([CVPR'20](https://arxiv.org/abs/2002.07793)): interesting paper with good performance.
+* [x] MAST: A Memory-Augmented Self-supervised Tracker ([CVPR'20](https://arxiv.org/abs/2002.07793)): interesting paper with good performance, sadly there seems some details missing in the paper for full understanding.
 
 ### Study
 * [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.

@@ -14,8 +14,8 @@ Related projects:
 ## 2020-12
 ### Research
 * [x] SlowFast Networks for Video Recognition ([ICCV'19 Oral](https://arxiv.org/abs/1812.03982))
-* [ ] Temporal Interlacing Network ([AAAI'20](https://arxiv.org/abs/2001.06499))
-* [ ] Temporal Pyramid Network for Action Recognition ([CVPR'20](https://arxiv.org/abs/2004.03548))
+* [x] ~Temporal Interlacing Network ([AAAI'20](https://arxiv.org/abs/2001.06499)): extension of TSM, something similar to RubiksNet (input-conditional shift). Bad writing.
+* [x] ~Temporal Pyramid Network for Action Recognition ([CVPR'20](https://arxiv.org/abs/2004.03548))
 * [ ] RandAugment: Practical automated data augmentation with a reduced search space ([NeurIPS'20](https://proceedings.neurips.cc/paper/2020/file/d85b63ef0ccb114d0a3bb7b7d808028f-Paper.pdf))
 * [ ] Adversarial AutoAugment ([ICLR'20](https://arxiv.org/abs/1912.11188))
 * [ ] Fast AutoAugment ([NeurIPS'19](https://papers.nips.cc/paper/2019/hash/6add07cf50424b14fdf649da87843d01-Abstract.html))
@@ -35,9 +35,9 @@ Related projects:
 * [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications](https://www.nature.com/articles/s41467-020-18606-2))
 * [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
 * [x] ～Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution ([ICCV'19](https://arxiv.org/abs/1904.05049))
-
-
-
+* [x] ~Decoupling Representation and Classifier for Long-Tailed Recognition ([ICLR'20](https://arxiv.org/abs/1910.09217))
+* [x] ~Stacked U-Nets: A No-Frills Approach to Natural Image Segmentation ([arXiv](https://arxiv.org/abs/1804.10343))
+* [x] ~GhostNet: More Features from Cheap Operations ([CVPR'20](https://arxiv.org/abs/1911.11907))
 
 ## 2020-11
 ### Research

@@ -40,6 +40,7 @@ Related projects:
 * [x] ~GhostNet: More Features from Cheap Operations ([CVPR'20](https://arxiv.org/abs/1911.11907))
 * [x] Recalibrating 3D ConvNets with Project & Excite ([TMI'20](https://arxiv.org/abs/2002.10994)): a not so naive extension of SE block for 3D conv.
 * [x] ～ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks ([ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ding_ACNet_Strengthening_the_Kernel_Skeletons_for_Powerful_CNN_via_Asymmetric_ICCV_2019_paper.pdf))
+* [ ] ~CT-ORG, a new dataset for multiple organ segmentation in computed tomography ([Scientific Data'20](https://www.nature.com/articles/s41597-020-00715-8#Sec9))
 * [x] Self-supervised Feature Learning for 3D Medical Images by Playing a Rubik's Cube ([MICCAI'19](https://arxiv.org/abs/1910.02241))
 * [x] Rubik’s Cube+: A self-supervised feature learning framework for 3D medical image analysis ([MedIA'20](https://doi.org/10.1016/j.media.2020.101746))
 * [x] ~Efficient Multiple Organ Localization in CT Image Using 3D Region Proposal Network ([TMI'19](https://ieeexplore.ieee.org/document/8625393)): abdomen(-chest) CT organ localization annotations for LiTS dataset with a baseline 3D detection.

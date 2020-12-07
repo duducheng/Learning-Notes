@@ -12,15 +12,17 @@ Related projects:
 
 
 ## 2020-12
+I recently read a few about the Auto Augmentation techniques, there is a [summary](notes/autoaug.md).
+
 ### Research
 * [x] SlowFast Networks for Video Recognition ([ICCV'19 Oral](https://arxiv.org/abs/1812.03982))
 * [x] ~Temporal Interlacing Network ([AAAI'20](https://arxiv.org/abs/2001.06499)): extension of TSM, something similar to RubiksNet (input-conditional shift). Bad writing.
 * [x] ~Temporal Pyramid Network for Action Recognition ([CVPR'20](https://arxiv.org/abs/2004.03548))
 * [x] RandAugment: Practical automated data augmentation with a reduced search space ([NeurIPS'20](https://proceedings.neurips.cc/paper/2020/file/d85b63ef0ccb114d0a3bb7b7d808028f-Paper.pdf)): a surprisingly simple method which beats several learnable AutoAug. 
 * [x] ~Adversarial AutoAugment ([ICLR'20](https://arxiv.org/abs/1912.11188))
-* [ ] Fast AutoAugment ([NeurIPS'19](https://papers.nips.cc/paper/2019/hash/6add07cf50424b14fdf649da87843d01-Abstract.html))
-* [ ] Faster AutoAugment: Learning Augmentation Strategies Using Backpropagation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700001.pdf))
-* [ ] DADA: Differentiable Automatic Data Augmentation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670579.pdf))
+* [x] Fast AutoAugment ([NeurIPS'19](https://papers.nips.cc/paper/2019/hash/6add07cf50424b14fdf649da87843d01-Abstract.html))
+* [x] Faster AutoAugment: Learning Augmentation Strategies Using Backpropagation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700001.pdf)) ([code]())
+* [x] DADA: Differentiable Automatic Data Augmentation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670579.pdf))
 * [ ] Differentiable Augmentation for Data-Efficient GAN Training ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/55479c55ebd1efd3ff125f1337100388-Abstract.html))
 * [ ] Improving Auto-Augment via Augmentation-Wise Weight Sharing ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/dc49dfebb0b00fd44aeff5c60cc1f825-Abstract.html))
 * [ ] Test-Time Training with Self-Supervision for Generalization under Distribution Shifts ([ICML'20](https://arxiv.org/abs/1909.13231))
@@ -34,16 +36,21 @@ Related projects:
 * [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([MedIA'20](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
 * [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications'20](https://www.nature.com/articles/s41467-020-18606-2))
 * [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports'20](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
+* [x] MitoEM Dataset: Large-scale 3D Mitochondria Instance Segmentation from EM Images ([MICCAI'20](https://donglaiw.github.io/paper/2020_miccai_mitoEM.pdf))
+* [x] AbdomenCT-1K: Is Abdominal Organ Segmentation A Solved Problem? ([arXiv](https://arxiv.org/abs/2010.14808))
 * [x] ～Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution ([ICCV'19](https://arxiv.org/abs/1904.05049))
 * [x] ~Decoupling Representation and Classifier for Long-Tailed Recognition ([ICLR'20](https://arxiv.org/abs/1910.09217))
 * [x] ~Stacked U-Nets: A No-Frills Approach to Natural Image Segmentation ([arXiv](https://arxiv.org/abs/1804.10343))
 * [x] ~GhostNet: More Features from Cheap Operations ([CVPR'20](https://arxiv.org/abs/1911.11907))
 * [x] Recalibrating 3D ConvNets with Project & Excite ([TMI'20](https://arxiv.org/abs/2002.10994)): a not so naive extension of SE block for 3D conv.
 * [x] ～ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks ([ICCV'19](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ding_ACNet_Strengthening_the_Kernel_Skeletons_for_Powerful_CNN_via_Asymmetric_ICCV_2019_paper.pdf))
-* [ ] ~CT-ORG, a new dataset for multiple organ segmentation in computed tomography ([Scientific Data'20](https://www.nature.com/articles/s41597-020-00715-8#Sec9))
+* [x] ~CT-ORG, a new dataset for multiple organ segmentation in computed tomography ([Scientific Data'20](https://www.nature.com/articles/s41597-020-00715-8#Sec9))
 * [x] Self-supervised Feature Learning for 3D Medical Images by Playing a Rubik's Cube ([MICCAI'19](https://arxiv.org/abs/1910.02241))
 * [x] Rubik’s Cube+: A self-supervised feature learning framework for 3D medical image analysis ([MedIA'20](https://doi.org/10.1016/j.media.2020.101746))
 * [x] ~Efficient Multiple Organ Localization in CT Image Using 3D Region Proposal Network ([TMI'19](https://ieeexplore.ieee.org/document/8625393)): abdomen(-chest) CT organ localization annotations for LiTS dataset with a baseline 3D detection.
+* [x] ~Deep Image Prior ([CVPR'18](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ulyanov_Deep_Image_Prior_CVPR_2018_paper.pdf)): overfitting a single image jsut like SinGAN for imaging application.
+* [x] Self-supervision with Superpixels: Training Few-shot Medical Image Segmentation without Annotation ([ECCV'20](https://arxiv.org/pdf/2007.09886.pdf))
+* [x] Data augmentation using learned transforms for one-shot medical image segmentation ([CVPR'19](https://arxiv.org/abs/1902.09383))
 
 ### Study
 * [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.

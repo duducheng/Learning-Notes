@@ -25,7 +25,11 @@ I recently read a few about the Auto Augmentation techniques, there is a [summar
 * [x] DADA: Differentiable Automatic Data Augmentation ([ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670579.pdf))
 * [x] Differentiable Augmentation for Data-Efficient GAN Training ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/55479c55ebd1efd3ff125f1337100388-Abstract.html)): how to apply augmentation in GAN, both D and G. Back-prop T(G) need T to be diff.
 * [x] Improving Auto-Augment via Augmentation-Wise Weight Sharing ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/dc49dfebb0b00fd44aeff5c60cc1f825-Abstract.html)): looks like a Fast AA scheme.
-* [ ] Test-Time Training with Self-Supervision for Generalization under Distribution Shifts ([ICML'20](https://arxiv.org/abs/1909.13231))
+* [x] Test-Time Training with Self-Supervision for Generalization under Distribution Shifts ([ICML'20](https://arxiv.org/abs/1909.13231)): surprisingly simple method, do auxillary self-supervised task of rotation prediction with a branch, achieving good performance. Writing is hard to follow.
+* [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+* [ ] Benchmarking Adversarial Robustness on Image Classification ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dong_Benchmarking_Adversarial_Robustness_on_Image_Classification_CVPR_2020_paper.pdf))
+* [ ] Realistic Adversarial Data Augmentation for MR Image Segmentation ([MICCAI'20](https://arxiv.org/abs/2006.13322))
+* [ ] When and Why Test-Time Augmentation Works ([arXiv](https://arxiv.org/abs/2006.13322))
 * [x] KiU-Net: Towards Accurate Segmentation of Biomedical Images using Over-complete Representations ([MICCAI'20](https://arxiv.org/abs/2006.04878)): something like FishNet and Hourglass.
 * [ ] Graph Cross Networks with Vertex Infomax Pooling ([NeurIPS'20](https://arxiv.org/abs/2010.01804))
 * [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))

@@ -28,7 +28,7 @@ I recently read a few about the Auto Augmentation techniques, there is a [summar
 * [x] Test-Time Training with Self-Supervision for Generalization under Distribution Shifts ([ICML'20](https://arxiv.org/abs/1909.13231)): surprisingly simple method, do auxillary self-supervised task of rotation prediction with a branch, achieving good performance. Writing is hard to follow.
 * [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
 * [ ] Benchmarking Adversarial Robustness on Image Classification ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dong_Benchmarking_Adversarial_Robustness_on_Image_Classification_CVPR_2020_paper.pdf))
-* [ ] Realistic Adversarial Data Augmentation for MR Image Segmentation ([MICCAI'20](https://arxiv.org/abs/2006.13322))
+* [x] Realistic Adversarial Data Augmentation for MR Image Segmentation ([MICCAI'20](https://arxiv.org/abs/2006.13322)): multiplicative adversarial attack with a spatial priors to assist training, like VAT.
 * [ ] When and Why Test-Time Augmentation Works ([arXiv](https://arxiv.org/abs/2006.13322))
 * [x] KiU-Net: Towards Accurate Segmentation of Biomedical Images using Over-complete Representations ([MICCAI'20](https://arxiv.org/abs/2006.04878)): something like FishNet and Hourglass.
 * [ ] Graph Cross Networks with Vertex Infomax Pooling ([NeurIPS'20](https://arxiv.org/abs/2010.01804))

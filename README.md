@@ -26,21 +26,15 @@ I recently read a few about the Auto Augmentation techniques, there is a [summar
 * [x] Differentiable Augmentation for Data-Efficient GAN Training ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/55479c55ebd1efd3ff125f1337100388-Abstract.html)): how to apply augmentation in GAN, both D and G. Back-prop T(G) need T to be diff.
 * [x] Improving Auto-Augment via Augmentation-Wise Weight Sharing ([NeurIPS'20](https://papers.nips.cc/paper/2020/hash/dc49dfebb0b00fd44aeff5c60cc1f825-Abstract.html)): looks like a Fast AA scheme.
 * [x] Test-Time Training with Self-Supervision for Generalization under Distribution Shifts ([ICML'20](https://arxiv.org/abs/1909.13231)): surprisingly simple method, do auxillary self-supervised task of rotation prediction with a branch, achieving good performance. Writing is hard to follow.
-* [ ] Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
-* [ ] Benchmarking Adversarial Robustness on Image Classification ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dong_Benchmarking_Adversarial_Robustness_on_Image_Classification_CVPR_2020_paper.pdf))
+* [x] ~Benchmarking Neural Network Robustness to Common Corruptions and Perturbations ([ICLR'19](https://arxiv.org/abs/1903.12261))
+* [x] ~Benchmarking Adversarial Robustness on Image Classification ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dong_Benchmarking_Adversarial_Robustness_on_Image_Classification_CVPR_2020_paper.pdf))
 * [x] Realistic Adversarial Data Augmentation for MR Image Segmentation ([MICCAI'20](https://arxiv.org/abs/2006.13322)): multiplicative adversarial attack with a spatial priors to assist training, like VAT.
-* [ ] When and Why Test-Time Augmentation Works ([arXiv](https://arxiv.org/abs/2006.13322))
+* [x] When and Why Test-Time Augmentation Works ([arXiv](https://arxiv.org/abs/2006.13322)): Analysis of TTA + a simple aggregation of TTA
+* [x] Learning 3D Features with 2D CNNs via Surface Projection for CT Volume Segmentation ([MICCAI'20](https://link.springer.com/chapter/10.1007%2F978-3-030-59719-1_18)): learning deformation from UV maps, it is not real 3D features.
+* [x] HFA-Net: 3D Cardiovascular Image Segmentation with Asymmetrical Pooling and Content-Aware Fusion ([MICCAI'19](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_84))
+* [x] 3D Semi-Supervised Learning with Uncertainty-Aware Multi-View Co-Training ([WACV'20](https://arxiv.org/abs/1811.12506))
 * [x] KiU-Net: Towards Accurate Segmentation of Biomedical Images using Over-complete Representations ([MICCAI'20](https://arxiv.org/abs/2006.04878)): something like FishNet and Hourglass.
-* [ ] Graph Cross Networks with Vertex Infomax Pooling ([NeurIPS'20](https://arxiv.org/abs/2010.01804))
-* [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))
-* [ ] Rethinking Attention with Performers ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=Ua6zuk0WRH))
-* [ ] LambdaNetworks: Modeling long-range Interactions without Attention ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=xTJEN-ggl1b))
-* [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([MedIA'19](https://doi.org/10.1016/j.media.2019.06.01))
-* [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports'20](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
-* [ ] DeepCenterline: a Multi-task Fully Convolutional Network for Centerline Extraction ([IPMI'19](https://arxiv.org/abs/1903.10481))
-* [ ] Deep Distance Transform for Tubular Structure Segmentation in CT Scans ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Deep_Distance_Transform_for_Tubular_Structure_Segmentation_in_CT_Scans_CVPR_2020_paper.html))
-* [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([MedIA'20](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
-* [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications'20](https://www.nature.com/articles/s41467-020-18606-2))
+* [x] Graph Cross Networks with Vertex Infomax Pooling ([NeurIPS'20](https://arxiv.org/abs/2010.01804))
 * [x] MitoEM Dataset: Large-scale 3D Mitochondria Instance Segmentation from EM Images ([MICCAI'20](https://donglaiw.github.io/paper/2020_miccai_mitoEM.pdf))
 * [x] AbdomenCT-1K: Is Abdominal Organ Segmentation A Solved Problem? ([arXiv](https://arxiv.org/abs/2010.14808))
 * [x] ～Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution ([ICCV'19](https://arxiv.org/abs/1904.05049))
@@ -56,6 +50,18 @@ I recently read a few about the Auto Augmentation techniques, there is a [summar
 * [x] ~Deep Image Prior ([CVPR'18](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ulyanov_Deep_Image_Prior_CVPR_2018_paper.pdf)): overfitting a single image jsut like SinGAN for imaging application.
 * [x] Self-supervision with Superpixels: Training Few-shot Medical Image Segmentation without Annotation ([ECCV'20](https://arxiv.org/pdf/2007.09886.pdf))
 * [x] Data augmentation using learned transforms for one-shot medical image segmentation ([CVPR'19](https://arxiv.org/abs/1902.09383))
+* [ ] Reformer: The Efficient Transformer ([ICLR'20](https://openreview.net/forum?id=rkgNKkHtvB))
+* [ ] Rethinking Attention with Performers ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=Ua6zuk0WRH))
+* [ ] LambdaNetworks: Modeling long-range Interactions without Attention ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=xTJEN-ggl1b))
+* [ ] Countdown Regression: Sharp and Calibrated Survival Predictions ([UAI'19](https://arxiv.org/abs/1806.08324))
+* [ ] Neural Controlled Differential Equations for Irregular Time Series ([NeurIPS'20](https://arxiv.org/pdf/2005.08926v1.pdf))
+* [ ] Latent ODEs for Irregularly-Sampled Time Series ([NeurIPS'19](https://arxiv.org/abs/1907.03907))
+* [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([MedIA'19](https://doi.org/10.1016/j.media.2019.06.01))
+* [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports'20](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
+* [ ] DeepCenterline: a Multi-task Fully Convolutional Network for Centerline Extraction ([IPMI'19](https://arxiv.org/abs/1903.10481))
+* [ ] Deep Distance Transform for Tubular Structure Segmentation in CT Scans ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Deep_Distance_Transform_for_Tubular_Structure_Segmentation_in_CT_Scans_CVPR_2020_paper.html))
+* [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([MedIA'20](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
+* [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications'20](https://www.nature.com/articles/s41467-020-18606-2))
 
 ### Study
 * [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.

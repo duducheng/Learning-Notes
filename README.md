@@ -56,6 +56,8 @@ I recently read a few about the Auto Augmentation techniques, there is a [summar
 * [ ] Countdown Regression: Sharp and Calibrated Survival Predictions ([UAI'19](https://arxiv.org/abs/1806.08324))
 * [ ] Neural Controlled Differential Equations for Irregular Time Series ([NeurIPS'20](https://arxiv.org/pdf/2005.08926v1.pdf))
 * [ ] Latent ODEs for Irregularly-Sampled Time Series ([NeurIPS'19](https://arxiv.org/abs/1907.03907))
+* [ ] Alleviating Class-wise Gradient Imbalance for Pulmonary Airway Segmentation ([arXiv]())
+* [ ] Learning Tubule-Sensitive CNNs for Pulmonary Airway and Artery-Vein Segmentation in CT ([arXiv](https://arxiv.org/pdf/2012.05767.pdf))
 * [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([MedIA'19](https://doi.org/10.1016/j.media.2019.06.01))
 * [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports'20](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
 * [ ] DeepCenterline: a Multi-task Fully Convolutional Network for Centerline Extraction ([IPMI'19](https://arxiv.org/abs/1903.10481))

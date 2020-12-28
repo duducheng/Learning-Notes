@@ -27,15 +27,13 @@ Related projects:
 * [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications'20](https://www.nature.com/articles/s41467-020-18606-2))
 
 ### Study
-<!-- * [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.
-  * [x] Lecture 01 Overview of Computer Graphics
-  * [x] ~Lecture 02 Review of Linear Algebra
-  * [x] Lecture 03 Transformation
-  * [ ] Lecture 04 Transformation Cont.
-  * [ ] Lecture 05 Rasterization 1 (Triangles)
-  * [ ] Lecture 06 Rasterization 2 (Antialiasing and Z-Buffering) -->
 * [ ] [Differential Equations for Engineers](https://www.coursera.org/learn/differential-equations-engineers/home/welcome)
-  * [ ] W1
+  * [ ] W1: First-Order Differential Equations
+  * [ ] W2: Homogeneous Linear Differential Equations
+  * [ ] W3: Inhomogeneous Linear Differential Equations
+  * [ ] W4: The Laplace Transform and Series Solution Methods
+  * [ ] W5: Systems of Differential Equations
+  * [ ] W6: Partial Differential Equations
 
 ## 2020-12
 I recently read a few about the Auto Augmentation techniques, there is a [summary](notes/autoaug.md).

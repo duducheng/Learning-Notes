@@ -10,6 +10,32 @@ Related projects:
 * [`M3DV/Kickstart`](https://github.com/M3DV/Kickstart): Study route for learners in machine learning / deep learning / computer vision.
 <!-- * [`M3DV/Readiness-Seminar`](https://github.com/M3DV/Readiness-Seminar): A cooperative paper list on 3D vision and deep learning robustness. -->
 
+## 2021-01
+### Research 
+* [ ] Neural Controlled Differential Equations for Irregular Time Series ([NeurIPS'20](https://arxiv.org/pdf/2005.08926v1.pdf))
+* [ ] Countdown Regression: Sharp and Calibrated Survival Predictions ([UAI'19](https://arxiv.org/abs/1806.08324))
+* [ ] Latent ODEs for Irregularly-Sampled Time Series ([NeurIPS'19](https://arxiv.org/abs/1907.03907))
+* [ ] Alleviating Class-wise Gradient Imbalance for Pulmonary Airway Segmentation ([arXiv]())
+* [ ] Learning Tubule-Sensitive CNNs for Pulmonary Airway and Artery-Vein Segmentation in CT ([arXiv](https://arxiv.org/pdf/2012.05767.pdf))
+* [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([MedIA'19](https://doi.org/10.1016/j.media.2019.06.01))
+* [ ] What is being transferred in transfer learning? ([NeurIPS'20](https://proceedings.neurips.cc/paper/2020/file/0607f4c705595b911a4f3e7a127b44e0-Paper.pdf))
+* [ ] Transfusion: Understanding Transfer Learning for Medical Imaging ([NeurIPS'19](https://papers.nips.cc/paper/8596-transfusion-understanding-transfer-learning-for-medical-imaging))
+* [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports'20](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
+* [ ] DeepCenterline: a Multi-task Fully Convolutional Network for Centerline Extraction ([IPMI'19](https://arxiv.org/abs/1903.10481))
+* [ ] Deep Distance Transform for Tubular Structure Segmentation in CT Scans ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Deep_Distance_Transform_for_Tubular_Structure_Segmentation_in_CT_Scans_CVPR_2020_paper.html))
+* [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([MedIA'20](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
+* [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications'20](https://www.nature.com/articles/s41467-020-18606-2))
+
+### Study
+<!-- * [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.
+  * [x] Lecture 01 Overview of Computer Graphics
+  * [x] ~Lecture 02 Review of Linear Algebra
+  * [x] Lecture 03 Transformation
+  * [ ] Lecture 04 Transformation Cont.
+  * [ ] Lecture 05 Rasterization 1 (Triangles)
+  * [ ] Lecture 06 Rasterization 2 (Antialiasing and Z-Buffering) -->
+* [ ] [Differential Equations for Engineers](https://www.coursera.org/learn/differential-equations-engineers/home/welcome)
+  * [ ] W1
 
 ## 2020-12
 I recently read a few about the Auto Augmentation techniques, there is a [summary](notes/autoaug.md).
@@ -54,17 +80,9 @@ I recently read a few about the Auto Augmentation techniques, there is a [summar
 * [x] Rethinking Attention with Performers ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=Ua6zuk0WRH)): the super power of mateix decomposition and stochastic appromixation. Lots of math makes it hard to follow (the paper structure is not friendly to ones without solid theoretical reading, as you could find much important information in unexcepted place, e.g., important model variant Performer-ReLU first appears in experiment section, SMREG regularization technique in theorectical analysis), but it is indeed a good paper, and empirically effective in the paper experiments. At least a Spotlight, I guess it to be **a strong candidate for ICLR'21 best paper**. It can be: 1) fast and efficient approximation of standard attention (O(N2)->O(N)): linear complexity; 2) converting an existing Transformer into Performers and **funetuning** (it is necessary) makes a fast attention model; 3) generalized attention with ReLU kernel seems always better than Softmax (it is also easier to implement)
 * [ ] LambdaNetworks: Modeling long-range Interactions without Attention ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=xTJEN-ggl1b))
 * [ ] End-to-End Learning on 3D Protein Structure for Interface Prediction ([NeurIPS'19](https://papers.nips.cc/paper/2019/hash/6c7de1f27f7de61a6daddfffbe05c058-Abstract.html))
-* [ ] Countdown Regression: Sharp and Calibrated Survival Predictions ([UAI'19](https://arxiv.org/abs/1806.08324))
-* [ ] Neural Controlled Differential Equations for Irregular Time Series ([NeurIPS'20](https://arxiv.org/pdf/2005.08926v1.pdf))
-* [ ] Latent ODEs for Irregularly-Sampled Time Series ([NeurIPS'19](https://arxiv.org/abs/1907.03907))
-* [ ] Alleviating Class-wise Gradient Imbalance for Pulmonary Airway Segmentation ([arXiv]())
-* [ ] Learning Tubule-Sensitive CNNs for Pulmonary Airway and Artery-Vein Segmentation in CT ([arXiv](https://arxiv.org/pdf/2012.05767.pdf))
-* [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([MedIA'19](https://doi.org/10.1016/j.media.2019.06.01))
-* [ ] EllipTrack: A Global-Local Cell-Tracking Pipeline for 2D Fluorescence Time-Lapse Microscopy ([Cell Reports'20](https://www.sciencedirect.com/science/article/pii/S2211124720309694))
-* [ ] DeepCenterline: a Multi-task Fully Convolutional Network for Centerline Extraction ([IPMI'19](https://arxiv.org/abs/1903.10481))
-* [ ] Deep Distance Transform for Tubular Structure Segmentation in CT Scans ([CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Deep_Distance_Transform_for_Tubular_Structure_Segmentation_in_CT_Scans_CVPR_2020_paper.html))
-* [ ] Tracing in 2D to reduce the annotation effort for 3D deep delineation of linear structures ([MedIA'20](https://www.sciencedirect.com/science/article/pii/S1361841519301306))
-* [ ] Rapid vessel segmentation and reconstruction of head and neck angiograms using 3D convolutional neural network ([Nature Communications'20](https://www.nature.com/articles/s41467-020-18606-2))
+* [ ] ATOM3D: Tasks On Molecules in Three Dimensions ([arXiv](https://arxiv.org/abs/2012.04035))
+* [ ] Deep Learning of High-Order Interactions for Protein Interface Prediction ([KDD'20](https://arxiv.org/abs/2007.09334))
+
 
 ### Study
 * [ ] [GAMES101-现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html): It looks very good as a Chinese course for CG. I decide to finish this course.
@@ -74,6 +92,7 @@ I recently read a few about the Auto Augmentation techniques, there is a [summar
   * [ ] Lecture 04 Transformation Cont.
   * [ ] Lecture 05 Rasterization 1 (Triangles)
   * [ ] Lecture 06 Rasterization 2 (Antialiasing and Z-Buffering)
+* [ ] [Differential Equations for Engineers](https://www.coursera.org/learn/differential-equations-engineers/home/welcome)
 
 ## 2020-11
 ### Research

@@ -12,6 +12,10 @@ Related projects:
 
 ## 2021-01
 ### Research 
+* [x] End-to-End Learning on 3D Protein Structure for Interface Prediction ([NeurIPS'19](https://papers.nips.cc/paper/2019/hash/6c7de1f27f7de61a6daddfffbe05c058-Abstract.html))
+* [x] ATOM3D: Tasks On Molecules in Three Dimensions ([arXiv](https://arxiv.org/abs/2012.04035))
+* [ ] Deep Learning of High-Order Interactions for Protein Interface Prediction ([KDD'20](https://arxiv.org/abs/2007.09334))
+* [ ] LambdaNetworks: Modeling long-range Interactions without Attention ([ICLR'21 (submission likely to be accepted)](https://openreview.net/forum?id=xTJEN-ggl1b))
 * [ ] Neural Controlled Differential Equations for Irregular Time Series ([NeurIPS'20](https://arxiv.org/pdf/2005.08926v1.pdf))
 * [ ] Countdown Regression: Sharp and Calibrated Survival Predictions ([UAI'19](https://arxiv.org/abs/1806.08324))
 * [ ] Latent ODEs for Irregularly-Sampled Time Series ([NeurIPS'19](https://arxiv.org/abs/1907.03907))

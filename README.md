@@ -19,7 +19,7 @@ Related projects:
 * [ ] Neural Controlled Differential Equations for Irregular Time Series ([NeurIPS'20](https://arxiv.org/pdf/2005.08926v1.pdf))
 * [ ] Countdown Regression: Sharp and Calibrated Survival Predictions ([UAI'19](https://arxiv.org/abs/1806.08324))
 * [ ] Latent ODEs for Irregularly-Sampled Time Series ([NeurIPS'19](https://arxiv.org/abs/1907.03907))
-* [ ] Alleviating Class-wise Gradient Imbalance for Pulmonary Airway Segmentation ([arXiv]())
+* [ ] Alleviating Class-wise Gradient Imbalance for Pulmonary Airway Segmentation ([arXiv](https://arxiv.org/abs/2011.11952))
 * [ ] Learning Tubule-Sensitive CNNs for Pulmonary Airway and Artery-Vein Segmentation in CT ([arXiv](https://arxiv.org/pdf/2012.05767.pdf))
 * [ ] Segmenting and tracking cell instances with cosine embeddings and recurrent hourglass networks ([MedIA'19](https://doi.org/10.1016/j.media.2019.06.01))
 * [ ] What is being transferred in transfer learning? ([NeurIPS'20](https://proceedings.neurips.cc/paper/2020/file/0607f4c705595b911a4f3e7a127b44e0-Paper.pdf))

@@ -1,5 +1,7 @@
 # Learning Notes by [Jiancheng Yang](https://jiancheng-yang.com/)
 
+**Update 2021-04-13**: I will no longer update my reading list regularly, since now many reading materials of mine are not good to share publicly (e.g., conference / journal reviews). Besides, I only skim papers in most cases now, which makes it annoying to record everything using git. However, I will still share thoughts on some really interesting papers. 
+
 Archives: [2019](archive/note19.md) | [2018](archive/note18.md) | [before 2018](archive/before18.md)
 
 <!-- ## Study Plan -->

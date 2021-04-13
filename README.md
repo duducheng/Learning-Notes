@@ -4,7 +4,7 @@ Related projects:
 * [`M3DV/Kickstart`](https://github.com/M3DV/Kickstart): Study route for learners in machine learning / deep learning / computer vision.
 <!-- * [`M3DV/Readiness-Seminar`](https://github.com/M3DV/Readiness-Seminar): A cooperative paper list on 3D vision and deep learning robustness. -->
 
-**Update 2021-04-13**: I will no longer update my reading list regularly (see[`Archives`](#archives)), since now many reading materials of mine are not good to share publicly (e.g., conference / journal reviews). Besides, I only skim papers in most cases now, which makes it annoying to record everything using git. However, I will still share notes / Chinese videos on some really interesting papers. 
+**Update 2021-04-13**: I will no longer update my reading list regularly (see [`Archives`](#archives)), since now many reading materials of mine are not good to share publicly (e.g., conference / journal reviews). Besides, I only skim papers in most cases now, which makes it annoying to record everything using git. However, I will still share notes / Chinese videos on some really interesting papers. 
 
 # Notes
 | Date | Paper | Venue | Notes|
